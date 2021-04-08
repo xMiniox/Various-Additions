@@ -32,7 +32,7 @@ public class MagniumSwordItem extends VariousTexturesModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {

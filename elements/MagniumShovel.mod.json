@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "magnium_shovel",
+    "texture": "netherite_shovel",
     "customModelName": "Normal",
     "name": "Magnium Shovel",
     "specialInfo": [],

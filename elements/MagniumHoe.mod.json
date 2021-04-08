@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "magnium_hoe",
+    "texture": "netherite_hoe",
     "customModelName": "Normal",
     "name": "Magnium Hoe",
     "specialInfo": [],

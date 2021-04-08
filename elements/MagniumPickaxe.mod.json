@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "magnium_pickaxe",
+    "texture": "netherite_pickaxe",
     "customModelName": "Normal",
     "name": "Magnium Pickaxe",
     "specialInfo": [],

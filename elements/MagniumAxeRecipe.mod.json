@@ -2,42 +2,19 @@
   "_fv": 17,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": "CUSTOM:MagniumSword"
-      },
-      {
-        "value": "CUSTOM:MagniumSword"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:MagniumSword"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_AXE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:MagniumIngot"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:MagniumAxe"
     },
     "name": "magnium_axe_recipe",
