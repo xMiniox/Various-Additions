@@ -1,0 +1,35 @@
+
+package net.mcreator.varioustextures.itemgroup;
+
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.mcreator.varioustextures.item.MagniumIngotItem;
+import net.mcreator.varioustextures.VariousTexturesModElements;
+
+@VariousTexturesModElements.ModElement.Tag
+public class MagniumItemGroup extends VariousTexturesModElements.ModElement {
+	public MagniumItemGroup(VariousTexturesModElements instance) {
+		super(instance, 26);
+	}
+
+	@Override
+	public void initElements() {
+		tab = new ItemGroup("tabmagnium") {
+			@OnlyIn(Dist.CLIENT)
+			@Override
+			public ItemStack createIcon() {
+				return new ItemStack(MagniumIngotItem.block, (int) (1));
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+	}
+	public static ItemGroup tab;
+}

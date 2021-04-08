@@ -8,23 +8,23 @@
     "name": "Magnium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Magnium"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
     "efficiency": 6.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1.5999999999999999,
     "enchantability": 14,
-    "damageVsEntity": 6.0,
+    "damageVsEntity": 7.5,
     "usageCount": 250,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:MagniumSword"
+        "value": "CUSTOM:MagniumIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

@@ -24,7 +24,7 @@ public class MagniumBlockBlock extends VariousTexturesModElements.ModElement {
 	@ObjectHolder("various_textures:magnium_block")
 	public static final Block block = null;
 	public MagniumBlockBlock(VariousTexturesModElements instance) {
-		super(instance, 3);
+		super(instance, 4);
 	}
 
 	@Override

@@ -1,0 +1,11 @@
+{
+  "_fv": 17,
+  "_type": "tab",
+  "definition": {
+    "name": "Magnium",
+    "icon": {
+      "value": "CUSTOM:MagniumIngot"
+    },
+    "showSearch": false
+  }
+}

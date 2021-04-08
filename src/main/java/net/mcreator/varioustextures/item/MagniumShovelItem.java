@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
 import net.mcreator.varioustextures.VariousTexturesModElements;
 
 @VariousTexturesModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class MagniumShovelItem extends VariousTexturesModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(MagniumSwordItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(MagniumItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("magnium_shovel"));
 	}
 }

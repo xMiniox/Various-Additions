@@ -36,10 +36,10 @@
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:Magnium"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "luminance": 0,
     "unbreakable": false,

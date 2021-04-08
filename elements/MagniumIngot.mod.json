@@ -6,9 +6,9 @@
     "texture": "netherite_ingot",
     "customModelName": "Normal",
     "name": "Magnium",
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Magnium"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -19,7 +19,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

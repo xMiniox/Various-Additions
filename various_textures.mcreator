@@ -231,6 +231,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magnium_scrap_recipe"
+    },
+    {
+      "name": "Magnium",
+      "type": "tab",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium"
     }
   ],
   "variable_elements": [],
@@ -240,6 +249,7 @@
       "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_textures.magnium_shovel": "Magnium Shovel",
+      "itemGroup.tabmagnium": "Magnium",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "item.various_textures.magnium_scrap": "Magnium Scrap",
       "item.various_textures.magnium_hoe": "Magnium Hoe",

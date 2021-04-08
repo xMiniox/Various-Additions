@@ -8,7 +8,7 @@
     "name": "Magnium Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Magnium"
     },
     "toolType": "Axe",
     "harvestLevel": 2,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:MagniumSword"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

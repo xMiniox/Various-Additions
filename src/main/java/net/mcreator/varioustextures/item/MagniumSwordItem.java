@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
 import net.mcreator.varioustextures.VariousTexturesModElements;
 
 @VariousTexturesModElements.ModElement.Tag
@@ -32,7 +32,7 @@ public class MagniumSwordItem extends VariousTexturesModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 5.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -44,9 +44,9 @@ public class MagniumSwordItem extends VariousTexturesModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(MagniumSwordItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(MagniumIngotItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.4000000000000001f, new Item.Properties().group(MagniumItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("magnium_sword"));
 	}
 }
