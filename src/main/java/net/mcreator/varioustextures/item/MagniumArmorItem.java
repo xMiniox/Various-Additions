@@ -16,19 +16,19 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumArmorItem extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:magnium_armor_helmet")
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumArmorItem extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:magnium_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("various_textures:magnium_armor_chestplate")
+	@ObjectHolder("various_additions:magnium_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("various_textures:magnium_armor_leggings")
+	@ObjectHolder("various_additions:magnium_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("various_textures:magnium_armor_boots")
+	@ObjectHolder("various_additions:magnium_armor_boots")
 	public static final Item boots = null;
-	public MagniumArmorItem(VariousTexturesModElements instance) {
+	public MagniumArmorItem(VariousAdditionsModElements instance) {
 		super(instance, 6);
 	}
 
@@ -79,25 +79,25 @@ public class MagniumArmorItem extends VariousTexturesModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(MagniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "various_textures:textures/models/armor/magnium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "various_additions:textures/models/armor/magnium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("magnium_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(MagniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "various_textures:textures/models/armor/magnium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "various_additions:textures/models/armor/magnium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("magnium_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(MagniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "various_textures:textures/models/armor/magnium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "various_additions:textures/models/armor/magnium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("magnium_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(MagniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "various_textures:textures/models/armor/magnium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "various_additions:textures/models/armor/magnium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("magnium_armor_boots"));
 	}

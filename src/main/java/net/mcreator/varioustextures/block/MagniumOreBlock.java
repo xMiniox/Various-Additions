@@ -36,17 +36,17 @@ import net.minecraft.block.Block;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
 import net.mcreator.varioustextures.item.MagniumIngotItem;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumOreBlock extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:magnium_ore")
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumOreBlock extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:magnium_ore")
 	public static final Block block = null;
-	public MagniumOreBlock(VariousTexturesModElements instance) {
+	public MagniumOreBlock(VariousAdditionsModElements instance) {
 		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
@@ -93,7 +93,7 @@ public class MagniumOreBlock extends VariousTexturesModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("various_textures:magnium_ore_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("various_additions:magnium_ore_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -110,7 +110,7 @@ public class MagniumOreBlock extends VariousTexturesModElements.ModElement {
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(63)
 					.square().func_242731_b(11);
 			event.getRegistry().register(feature.setRegistryName("magnium_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("various_textures:magnium_ore"), configuredFeature);
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("various_additions:magnium_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

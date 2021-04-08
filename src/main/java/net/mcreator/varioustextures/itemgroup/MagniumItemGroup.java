@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.varioustextures.item.MagniumIngotItem;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumItemGroup extends VariousTexturesModElements.ModElement {
-	public MagniumItemGroup(VariousTexturesModElements instance) {
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumItemGroup extends VariousAdditionsModElements.ModElement {
+	public MagniumItemGroup(VariousAdditionsModElements instance) {
 		super(instance, 26);
 	}
 

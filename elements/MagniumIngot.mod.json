@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "netherite_ingot",
     "customModelName": "Normal",
-    "name": "Magnium",
+    "name": "Magnium Ingot",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Magnium"

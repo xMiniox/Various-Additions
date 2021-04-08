@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumShovelItem extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:magnium_shovel")
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumShovelItem extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:magnium_shovel")
 	public static final Item block = null;
-	public MagniumShovelItem(VariousTexturesModElements instance) {
+	public MagniumShovelItem(VariousAdditionsModElements instance) {
 		super(instance, 10);
 	}
 

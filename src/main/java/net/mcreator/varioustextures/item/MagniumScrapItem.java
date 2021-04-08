@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumScrapItem extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:magnium_scrap")
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumScrapItem extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:magnium_scrap")
 	public static final Item block = null;
-	public MagniumScrapItem(VariousTexturesModElements instance) {
+	public MagniumScrapItem(VariousAdditionsModElements instance) {
 		super(instance, 2);
 	}
 

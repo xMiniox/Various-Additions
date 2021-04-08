@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumPickaxeItem extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:magnium_pickaxe")
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumPickaxeItem extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:magnium_pickaxe")
 	public static final Item block = null;
-	public MagniumPickaxeItem(VariousTexturesModElements instance) {
+	public MagniumPickaxeItem(VariousAdditionsModElements instance) {
 		super(instance, 8);
 	}
 

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "various_additions:blocks/netherite_block",
+    "particle": "various_additions:blocks/netherite_block"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "various_additions:blocks/ancient_debris_side",
+    "particle": "various_additions:blocks/ancient_debris_side"
+  }
+}

@@ -10,13 +10,13 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumAxeItem extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:magnium_axe")
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumAxeItem extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:magnium_axe")
 	public static final Item block = null;
-	public MagniumAxeItem(VariousTexturesModElements instance) {
+	public MagniumAxeItem(VariousAdditionsModElements instance) {
 		super(instance, 9);
 	}
 

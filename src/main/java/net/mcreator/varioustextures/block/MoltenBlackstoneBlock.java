@@ -14,16 +14,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MoltenBlackstoneBlock extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:molten_blackstone")
+@VariousAdditionsModElements.ModElement.Tag
+public class MoltenBlackstoneBlock extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:molten_blackstone")
 	public static final Block block = null;
-	public MoltenBlackstoneBlock(VariousTexturesModElements instance) {
+	public MoltenBlackstoneBlock(VariousAdditionsModElements instance) {
 		super(instance, 5);
 	}
 

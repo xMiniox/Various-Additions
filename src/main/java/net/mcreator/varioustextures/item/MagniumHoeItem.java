@@ -10,13 +10,13 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumHoeItem extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:magnium_hoe")
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumHoeItem extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:magnium_hoe")
 	public static final Item block = null;
-	public MagniumHoeItem(VariousTexturesModElements instance) {
+	public MagniumHoeItem(VariousAdditionsModElements instance) {
 		super(instance, 11);
 	}
 

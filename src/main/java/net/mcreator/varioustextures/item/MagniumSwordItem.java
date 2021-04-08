@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.VariousTexturesModElements;
+import net.mcreator.varioustextures.VariousAdditionsModElements;
 
-@VariousTexturesModElements.ModElement.Tag
-public class MagniumSwordItem extends VariousTexturesModElements.ModElement {
-	@ObjectHolder("various_textures:magnium_sword")
+@VariousAdditionsModElements.ModElement.Tag
+public class MagniumSwordItem extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:magnium_sword")
 	public static final Item block = null;
-	public MagniumSwordItem(VariousTexturesModElements instance) {
+	public MagniumSwordItem(VariousAdditionsModElements instance) {
 		super(instance, 7);
 	}
 

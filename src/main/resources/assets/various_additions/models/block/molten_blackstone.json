@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "various_additions:blocks/melted_magma_2",
+    "up": "various_additions:blocks/melted_magma_2",
+    "north": "various_additions:blocks/melted_magma_2",
+    "east": "various_additions:blocks/melted_magma_2",
+    "south": "various_additions:blocks/melted_magma_2",
+    "west": "various_additions:blocks/melted_magma_2",
+    "particle": "various_additions:blocks/melted_magma_2"
+  }
+}

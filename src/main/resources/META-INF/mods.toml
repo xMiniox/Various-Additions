@@ -3,14 +3,18 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="various_textures"
-version="1.0.0"
-displayName="Various Textures"
+modId="various_additions"
+version="0.1.0"
+displayName="Various Additions"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="wikto, MCreator"
+logoFile="logo.png"
+authors="Various Additions Team"
+description='''
+A mod with some random features we wanted to add
+'''
 
-[[dependencies.various_textures]]
+[[dependencies.various_additions]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
