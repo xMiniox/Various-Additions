@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "various_textures:items/magnium_pickaxe"
+  }
+}

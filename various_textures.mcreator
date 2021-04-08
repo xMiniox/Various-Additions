@@ -1,0 +1,240 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MagniumIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_ingot"
+    },
+    {
+      "name": "MagniumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_ore"
+    },
+    {
+      "name": "MagniumBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_block"
+    },
+    {
+      "name": "MagniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_ore_block_recipe"
+    },
+    {
+      "name": "MagniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_block_ore_recipe"
+    },
+    {
+      "name": "MagniumOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_ore_smelting"
+    },
+    {
+      "name": "MagniumPickaxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_pickaxe"
+    },
+    {
+      "name": "MagniumAxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_axe"
+    },
+    {
+      "name": "MagniumSword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_sword"
+    },
+    {
+      "name": "MagniumShovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_shovel"
+    },
+    {
+      "name": "MagniumHoe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_hoe"
+    },
+    {
+      "name": "MagniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_pickaxe_recipe"
+    },
+    {
+      "name": "MagniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_axe_recipe"
+    },
+    {
+      "name": "MagniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_sword_recipe"
+    },
+    {
+      "name": "MagniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_shovel_recipe"
+    },
+    {
+      "name": "MagniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_hoe_recipe"
+    },
+    {
+      "name": "MagniumArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MagniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_armor_helmet_recipe"
+    },
+    {
+      "name": "MagniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_armor_body_recipe"
+    },
+    {
+      "name": "MagniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_armor_leggings_recipe"
+    },
+    {
+      "name": "MagniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.various_textures.magnium_shovel": "Magnium Shovel",
+      "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
+      "block.various_textures.magnium_ore": "Magnium Ore",
+      "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
+      "item.various_textures.magnium_hoe": "Magnium Hoe",
+      "block.various_textures.magnium_block": "Block of Magnium",
+      "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
+      "item.various_textures.magnium_ingot": "Magnium",
+      "item.various_textures.magnium_sword": "Magnium Sword",
+      "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
+      "item.various_textures.magnium_armor_boots": "Magnium_Boots",
+      "item.various_textures.magnium_axe": "Magnium Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "various_textures",
+    "modName": "Various Textures",
+    "version": "1.0.0",
+    "author": "wikto, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.varioustextures",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100112313
+}

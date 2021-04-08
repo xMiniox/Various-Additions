@@ -1,0 +1,30 @@
+{
+  "group": "various_textures",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "various_textures:magnium_sword"
+    },
+    "1": {
+      "item": "various_textures:magnium_sword"
+    },
+    "2": {
+      "item": "various_textures:magnium_sword"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "various_textures:magnium_pickaxe",
+    "count": 1
+  }
+}

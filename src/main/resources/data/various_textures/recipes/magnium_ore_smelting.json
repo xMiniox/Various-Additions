@@ -1,0 +1,12 @@
+{
+  "group": "various_textures",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "various_textures:magnium_ore"
+  },
+  "result": {
+    "item": "various_textures:magnium_ingot"
+  }
+}
