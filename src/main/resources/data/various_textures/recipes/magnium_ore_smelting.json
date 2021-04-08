@@ -1,10 +1,10 @@
 {
-  "group": "various_textures",
-  "type": "minecraft:smelting",
-  "experience": 0.7,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "various_textures:magnium_ore"
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "various_textures:magnium_scrap"
+  },
+  "addition": {
+    "item": "various_textures:molten_blackstone"
   },
   "result": {
     "item": "various_textures:magnium_ingot"

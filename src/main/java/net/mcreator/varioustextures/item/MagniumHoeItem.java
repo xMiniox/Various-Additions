@@ -17,7 +17,7 @@ public class MagniumHoeItem extends VariousTexturesModElements.ModElement {
 	@ObjectHolder("various_textures:magnium_hoe")
 	public static final Item block = null;
 	public MagniumHoeItem(VariousTexturesModElements instance) {
-		super(instance, 26);
+		super(instance, 11);
 	}
 
 	@Override

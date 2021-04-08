@@ -1,27 +1,12 @@
 {
-  "group": "various_textures",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01",
-    " 3",
-    " 5"
-  ],
-  "key": {
-    "0": {
-      "item": "various_textures:magnium_sword"
-    },
-    "1": {
-      "item": "various_textures:magnium_sword"
-    },
-    "3": {
-      "item": "minecraft:stick"
-    },
-    "5": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "item": "various_textures:magnium_ingot"
   },
   "result": {
-    "item": "various_textures:magnium_hoe",
-    "count": 1
+    "item": "various_textures:magnium_hoe"
   }
 }

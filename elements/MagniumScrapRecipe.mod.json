@@ -9,15 +9,15 @@
     "group": "",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Items.NETHERITE_SWORD"
+      "value": "Items.NETHERITE_SCRAP"
     },
     "smithingInputAdditionStack": {
-      "value": "CUSTOM:MagniumIngot"
+      "value": "Blocks.MAGMA"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:MagniumSword"
+      "value": "CUSTOM:MagniumScrap"
     },
-    "name": "magnium_sword_recipe",
+    "name": "magnium_scrap_recipe",
     "namespace": "mod"
   }
 }

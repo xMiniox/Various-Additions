@@ -17,7 +17,7 @@ public class MagniumSwordItem extends VariousTexturesModElements.ModElement {
 	@ObjectHolder("various_textures:magnium_sword")
 	public static final Item block = null;
 	public MagniumSwordItem(VariousTexturesModElements instance) {
-		super(instance, 24);
+		super(instance, 7);
 	}
 
 	@Override

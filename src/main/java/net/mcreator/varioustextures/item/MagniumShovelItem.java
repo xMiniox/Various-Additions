@@ -17,7 +17,7 @@ public class MagniumShovelItem extends VariousTexturesModElements.ModElement {
 	@ObjectHolder("various_textures:magnium_shovel")
 	public static final Item block = null;
 	public MagniumShovelItem(VariousTexturesModElements instance) {
-		super(instance, 25);
+		super(instance, 10);
 	}
 
 	@Override

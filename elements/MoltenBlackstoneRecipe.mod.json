@@ -1,0 +1,20 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Blocks.BLACKSTONE"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:MoltenBlackstone"
+    },
+    "name": "molten_blackstone_recipe",
+    "namespace": "mod"
+  }
+}

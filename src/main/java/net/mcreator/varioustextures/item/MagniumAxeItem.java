@@ -17,7 +17,7 @@ public class MagniumAxeItem extends VariousTexturesModElements.ModElement {
 	@ObjectHolder("various_textures:magnium_axe")
 	public static final Item block = null;
 	public MagniumAxeItem(VariousTexturesModElements instance) {
-		super(instance, 23);
+		super(instance, 9);
 	}
 
 	@Override

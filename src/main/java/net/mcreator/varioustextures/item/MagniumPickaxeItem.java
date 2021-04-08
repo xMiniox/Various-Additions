@@ -17,7 +17,7 @@ public class MagniumPickaxeItem extends VariousTexturesModElements.ModElement {
 	@ObjectHolder("various_textures:magnium_pickaxe")
 	public static final Item block = null;
 	public MagniumPickaxeItem(VariousTexturesModElements instance) {
-		super(instance, 22);
+		super(instance, 8);
 	}
 
 	@Override
