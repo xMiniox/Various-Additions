@@ -47,7 +47,7 @@ public class MagniumOreBlock extends VariousTexturesModElements.ModElement {
 	@ObjectHolder("various_textures:magnium_ore")
 	public static final Block block = null;
 	public MagniumOreBlock(VariousTexturesModElements instance) {
-		super(instance, 2);
+		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

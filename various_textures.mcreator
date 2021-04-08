@@ -271,6 +271,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.varioustextures",
     "lockBaseModFiles": false
   },
