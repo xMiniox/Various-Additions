@@ -7,12 +7,16 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.varioustextures.VariousAdditionsMod;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 
@@ -84,5 +88,9 @@ public class MagmaInfuserGUIGuiWindow extends ContainerScreen<MagmaInfuserGUIGui
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+		this.addButton(new Button(this.guiLeft + 116, this.guiTop + 4, 55, 20, new StringTextComponent("Infuse"), e -> {
+			VariousAdditionsMod.PACKET_HANDLER.sendToServer(new MagmaInfuserGUIGui.ButtonPressedMessage(0, x, y, z));
+			MagmaInfuserGUIGui.handleButtonAction(entity, 0, x, y, z);
+		}));
 	}
 }

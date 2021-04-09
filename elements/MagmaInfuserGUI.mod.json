@@ -183,6 +183,17 @@
           "x": 125,
           "y": 37
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Infuse",
+          "width": 55,
+          "height": 20,
+          "name": "Infuse",
+          "x": 242,
+          "y": 41
+        }
       }
     ]
   }

@@ -116,7 +116,7 @@ public class MagmaInfuserBlock extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public PushReaction getPushReaction(BlockState state) {
-			return PushReaction.IGNORE;
+			return PushReaction.BLOCK;
 		}
 
 		@Override
@@ -306,6 +306,8 @@ public class MagmaInfuserBlock extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public boolean isItemValidForSlot(int index, ItemStack stack) {
+			if (index == 10)
+				return false;
 			return true;
 		}
 

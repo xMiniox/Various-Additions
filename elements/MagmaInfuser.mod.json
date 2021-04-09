@@ -69,7 +69,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "IGNORE",
+    "reactionToPushing": "BLOCK",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "NETHERITE"
@@ -91,7 +91,9 @@
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      10
+    ],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,

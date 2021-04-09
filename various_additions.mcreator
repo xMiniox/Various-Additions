@@ -254,7 +254,7 @@
       "name": "MagmaInfuserGUI",
       "type": "gui",
       "sortid": 28,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_infuser_gui"
