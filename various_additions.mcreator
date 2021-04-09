@@ -314,6 +314,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_infuser_gui"
+    },
+    {
+      "name": "MagmaFlower",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_flower"
     }
   ],
   "variable_elements": [],
@@ -351,7 +360,8 @@
       "item.various_textures.magnium_armor_boots": "Magnium_Boots",
       "item.various_textures.magnium_axe": "Magnium Axe",
       "item.various_additions.magnium_ingot": "Magnium Ingot",
-      "block.various_additions.molten_blackstone": "Molten Blackstone"
+      "block.various_additions.molten_blackstone": "Molten Blackstone",
+      "block.various_additions.magma_flower": "Magma Flower"
     }
   },
   "foldersRoot": {

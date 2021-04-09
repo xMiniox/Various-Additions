@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:Magnium"
     },
-    "armorTextureFile": "magnium",
+    "armorTextureFile": "magnium_",
     "helmetName": "Magnium_Helmet",
     "bodyName": "Magnium_Chestplate",
     "leggingsName": "Magnium_Leggings",

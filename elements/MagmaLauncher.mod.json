@@ -7,7 +7,7 @@
     "customModelName": "magma_launcher_7:default",
     "name": "Magma Launcher",
     "specialInfo": [
-      "Hold Right-Click to shoot"
+      "Right-Click to shoot"
     ],
     "creativeTab": {
       "value": "CUSTOM:Magnium"
@@ -16,7 +16,7 @@
     "ammoItem": {
       "value": ""
     },
-    "shootConstantly": true,
+    "shootConstantly": false,
     "usageCount": 100,
     "actionSound": {
       "value": "entity.blaze.shoot"

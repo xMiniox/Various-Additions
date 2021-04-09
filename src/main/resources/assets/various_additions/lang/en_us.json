@@ -30,5 +30,6 @@
   "item.various_textures.magnium_armor_boots": "Magnium_Boots",
   "item.various_textures.magnium_axe": "Magnium Axe",
   "item.various_additions.magnium_ingot": "Magnium Ingot",
-  "block.various_additions.molten_blackstone": "Molten Blackstone"
+  "block.various_additions.molten_blackstone": "Molten Blackstone",
+  "block.various_additions.magma_flower": "Magma Flower"
 }

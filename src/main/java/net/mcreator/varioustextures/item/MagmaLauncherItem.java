@@ -81,7 +81,7 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Hold Right-Click to shoot"));
+			list.add(new StringTextComponent("Right-Click to shoot"));
 		}
 
 		@Override
@@ -101,8 +101,7 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 		}
 
 		@Override
-		public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
-			World world = entityLiving.world;
+		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
 				double x = entity.getPosX();
@@ -112,7 +111,6 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 					ArrowCustomEntity entityarrow = shoot(world, entity, random, 2f, 5, 5);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-					entity.stopActiveHand();
 				}
 			}
 		}

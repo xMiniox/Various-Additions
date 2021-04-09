@@ -1,0 +1,8 @@
+{
+  "parent": "various_additions:custom/magma_flower",
+  "textures": {
+    "all": "various_additions:blocks/magma",
+    "particle": "various_additions:blocks/magma",
+    "0": "various_additions:blocks/flowertxt"
+  }
+}
