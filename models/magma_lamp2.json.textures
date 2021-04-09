@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "magma",
+        "1": "obsidian",
+        "2": "glass",
+        "missing": "glass"
+      },
+      "name": "default"
+    }
+  }
+}
