@@ -57,7 +57,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
-import net.mcreator.varioustextures.gui.MagmaInfuserGUIGui;
+import net.mcreator.varioustextures.gui.InfuserGuiGui;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 
 import javax.annotation.Nullable;
@@ -164,7 +164,7 @@ public class MagmaInfuserBlock extends VariousAdditionsModElements.ModElement {
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new MagmaInfuserGUIGui.GuiContainerMod(id, inventory,
+						return new InfuserGuiGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -223,7 +223,7 @@ public class MagmaInfuserBlock extends VariousAdditionsModElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(11, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(10, ItemStack.EMPTY);
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -286,7 +286,7 @@ public class MagmaInfuserBlock extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new MagmaInfuserGUIGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new InfuserGuiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override
@@ -306,8 +306,6 @@ public class MagmaInfuserBlock extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public boolean isItemValidForSlot(int index, ItemStack stack) {
-			if (index == 10)
-				return false;
 			return true;
 		}
 

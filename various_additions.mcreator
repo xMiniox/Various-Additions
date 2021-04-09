@@ -251,15 +251,6 @@
       "registry_name": "magma_infuser"
     },
     {
-      "name": "MagmaInfuserGUI",
-      "type": "gui",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_infuser_gui"
-    },
-    {
       "name": "MagmaInfuserRecipe",
       "type": "recipe",
       "sortid": 29,
@@ -267,6 +258,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_infuser_recipe"
+    },
+    {
+      "name": "InfusionCrafting",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infusion_crafting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfuserGui",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infuser_gui"
     }
   ],
   "variable_elements": [],
@@ -280,7 +309,7 @@
       "item.various_additions.magnium_armor_boots": "Magnium_Boots",
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "item.various_additions.magnium_axe": "Magnium Axe",
-      "block.various_additions.magnium_ore": "Magnium Ore",
+      "block.various_additions.magnium_ore": "Magnium Debree",
       "item.various_additions.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.magnium_armor_chestplate": "Magnium_Chestplate",
       "block.various_textures.magnium_ore": "Magnium Ore",
@@ -312,7 +341,7 @@
   "workspaceSettings": {
     "modid": "various_additions",
     "modName": "Various Additions",
-    "version": "0.1.0",
+    "version": "0.1",
     "description": "A mod with some random features we wanted to add",
     "author": "Various Additions Team",
     "websiteURL": "https://mcreator.net",

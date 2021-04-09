@@ -28,6 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.mcreator.varioustextures.procedures.InfusionCraftingProcedure;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 import net.mcreator.varioustextures.VariousAdditionsMod;
 
@@ -36,11 +37,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @VariousAdditionsModElements.ModElement.Tag
-public class MagmaInfuserGUIGui extends VariousAdditionsModElements.ModElement {
+public class InfuserGuiGui extends VariousAdditionsModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public MagmaInfuserGUIGui(VariousAdditionsModElements instance) {
-		super(instance, 28);
+	public InfuserGuiGui(VariousAdditionsModElements instance) {
+		super(instance, 31);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -51,12 +52,12 @@ public class MagmaInfuserGUIGui extends VariousAdditionsModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("magma_infuser_gui"));
+			event.getRegistry().register(containerType.setRegistryName("infuser_gui"));
 		}
 	}
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, MagmaInfuserGUIGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, InfuserGuiGuiWindow::new));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -75,7 +76,7 @@ public class MagmaInfuserGUIGui extends VariousAdditionsModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(11);
+			this.internal = new ItemStackHandler(10);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -131,9 +132,7 @@ public class MagmaInfuserGUIGui extends VariousAdditionsModElements.ModElement {
 			}));
 			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 97, 53) {
 			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 25, 35) {
-			}));
-			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 133, 35) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 133, 35) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -164,18 +163,18 @@ public class MagmaInfuserGUIGui extends VariousAdditionsModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 11) {
-					if (!this.mergeItemStack(itemstack1, 11, this.inventorySlots.size(), true)) {
+				if (index < 10) {
+					if (!this.mergeItemStack(itemstack1, 10, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 11, false)) {
-					if (index < 11 + 27) {
-						if (!this.mergeItemStack(itemstack1, 11 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 10, false)) {
+					if (index < 10 + 27) {
+						if (!this.mergeItemStack(itemstack1, 10 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 11, 11 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 10, 10 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -306,6 +305,16 @@ public class MagmaInfuserGUIGui extends VariousAdditionsModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				InfusionCraftingProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

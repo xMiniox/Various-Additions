@@ -8,19 +8,16 @@
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
-    "doesPauseGame": true,
+    "doesPauseGame": false,
     "components": [
       {
-        "type": "label",
+        "type": "image",
         "data": {
-          "text": "Magma Infuser",
-          "color": {
-            "value": -39424,
-            "falpha": 0.0
-          },
-          "name": "Magma Infuser",
-          "x": 129,
-          "y": 41
+          "image": "gui6.png",
+          "use1Xscale": false,
+          "name": "gui6.png",
+          "x": 125,
+          "y": 37
         }
       },
       {
@@ -150,48 +147,40 @@
         }
       },
       {
-        "type": "inputslot",
+        "type": "outputslot",
         "data": {
-          "inputLimit": {
-            "value": ""
-          },
           "id": 9,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #9",
-          "x": 150,
-          "y": 71
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 10,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #10",
           "x": 258,
           "y": 71
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "gui5.png",
-          "use1Xscale": false,
-          "name": "gui5.png",
-          "x": 125,
-          "y": 37
         }
       },
       {
         "type": "button",
         "data": {
           "text": "Infuse",
+          "onClick": {
+            "name": "InfusionCrafting"
+          },
           "width": 55,
           "height": 20,
           "name": "Infuse",
-          "x": 242,
+          "x": 241,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Magma Infuser",
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "name": "Magma Infuser",
+          "x": 129,
           "y": 41
         }
       }

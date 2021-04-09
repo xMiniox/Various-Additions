@@ -85,15 +85,13 @@
     "particleSpawningRadious": 1.9,
     "particleAmount": 1,
     "hasInventory": true,
-    "guiBoundTo": "MagmaInfuserGUI",
+    "guiBoundTo": "InfuserGui",
     "openGUIOnRightClick": true,
-    "inventorySize": 11,
+    "inventorySize": 10,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [
-      10
-    ],
+    "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,

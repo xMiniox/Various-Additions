@@ -11,7 +11,7 @@
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Magnium Ore",
+    "name": "Magnium Debree",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 5.0,
@@ -74,7 +74,7 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 0,
+    "luminance": 2,
     "unbreakable": false,
     "breakHarvestLevel": 2,
     "spawnParticles": false,

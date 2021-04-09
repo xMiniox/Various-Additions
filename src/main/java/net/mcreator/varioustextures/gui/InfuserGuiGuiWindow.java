@@ -21,11 +21,11 @@ import net.mcreator.varioustextures.VariousAdditionsMod;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class MagmaInfuserGUIGuiWindow extends ContainerScreen<MagmaInfuserGUIGui.GuiContainerMod> {
+public class InfuserGuiGuiWindow extends ContainerScreen<InfuserGuiGui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	public MagmaInfuserGUIGuiWindow(MagmaInfuserGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	public InfuserGuiGuiWindow(InfuserGuiGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -35,12 +35,7 @@ public class MagmaInfuserGUIGuiWindow extends ContainerScreen<MagmaInfuserGUIGui
 		this.xSize = 176;
 		this.ySize = 166;
 	}
-
-	@Override
-	public boolean isPauseScreen() {
-		return true;
-	}
-	private static final ResourceLocation texture = new ResourceLocation("various_additions:textures/magma_infuser_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("various_additions:textures/infuser_gui.png");
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
@@ -55,8 +50,8 @@ public class MagmaInfuserGUIGuiWindow extends ContainerScreen<MagmaInfuserGUIGui
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("various_additions:textures/gui5.png"));
-		this.blit(ms, this.guiLeft + 0, this.guiTop + 0, 0, 0, 256, 256, 256, 256);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("various_additions:textures/gui6.png"));
+		this.blit(ms, this.guiLeft + 0, this.guiTop + 0, 0, 0, 180, 170, 180, 170);
 	}
 
 	@Override
@@ -88,9 +83,9 @@ public class MagmaInfuserGUIGuiWindow extends ContainerScreen<MagmaInfuserGUIGui
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 116, this.guiTop + 4, 55, 20, new StringTextComponent("Infuse"), e -> {
-			VariousAdditionsMod.PACKET_HANDLER.sendToServer(new MagmaInfuserGUIGui.ButtonPressedMessage(0, x, y, z));
-			MagmaInfuserGUIGui.handleButtonAction(entity, 0, x, y, z);
+		this.addButton(new Button(this.guiLeft + 115, this.guiTop + 5, 55, 20, new StringTextComponent("Infuse"), e -> {
+			VariousAdditionsMod.PACKET_HANDLER.sendToServer(new InfuserGuiGui.ButtonPressedMessage(0, x, y, z));
+			InfuserGuiGui.handleButtonAction(entity, 0, x, y, z);
 		}));
 	}
 }
