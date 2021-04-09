@@ -24,11 +24,11 @@ public class MagniumHoeItem extends VariousAdditionsModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2048;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 9f;
 			}
 
 			public float getAttackDamage() {
@@ -36,17 +36,17 @@ public class MagniumHoeItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 4;
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 22;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(MagniumSwordItem.block, (int) (1)));
 			}
-		}, 0, -3f, new Item.Properties().group(MagniumItemGroup.tab).isImmuneToFire()) {
+		}, 0, 0f, new Item.Properties().group(MagniumItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("magnium_hoe"));
 	}
 }

@@ -11,12 +11,12 @@
       "value": "CUSTOM:Magnium"
     },
     "toolType": "Axe",
-    "harvestLevel": 2,
-    "efficiency": 6.0,
+    "harvestLevel": 4,
+    "efficiency": 9.0,
     "attackSpeed": 1.0,
-    "enchantability": 14,
-    "damageVsEntity": 9.0,
-    "usageCount": 250,
+    "enchantability": 22,
+    "damageVsEntity": 9.5,
+    "usageCount": 2048,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

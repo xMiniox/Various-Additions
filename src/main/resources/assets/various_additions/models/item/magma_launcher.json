@@ -1,0 +1,8 @@
+{
+  "parent": "various_additions:custom/magma_launcher_7",
+  "textures": {
+    "0": "various_additions:blocks/coal_block",
+    "1": "various_additions:blocks/netherite_block",
+    "particle": "various_additions:items/magnium_hoe"
+  }
+}

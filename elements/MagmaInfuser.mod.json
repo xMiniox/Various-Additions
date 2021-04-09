@@ -54,7 +54,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "TNT",
@@ -84,10 +84,10 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 1.9,
     "particleAmount": 1,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 10,
+    "hasInventory": true,
+    "guiBoundTo": "MagmaInfuserGui",
+    "openGUIOnRightClick": true,
+    "inventorySize": 27,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

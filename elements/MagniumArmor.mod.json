@@ -38,16 +38,16 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
+    "maxDamage": 37,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
     "damageValueLeggings": 6,
-    "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "damageValueBoots": 3,
+    "enchantability": 25,
+    "toughness": 3.0,
+    "knockbackResistance": 0.05,
     "equipSound": {
-      "value": ""
+      "value": "entity.enderpearl.throw"
     },
     "repairItems": [
       {

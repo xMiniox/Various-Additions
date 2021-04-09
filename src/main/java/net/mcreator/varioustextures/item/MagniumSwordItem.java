@@ -28,11 +28,11 @@ public class MagniumSwordItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 9f;
 			}
 
 			public float getAttackDamage() {
-				return 5.5f;
+				return 3.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -40,7 +40,7 @@ public class MagniumSwordItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 22;
 			}
 
 			public Ingredient getRepairMaterial() {

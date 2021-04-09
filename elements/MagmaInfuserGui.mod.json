@@ -1,0 +1,25 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "gui6.png",
+          "use1Xscale": false,
+          "name": "gui6.png",
+          "x": 125,
+          "y": 37
+        }
+      }
+    ]
+  }
+}

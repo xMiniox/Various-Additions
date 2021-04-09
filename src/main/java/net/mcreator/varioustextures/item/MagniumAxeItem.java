@@ -24,23 +24,23 @@ public class MagniumAxeItem extends VariousAdditionsModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2048;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 9f;
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 7.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 4;
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 22;
 			}
 
 			public Ingredient getRepairMaterial() {

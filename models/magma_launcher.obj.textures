@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_1": "coal_block",
+        "m_0": "netherite_block"
+      },
+      "name": "default"
+    }
+  }
+}
