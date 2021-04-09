@@ -1,0 +1,9 @@
+{
+  "parent": "various_additions:custom/altar_test",
+  "textures": {
+    "all": "various_additions:blocks/crafting_table_top",
+    "particle": "various_additions:blocks/crafting_table_top",
+    "2": "various_additions:blocks/crafting_table_top",
+    "3": "various_additions:blocks/crafting_table_top"
+  }
+}

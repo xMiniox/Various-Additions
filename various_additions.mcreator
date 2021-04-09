@@ -240,6 +240,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magnium"
+    },
+    {
+      "name": "MagmaInfuser",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_infuser"
+    },
+    {
+      "name": "MagmaInfuserGUI",
+      "type": "gui",
+      "sortid": 28,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_infuser_gui"
+    },
+    {
+      "name": "MagmaInfuserRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_infuser_recipe"
     }
   ],
   "variable_elements": [],
@@ -267,6 +294,7 @@
       "block.various_textures.molten_blackstone": "Molten Blackstone",
       "item.various_additions.magnium_shovel": "Magnium Shovel",
       "item.various_additions.magnium_scrap": "Magnium Scrap",
+      "block.various_additions.magma_infuser": "Magma Infuser",
       "item.various_textures.magnium_ingot": "Magnium",
       "item.various_additions.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_sword": "Magnium Sword",

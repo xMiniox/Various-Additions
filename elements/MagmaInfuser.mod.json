@@ -2,14 +2,14 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "melted_magma_2",
+    "texture": "crafting_table_top",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 2,
+    "customModelName": "altar_test:default",
     "rotationMode": 0,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
@@ -17,7 +17,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "Molten Blackstone",
+    "name": "Magma Infuser",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 20.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Magnium"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -50,14 +50,14 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "TNT",
     "creativePickItem": {
       "value": ""
     },
@@ -69,25 +69,25 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "NETHERITE"
     },
-    "luminance": 2,
+    "luminance": 4,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "breakHarvestLevel": 3,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "DRIP_LAVA"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "particleSpawningRadious": 1.9,
+    "particleAmount": 1,
+    "hasInventory": true,
+    "guiBoundTo": "MagmaInfuserGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 11,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
