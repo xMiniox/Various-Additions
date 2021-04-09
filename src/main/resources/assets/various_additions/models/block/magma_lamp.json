@@ -1,0 +1,11 @@
+{
+  "parent": "various_additions:custom/magma_lamp",
+  "textures": {
+    "all": "various_additions:blocks/glass",
+    "particle": "various_additions:blocks/glass",
+    "0": "various_additions:blocks/magma",
+    "1": "various_additions:blocks/obsidian",
+    "2": "various_additions:blocks/glass",
+    "missing": "various_additions:blocks/magma"
+  }
+}

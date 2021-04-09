@@ -289,13 +289,13 @@
       }
     },
     {
-      "name": "InfuserGui",
-      "type": "gui",
-      "sortid": 31,
+      "name": "MagmaLamp",
+      "type": "block",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "infuser_gui"
+      "registry_name": "magma_lamp"
     }
   ],
   "variable_elements": [],
@@ -318,6 +318,7 @@
       "itemGroup.tabmagnium": "Magnium",
       "item.various_additions.magnium_hoe": "Magnium Hoe",
       "item.various_additions.magnium_armor_helmet": "Magnium_Helmet",
+      "block.various_additions.magma_lamp": "Magma Lamp",
       "item.various_textures.magnium_scrap": "Magnium Scrap",
       "block.various_additions.magnium_block": "Block of Magnium",
       "block.various_textures.molten_blackstone": "Molten Blackstone",
