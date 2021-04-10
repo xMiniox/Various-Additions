@@ -1,0 +1,24 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:atherium"
+    },
+    "1": {
+      "item": "various_additions:stone_stick"
+    },
+    "2": {
+      "item": "various_additions:stone_stick"
+    }
+  },
+  "result": {
+    "item": "various_additions:atherium_tools_shovel",
+    "count": 1
+  }
+}

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "atherium",
+    "texture": "stone_stick",
     "customModelName": "Normal",
-    "name": "Atherium",
+    "name": "Stone Stick",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Magnium"

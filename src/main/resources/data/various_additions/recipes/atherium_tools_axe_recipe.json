@@ -1,0 +1,30 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:atherium"
+    },
+    "1": {
+      "item": "various_additions:atherium"
+    },
+    "2": {
+      "item": "various_additions:atherium"
+    },
+    "3": {
+      "item": "various_additions:stone_stick"
+    },
+    "5": {
+      "item": "various_additions:stone_stick"
+    }
+  },
+  "result": {
+    "item": "various_additions:atherium_tools_axe",
+    "count": 1
+  }
+}

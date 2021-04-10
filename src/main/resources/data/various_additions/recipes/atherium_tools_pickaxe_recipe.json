@@ -1,0 +1,30 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:atherium"
+    },
+    "1": {
+      "item": "various_additions:atherium"
+    },
+    "2": {
+      "item": "various_additions:atherium"
+    },
+    "4": {
+      "item": "various_additions:stone_stick"
+    },
+    "7": {
+      "item": "various_additions:stone_stick"
+    }
+  },
+  "result": {
+    "item": "various_additions:atherium_tools_pickaxe",
+    "count": 1
+  }
+}
