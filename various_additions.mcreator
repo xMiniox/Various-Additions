@@ -341,6 +341,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magnium_launcher_recipe"
+    },
+    {
+      "name": "MagmaLampRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_lamp_recipe"
+    },
+    {
+      "name": "StarFragment",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_fragment"
     }
   ],
   "variable_elements": [],
@@ -355,6 +373,7 @@
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "item.various_additions.magnium_axe": "Magnium Axe",
       "block.various_additions.magnium_ore": "Magnium Debree",
+      "item.various_additions.star_fragment": "Star Fragment",
       "item.various_additions.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.magnium_armor_chestplate": "Magnium_Chestplate",
       "block.various_textures.magnium_ore": "Magnium Ore",

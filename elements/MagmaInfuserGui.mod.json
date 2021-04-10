@@ -7,8 +7,8 @@
     "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": true,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
     "components": [
       {
         "type": "image",
@@ -18,6 +18,30 @@
           "name": "gui6.png",
           "x": 125,
           "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Magma Infuser",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Magma Infuser",
+          "x": 129,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Infuse",
+          "width": 55,
+          "height": 20,
+          "name": "Infuse",
+          "x": 129,
+          "y": 70
         }
       }
     ]
