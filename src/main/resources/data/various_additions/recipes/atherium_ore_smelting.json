@@ -1,0 +1,30 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "various_additions:atherium_fragment"
+    },
+    "3": {
+      "item": "various_additions:atherium_fragment"
+    },
+    "4": {
+      "item": "various_additions:atherium_fragment"
+    },
+    "5": {
+      "item": "various_additions:atherium_fragment"
+    },
+    "7": {
+      "item": "various_additions:atherium_fragment"
+    }
+  },
+  "result": {
+    "item": "various_additions:atherium",
+    "count": 1
+  }
+}
