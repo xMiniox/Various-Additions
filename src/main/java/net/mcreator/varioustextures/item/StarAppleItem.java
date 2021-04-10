@@ -9,13 +9,13 @@ import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.varioustextures.procedures.StarAppleFunctionProcedure;
+import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 
 import java.util.Map;
@@ -35,7 +35,7 @@ public class StarAppleItem extends VariousAdditionsModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(16).rarity(Rarity.EPIC)
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(16).rarity(Rarity.EPIC)
 					.food((new Food.Builder()).hunger(20).saturation(20f).setAlwaysEdible().build()));
 			setRegistryName("star_apple");
 		}

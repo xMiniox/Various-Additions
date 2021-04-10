@@ -12,7 +12,7 @@
     "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Nether",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
     "customBoundingBox": false,
@@ -55,11 +55,18 @@
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 100,
+    "flammability": 0,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [],
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "CUSTOM:MoltenBlackstone"
+      }
+    ],
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [
       "Nether"

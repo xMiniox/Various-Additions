@@ -24,14 +24,14 @@ public class StarAppleFunctionProcedure extends VariousAdditionsModElements.ModE
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
 				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"effect give @p resistance 60 10");
+						"effect give @p resistance 60 3");
 			}
 		}
 		{
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
 				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"effect give @p regeneration 5 3");
+						"effect give @p regeneration 5 5");
 			}
 		}
 		{
@@ -45,7 +45,7 @@ public class StarAppleFunctionProcedure extends VariousAdditionsModElements.ModE
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
 				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"effect give @p absorbtion 120 4");
+						"effect give @p absorption 120 4");
 			}
 		}
 	}

@@ -22,6 +22,7 @@ import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
+import net.minecraft.world.IWorldReader;
 import net.minecraft.world.ISeedReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.registry.WorldGenRegistries;
@@ -40,6 +41,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FlowerBlock;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -120,11 +122,6 @@ public class MagmaFlowerBlock extends VariousAdditionsModElements.ModElement {
 		}
 
 		@Override
-		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 100;
-		}
-
-		@Override
 		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
 			return 60;
 		}
@@ -138,8 +135,21 @@ public class MagmaFlowerBlock extends VariousAdditionsModElements.ModElement {
 		}
 
 		@Override
+		public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			Block block = state.getBlock();
+			return (block == Blocks.MAGMA_BLOCK.getDefaultState().getBlock() || block == MoltenBlackstoneBlock.block.getDefaultState().getBlock());
+		}
+
+		@Override
+		public boolean isValidPosition(BlockState state, IWorldReader worldIn, BlockPos pos) {
+			BlockPos blockpos = pos.down();
+			BlockState blockstate = worldIn.getBlockState(blockpos);
+			return this.isValidGround(blockstate, worldIn, blockpos);
+		}
+
+		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.PLAINS;
+			return PlantType.NETHER;
 		}
 	}
 }
