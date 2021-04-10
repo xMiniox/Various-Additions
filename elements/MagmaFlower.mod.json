@@ -3,10 +3,10 @@
   "_type": "plant",
   "definition": {
     "renderType": 2,
-    "texture": "magma",
+    "texture": "magmaflowerlogo",
     "textureBottom": "",
     "customModelName": "magma_flower_final:default",
-    "itemTexture": "",
+    "itemTexture": "magmaflowerlogo",
     "particleTexture": "magma",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -62,8 +62,12 @@
     "canBePlacedOn": [],
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [
-      "Surface"
+      "Nether"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [
+      {
+        "value": "basalt_deltas"
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "various_additions:blocks/magma"
+    "layer0": "various_additions:items/magmaflowerlogo"
   }
 }
