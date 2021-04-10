@@ -2,8 +2,9 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "coal_block",
-        "1": "netherite_block"
+        "3": "magma",
+        "4": "obsidian",
+        "5": "glass"
       },
       "name": "default"
     }

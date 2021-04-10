@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:MagniumIngot"
     },
-    "name": "magnium_ore_smelting",
+    "name": "magnium_ingot_recipe",
     "namespace": "mod"
   }
 }

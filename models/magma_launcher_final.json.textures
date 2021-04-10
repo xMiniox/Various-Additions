@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "coal_block",
+        "0": "obsidian",
         "1": "netherite_block"
       },
       "name": "default"

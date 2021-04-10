@@ -323,6 +323,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_flower"
+    },
+    {
+      "name": "MagniumIngotRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_ingot_recipe"
     }
   ],
   "variable_elements": [],

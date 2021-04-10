@@ -42,7 +42,7 @@ public class MagmaFlowerBlock extends VariousAdditionsModElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

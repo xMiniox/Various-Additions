@@ -2,19 +2,16 @@
   "_fv": 17,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smithing",
-    "xpReward": 0.0,
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "smithingInputStack": {
-      "value": "Items.NETHERITE_SCRAP"
+    "smeltingInputStack": {
+      "value": "CUSTOM:MagniumOre"
     },
-    "smithingInputAdditionStack": {
-      "value": "Blocks.MAGMA"
-    },
-    "smithingReturnStack": {
+    "smeltingReturnStack": {
       "value": "CUSTOM:MagniumScrap"
     },
     "name": "magnium_scrap_recipe",

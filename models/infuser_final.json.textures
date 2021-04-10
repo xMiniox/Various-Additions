@@ -2,8 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "coal_block",
-        "1": "netherite_block"
+        "2": "obsidian",
+        "3": "crafting_table_top"
       },
       "name": "default"
     }
