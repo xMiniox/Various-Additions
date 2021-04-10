@@ -1,14 +1,11 @@
 {
   "group": "various_additions",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "0"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "various_additions:snad"
     }
-  },
+  ],
   "result": {
     "item": "minecraft:sand",
     "count": 1

@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:StarFragment"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Snad"
+        "value": "CUSTOM:StarFragment"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:StarFragment"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:StarFragment"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.SAND#0"
+      "value": "Items.NETHER_STAR"
     },
-    "name": "sand_recipe",
+    "name": "nether_star_recipe",
     "namespace": "mod"
   }
 }

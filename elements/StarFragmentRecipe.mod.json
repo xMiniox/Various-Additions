@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Snad"
+        "value": "Items.NETHER_STAR"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.SAND#0"
+      "value": "CUSTOM:StarFragment"
     },
-    "name": "sand_recipe",
+    "name": "star_fragment_recipe",
     "namespace": "mod"
   }
 }

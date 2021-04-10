@@ -1,0 +1,10 @@
+{
+  "parent": "various_additions:custom/star_lamp",
+  "textures": {
+    "all": "various_additions:blocks/beacon",
+    "particle": "various_additions:blocks/beacon",
+    "3": "various_additions:blocks/beacon",
+    "4": "various_additions:blocks/obsidian",
+    "5": "various_additions:blocks/glass"
+  }
+}

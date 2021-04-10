@@ -21,13 +21,13 @@
     "actionSound": {
       "value": "entity.blaze.shoot"
     },
-    "hasGlow": true,
+    "hasGlow": false,
     "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 2.0,
     "bulletDamage": 5.0,
-    "bulletKnockback": 5,
+    "bulletKnockback": 2,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {

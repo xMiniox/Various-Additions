@@ -386,6 +386,77 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sand_recipe"
+    },
+    {
+      "name": "StarApple",
+      "type": "food",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_apple"
+    },
+    {
+      "name": "StarAppleFunction",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_apple_function",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarAppleRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_apple_recipe"
+    },
+    {
+      "name": "StarLamp",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_lamp"
+    },
+    {
+      "name": "StarLampRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_lamp_recipe"
+    },
+    {
+      "name": "StarFragmentRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_fragment_recipe"
+    },
+    {
+      "name": "NetherStarRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_star_recipe"
     }
   ],
   "variable_elements": [],
@@ -418,6 +489,7 @@
       "item.various_additions.magnium_shovel": "Magnium Shovel",
       "item.various_additions.magnium_scrap": "Magnium Scrap",
       "block.various_additions.magma_infuser": "Magma Infuser",
+      "item.various_additions.star_apple": "Star Apple",
       "item.various_textures.magnium_ingot": "Magnium",
       "item.various_additions.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_sword": "Magnium Sword",
@@ -427,7 +499,8 @@
       "item.various_additions.magnium_launcher": "Magnium Launcher",
       "item.various_additions.magnium_ingot": "Magnium Ingot",
       "block.various_additions.molten_blackstone": "Molten Blackstone",
-      "block.various_additions.magma_flower": "Magma Flower"
+      "block.various_additions.magma_flower": "Magma Flower",
+      "block.various_additions.star_lamp": "Star Lamp"
     }
   },
   "foldersRoot": {

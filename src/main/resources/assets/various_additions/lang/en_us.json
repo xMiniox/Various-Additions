@@ -25,6 +25,7 @@
   "item.various_additions.magnium_shovel": "Magnium Shovel",
   "item.various_additions.magnium_scrap": "Magnium Scrap",
   "block.various_additions.magma_infuser": "Magma Infuser",
+  "item.various_additions.star_apple": "Star Apple",
   "item.various_textures.magnium_ingot": "Magnium",
   "item.various_additions.magnium_sword": "Magnium Sword",
   "item.various_textures.magnium_sword": "Magnium Sword",
@@ -34,5 +35,6 @@
   "item.various_additions.magnium_launcher": "Magnium Launcher",
   "item.various_additions.magnium_ingot": "Magnium Ingot",
   "block.various_additions.molten_blackstone": "Molten Blackstone",
-  "block.various_additions.magma_flower": "Magma Flower"
+  "block.various_additions.magma_flower": "Magma Flower",
+  "block.various_additions.star_lamp": "Star Lamp"
 }

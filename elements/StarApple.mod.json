@@ -1,0 +1,29 @@
+{
+  "_fv": 17,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "star_apple",
+    "customModelName": "Normal",
+    "name": "Star Apple",
+    "rarity": "EPIC",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 20,
+    "saturation": 20.0,
+    "eatingSpeed": 16,
+    "resultItem": {
+      "value": "CUSTOM:StarFragment"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "StarAppleFunction"
+    }
+  }
+}
