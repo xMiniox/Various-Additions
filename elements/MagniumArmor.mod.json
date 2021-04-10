@@ -47,7 +47,7 @@
     "toughness": 3.0,
     "knockbackResistance": 0.05,
     "equipSound": {
-      "value": "entity.enderpearl.throw"
+      "value": "block.lava.pop"
     },
     "repairItems": [
       {
