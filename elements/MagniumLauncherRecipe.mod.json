@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MoltenBlackstone"
-      },
-      {
         "value": ""
       },
       {
-        "value": "CUSTOM:MoltenBlackstone"
+        "value": ""
       },
       {
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "CUSTOM:MoltenBlackstone"
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "CUSTOM:MagniumBlock"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:MoltenBlackstone"
+        "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:MagniumHoe"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MagniumOre"
+      "value": "CUSTOM:MagmaLauncher"
     },
-    "name": "magnium_ore_smelting",
+    "name": "magnium_launcher_recipe",
     "namespace": "mod"
   }
 }

@@ -3,6 +3,6 @@
   "textures": {
     "0": "various_additions:blocks/obsidian",
     "1": "various_additions:blocks/netherite_block",
-    "particle": "various_additions:items/magnium_hoe"
+    "particle": "various_additions:items/magnium_launcher_logo"
   }
 }
