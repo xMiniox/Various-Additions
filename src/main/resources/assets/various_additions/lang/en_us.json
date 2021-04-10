@@ -16,7 +16,7 @@
   "item.various_additions.magnium_hoe": "Magnium Hoe",
   "item.various_additions.magnium_armor_helmet": "Magnium_Helmet",
   "block.various_additions.magma_lamp": "Magma Lamp",
-  "item.various_additions.magma_launcher": "Magma Launcher",
+  "item.various_additions.magma_launcher": "Magnium Launcher",
   "item.various_textures.magnium_scrap": "Magnium Scrap",
   "block.various_additions.magnium_block": "Block of Magnium",
   "block.various_textures.molten_blackstone": "Molten Blackstone",
@@ -29,6 +29,7 @@
   "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
   "item.various_textures.magnium_armor_boots": "Magnium_Boots",
   "item.various_textures.magnium_axe": "Magnium Axe",
+  "item.various_additions.magnium_launcher": "Magnium Launcher",
   "item.various_additions.magnium_ingot": "Magnium Ingot",
   "block.various_additions.molten_blackstone": "Molten Blackstone",
   "block.various_additions.magma_flower": "Magma Flower"
