@@ -359,6 +359,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "star_fragment"
+    },
+    {
+      "name": "Snad",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snad"
+    },
+    {
+      "name": "SnadRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snad_recipe"
+    },
+    {
+      "name": "SandRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_recipe"
     }
   ],
   "variable_elements": [],
@@ -367,6 +394,7 @@
     "en_us": {
       "item.various_additions.magnium_armor_leggings": "Magnium_Leggings",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
+      "block.various_additions.snad": "Snad",
       "item.various_textures.magnium_hoe": "Magnium Hoe",
       "block.various_textures.magnium_block": "Block of Magnium",
       "item.various_additions.magnium_armor_boots": "Magnium_Boots",

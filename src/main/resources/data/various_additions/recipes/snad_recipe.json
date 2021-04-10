@@ -1,0 +1,16 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "various_additions:snad",
+    "count": 1
+  }
+}
