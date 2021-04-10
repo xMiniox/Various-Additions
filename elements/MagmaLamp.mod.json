@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "magma_lamp_final:default",
+    "customModelName": "magma_lamp_final_fixed:default",
     "rotationMode": 0,
     "emissiveRendering": true,
     "displayFluidOverlay": false,

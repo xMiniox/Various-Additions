@@ -1,5 +1,5 @@
 {
-  "parent": "various_additions:custom/magma_lamp_final",
+  "parent": "various_additions:custom/magma_lamp_final_fixed",
   "textures": {
     "all": "various_additions:blocks/magma",
     "particle": "various_additions:blocks/magma",

@@ -316,15 +316,6 @@
       "registry_name": "magma_infuser_gui"
     },
     {
-      "name": "MagmaFlower",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_flower"
-    },
-    {
       "name": "MagniumIngotRecipe",
       "type": "recipe",
       "sortid": 37,
@@ -457,6 +448,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nether_star_recipe"
+    },
+    {
+      "name": "MagmaFlower",
+      "type": "plant",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_flower"
     }
   ],
   "variable_elements": [],
@@ -499,8 +499,8 @@
       "item.various_additions.magnium_launcher": "Magnium Launcher",
       "item.various_additions.magnium_ingot": "Magnium Ingot",
       "block.various_additions.molten_blackstone": "Molten Blackstone",
-      "block.various_additions.magma_flower": "Magma Flower",
-      "block.various_additions.star_lamp": "Star Lamp"
+      "block.various_additions.star_lamp": "Star Lamp",
+      "block.various_additions.magma_flower": "Magma Flower"
     }
   },
   "foldersRoot": {

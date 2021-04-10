@@ -1,5 +1,5 @@
 {
-  "parent": "various_additions:custom/star_lamp",
+  "parent": "various_additions:custom/star_lamp_final",
   "textures": {
     "all": "various_additions:blocks/beacon",
     "particle": "various_additions:blocks/beacon",

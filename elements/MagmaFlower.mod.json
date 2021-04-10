@@ -1,25 +1,21 @@
 {
   "_fv": 17,
-  "_type": "block",
+  "_type": "plant",
   "definition": {
-    "texture": "magma",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
     "renderType": 2,
+    "texture": "magma",
+    "textureBottom": "",
     "customModelName": "magma_flower_final:default",
-    "rotationMode": 0,
-    "emissiveRendering": true,
-    "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "magma",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
-    "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": false,
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,83 +30,40 @@
     ],
     "name": "Magma Flower",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
-    "hasGravity": false,
-    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Magnium"
     },
-    "destroyTool": "Not specified",
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 1,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "useLootTableForDrops": false,
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
-    "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
-    "canProvidePower": false,
-    "lightOpacity": 0,
-    "material": {
-      "value": "PLANTS"
-    },
-    "tickRate": 10,
-    "tickRandomly": false,
+    "forceTicking": false,
+    "emissiveRendering": true,
+    "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "NONE",
+    "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
-    "isLadder": false,
-    "slipperiness": 0.6,
-    "speedFactor": 1.0,
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
-    "soundOnStep": {
-      "value": "PLANT"
-    },
-    "luminance": 0,
-    "unbreakable": false,
-    "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
-    "hasEnergyStorage": false,
-    "energyInitial": 0,
-    "energyCapacity": 400000,
-    "energyMaxReceive": 200,
-    "energyMaxExtract": 200,
-    "isFluidTank": false,
-    "fluidCapacity": 8000,
-    "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
+    "speedFactor": 1.0,
+    "canBePlacedOn": [],
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface"
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "restrictionBiomes": []
   }
 }
