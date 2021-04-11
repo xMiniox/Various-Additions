@@ -108,7 +108,7 @@ public class AtheriumOreBlock extends VariousAdditionsModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(80)
-					.square().func_242731_b(14);
+					.square().func_242731_b(12);
 			event.getRegistry().register(feature.setRegistryName("atherium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("various_additions:atherium_ore"), configuredFeature);
 		}

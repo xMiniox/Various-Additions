@@ -1,5 +1,8 @@
 package net.mcreator.varioustextures.procedures;
 
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.varioustextures.VariousAdditionsModElements;
@@ -20,33 +23,13 @@ public class StarAppleFunctionProcedure extends VariousAdditionsModElements.ModE
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		{
-			Entity _ent = entity;
-			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
-				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"effect give @p resistance 60 3");
-			}
-		}
-		{
-			Entity _ent = entity;
-			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
-				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"effect give @p regeneration 5 5");
-			}
-		}
-		{
-			Entity _ent = entity;
-			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
-				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"effect give @p saturation 20 20");
-			}
-		}
-		{
-			Entity _ent = entity;
-			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
-				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"effect give @p absorption 120 4");
-			}
-		}
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 1200, (int) 3, (false), (false)));
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 100, (int) 5, (false), (false)));
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 1200, (int) 1, (false), (false)));
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.ABSORPTION, (int) 1200, (int) 4, (false), (false)));
 	}
 }

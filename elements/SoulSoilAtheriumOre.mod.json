@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "SOUL_SOIL"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -101,16 +101,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Nether"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.SOUL_SOIL"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 12,
+    "frequencyOnChunk": 6,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 80
   }
 }

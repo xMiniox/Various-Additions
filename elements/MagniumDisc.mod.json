@@ -1,0 +1,19 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "magnium_disc",
+    "name": "Music Disc",
+    "description": "Megalovania - Camellia Remix",
+    "creativeTab": {
+      "value": "CUSTOM:Magnium"
+    },
+    "music": {
+      "value": "CUSTOM:megalovania"
+    },
+    "specialInfo": [
+      "its a beautiful day outside..."
+    ],
+    "hasGlow": false
+  }
+}

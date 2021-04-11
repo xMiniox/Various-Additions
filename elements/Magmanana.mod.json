@@ -1,0 +1,26 @@
+{
+  "_fv": 17,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "magmanana",
+    "customModelName": "Normal",
+    "name": "Magmanana",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Magnium"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 7.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

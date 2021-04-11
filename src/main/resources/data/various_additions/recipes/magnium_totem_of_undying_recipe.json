@@ -1,0 +1,36 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:star_fragment"
+    },
+    "1": {
+      "item": "minecraft:obsidian"
+    },
+    "2": {
+      "item": "various_additions:star_fragment"
+    },
+    "3": {
+      "item": "various_additions:magnium_ingot"
+    },
+    "4": {
+      "item": "minecraft:netherite_block"
+    },
+    "5": {
+      "item": "various_additions:magnium_ingot"
+    },
+    "7": {
+      "item": "various_additions:magnium_catalyst"
+    }
+  },
+  "result": {
+    "item": "various_additions:magnium_totem_of_undying",
+    "count": 1
+  }
+}

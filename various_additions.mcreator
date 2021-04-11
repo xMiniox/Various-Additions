@@ -637,10 +637,114 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magnium_catalyst_recipe"
+    },
+    {
+      "name": "MagniumArmorProcedure",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_armor_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagniumTotemOfUndying",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_totem_of_undying"
+    },
+    {
+      "name": "MagniumTotemOfUndyingRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_totem_of_undying_recipe"
+    },
+    {
+      "name": "MagniumTotemOfUndyingProcedure",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_totem_of_undying_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagniumDisc",
+      "type": "musicdisc",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_disc"
+    },
+    {
+      "name": "MagniumDiscRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnium_disc_recipe"
+    },
+    {
+      "name": "Magmanana",
+      "type": "food",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmanana"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "megalovania",
+      "files": [
+        "megalovania"
+      ],
+      "category": "music",
+      "subtitle": "Camellia - Megalovania Remix"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
@@ -649,11 +753,12 @@
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "block.various_additions.magnium_ore": "Magnium Debree",
       "item.various_additions.star_fragment": "Star Fragment",
+      "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
-      "item.various_textures.magnium_shovel": "Magnium Shovel",
       "block.various_textures.magnium_ore": "Magnium Ore",
+      "item.various_textures.magnium_shovel": "Magnium Shovel",
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
       "block.various_additions.atherium_block": "Block of Atherium",
       "block.various_additions.magnium_block": "Block of Magnium",
@@ -661,9 +766,9 @@
       "item.various_additions.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
-      "block.various_additions.molten_blackstone": "Molten Blackstone",
-      "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.magma_flower": "Magma Flower",
+      "block.various_additions.star_lamp": "Star Lamp",
+      "block.various_additions.molten_blackstone": "Molten Blackstone",
       "item.various_additions.magnium_armor_leggings": "Magnium_Leggings",
       "item.various_additions.atherium_fragment": "Atherium Fragment",
       "block.various_additions.snad": "Snad",
@@ -671,6 +776,7 @@
       "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium",
+      "item.various_additions.magnium_disc": "Music Disc",
       "item.various_additions.magnium_armor_chestplate": "Magnium_Chestplate",
       "item.various_additions.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.atherium_tools_shovel": "Atherium Shovel",
@@ -682,12 +788,15 @@
       "item.various_additions.magma_launcher": "Magnium Launcher",
       "item.various_additions.magnium_catalyst": "Magnium Catalyst",
       "item.various_textures.magnium_scrap": "Magnium Scrap",
+      "item.various_additions.magmanana": "Magmanana",
       "block.various_textures.molten_blackstone": "Molten Blackstone",
       "item.various_additions.magnium_shovel": "Magnium Shovel",
       "item.various_additions.magnium_scrap": "Magnium Scrap",
+      "item.various_additions.magnium_totem_of_undying": "Magnium Totem Of Undying",
       "item.various_textures.magnium_ingot": "Magnium",
       "item.various_additions.atherium_tools_hoe": "Atherium Hoe",
       "item.various_textures.magnium_armor_boots": "Magnium_Boots",
+      "item.various_additions.magnium_disc.desc": "Megalovania - Camellia Remix",
       "item.various_textures.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium_tools_pickaxe": "Atherium Pickaxe",
       "item.various_additions.magnium_ingot": "Magnium Ingot",

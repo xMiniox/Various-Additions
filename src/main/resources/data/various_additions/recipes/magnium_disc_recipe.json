@@ -1,0 +1,30 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:coal_block"
+    },
+    "3": {
+      "item": "minecraft:coal_block"
+    },
+    "4": {
+      "item": "various_additions:magnium_catalyst"
+    },
+    "5": {
+      "item": "minecraft:coal_block"
+    },
+    "7": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "various_additions:magnium_disc",
+    "count": 1
+  }
+}
