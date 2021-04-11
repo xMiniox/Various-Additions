@@ -1,0 +1,35 @@
+{
+  "_fv": 17,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "magnium_catalyst",
+    "customModelName": "Normal",
+    "name": "Magnium Catalyst",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:Magnium"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Catalyst for crafting some magnium items"
+    ],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

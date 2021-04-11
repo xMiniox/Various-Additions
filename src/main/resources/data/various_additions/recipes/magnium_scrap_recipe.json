@@ -1,8 +1,8 @@
 {
   "group": "various_additions",
   "type": "minecraft:smelting",
-  "experience": 1,
-  "cookingtime": 200,
+  "experience": 3,
+  "cookingtime": 400,
   "ingredient": {
     "item": "various_additions:magnium_ore"
   },

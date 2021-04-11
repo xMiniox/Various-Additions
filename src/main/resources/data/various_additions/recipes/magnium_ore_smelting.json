@@ -2,29 +2,41 @@
   "group": "various_additions",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "012",
     "345",
-    " 7 "
+    "678"
   ],
   "key": {
+    "0": {
+      "item": "minecraft:obsidian"
+    },
     "1": {
       "item": "various_additions:molten_blackstone"
+    },
+    "2": {
+      "item": "minecraft:obsidian"
     },
     "3": {
       "item": "various_additions:molten_blackstone"
     },
     "4": {
-      "item": "minecraft:obsidian"
+      "item": "various_additions:magnium_catalyst"
     },
     "5": {
       "item": "various_additions:molten_blackstone"
     },
+    "6": {
+      "item": "minecraft:obsidian"
+    },
     "7": {
       "item": "various_additions:molten_blackstone"
+    },
+    "8": {
+      "item": "minecraft:obsidian"
     }
   },
   "result": {
     "item": "various_additions:magnium_ore",
-    "count": 1
+    "count": 4
   }
 }

@@ -2,41 +2,29 @@
   "group": "various_additions",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    " 1 ",
     "345",
-    "678"
+    " 7 "
   ],
   "key": {
-    "0": {
-      "item": "various_additions:magnium_scrap"
-    },
     "1": {
       "item": "various_additions:molten_blackstone"
-    },
-    "2": {
-      "item": "various_additions:magnium_scrap"
     },
     "3": {
       "item": "various_additions:molten_blackstone"
     },
     "4": {
-      "item": "various_additions:magnium_catalyst"
+      "item": "minecraft:netherite_ingot"
     },
     "5": {
       "item": "various_additions:molten_blackstone"
     },
-    "6": {
-      "item": "various_additions:magnium_scrap"
-    },
     "7": {
       "item": "various_additions:molten_blackstone"
-    },
-    "8": {
-      "item": "various_additions:magnium_scrap"
     }
   },
   "result": {
-    "item": "various_additions:magnium_ingot",
+    "item": "various_additions:magnium_catalyst",
     "count": 1
   }
 }

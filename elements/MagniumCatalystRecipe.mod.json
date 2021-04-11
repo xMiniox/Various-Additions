@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
         "value": "CUSTOM:MoltenBlackstone"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
         "value": "CUSTOM:MoltenBlackstone"
       },
       {
-        "value": "CUSTOM:MagniumCatalyst"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
         "value": "CUSTOM:MoltenBlackstone"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
         "value": "CUSTOM:MoltenBlackstone"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MagniumOre"
+      "value": "CUSTOM:MagniumCatalyst"
     },
-    "name": "magnium_ore_smelting",
+    "name": "magnium_catalyst_recipe",
     "namespace": "mod"
   }
 }
