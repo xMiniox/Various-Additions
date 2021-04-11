@@ -1,0 +1,58 @@
+{
+  "_fv": 17,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "atherium_helmet",
+    "enableBody": true,
+    "textureBody": "atherium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "atherium_leggings",
+    "enableBoots": true,
+    "textureBoots": "atherium_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Magnium"
+    },
+    "armorTextureFile": "atherium_",
+    "helmetName": "AtheriumArmor Helmet",
+    "bodyName": "AtheriumArmor Chestplate",
+    "leggingsName": "AtheriumArmor Leggings",
+    "bootsName": "AtheriumArmor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 17,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 2,
+    "enchantability": 10,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Atherium"
+      }
+    ]
+  }
+}

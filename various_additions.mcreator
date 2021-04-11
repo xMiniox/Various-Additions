@@ -732,6 +732,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magmanana"
+    },
+    {
+      "name": "AtheriumArmorArmor",
+      "type": "armor",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atherium_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AtheriumArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atherium_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "AtheriumArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atherium_armor_armor_body_recipe"
+    },
+    {
+      "name": "AtheriumArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atherium_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "AtheriumArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atherium_armor_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -749,18 +800,20 @@
     "en_us": {
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_textures.magnium_block": "Block of Magnium",
+      "item.various_additions.atherium_armor_armor_chestplate": "AtheriumArmor Chestplate",
       "item.various_additions.magnium_armor_boots": "Magnium_Boots",
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "block.various_additions.magnium_ore": "Magnium Debree",
-      "item.various_additions.star_fragment": "Star Fragment",
       "subtitles.megalovania": "Camellia - Megalovania Remix",
+      "item.various_additions.star_fragment": "Star Fragment",
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
-      "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_textures.magnium_shovel": "Magnium Shovel",
+      "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
       "block.various_additions.atherium_block": "Block of Atherium",
+      "item.various_additions.atherium_armor_armor_boots": "AtheriumArmor Boots",
       "block.various_additions.magnium_block": "Block of Magnium",
       "item.various_additions.star_apple": "Star Apple",
       "item.various_additions.magnium_sword": "Magnium Sword",
@@ -770,6 +823,7 @@
       "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.molten_blackstone": "Molten Blackstone",
       "item.various_additions.magnium_armor_leggings": "Magnium_Leggings",
+      "item.various_additions.atherium_armor_armor_helmet": "AtheriumArmor Helmet",
       "item.various_additions.atherium_fragment": "Atherium Fragment",
       "block.various_additions.snad": "Snad",
       "item.various_textures.magnium_hoe": "Magnium Hoe",
@@ -786,6 +840,7 @@
       "item.various_additions.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_additions.magma_lamp": "Magma Lamp",
       "item.various_additions.magma_launcher": "Magnium Launcher",
+      "item.various_additions.atherium_armor_armor_leggings": "AtheriumArmor Leggings",
       "item.various_additions.magnium_catalyst": "Magnium Catalyst",
       "item.various_textures.magnium_scrap": "Magnium Scrap",
       "item.various_additions.magmanana": "Magmanana",
