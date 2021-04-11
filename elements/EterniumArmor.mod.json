@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "atherium_helmet",
+    "textureHelmet": "eternium_head",
     "enableBody": true,
-    "textureBody": "atherium_chestplate",
+    "textureBody": "eternium_body",
     "enableLeggings": true,
-    "textureLeggings": "atherium_leggings",
+    "textureLeggings": "eternium_leggings",
     "enableBoots": true,
-    "textureBoots": "atherium_boots",
+    "textureBoots": "eternium_boots",
     "creativeTab": {
-      "value": "CUSTOM:Magnium"
+      "value": "COMBAT"
     },
-    "armorTextureFile": "atherium_",
-    "helmetName": "AtheriumArmor Helmet",
-    "bodyName": "AtheriumArmor Chestplate",
-    "leggingsName": "AtheriumArmor Leggings",
-    "bootsName": "AtheriumArmor Boots",
+    "armorTextureFile": "eternium",
+    "helmetName": "Eternium Helmet",
+    "bodyName": "Eternium Chestplate",
+    "leggingsName": "Eternium Leggings",
+    "bootsName": "Eternium Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,20 +38,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 23,
-    "damageValueHelmet": 3,
-    "damageValueBody": 7,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 3,
-    "enchantability": 10,
-    "toughness": 1.0,
+    "maxDamage": 60,
+    "damageValueHelmet": 8,
+    "damageValueBody": 20,
+    "damageValueLeggings": 24,
+    "damageValueBoots": 8,
+    "enchantability": 36,
+    "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Atherium"
+        "value": "CUSTOM:Eternium"
       }
     ]
   }

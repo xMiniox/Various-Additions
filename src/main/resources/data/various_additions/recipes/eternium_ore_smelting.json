@@ -1,0 +1,42 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:eternal_shard"
+    },
+    "1": {
+      "item": "various_additions:eternal_shard"
+    },
+    "2": {
+      "item": "various_additions:eternal_shard"
+    },
+    "3": {
+      "item": "various_additions:eternal_shard"
+    },
+    "4": {
+      "item": "various_additions:eternal_shard"
+    },
+    "5": {
+      "item": "various_additions:eternal_shard"
+    },
+    "6": {
+      "item": "various_additions:eternal_shard"
+    },
+    "7": {
+      "item": "various_additions:eternal_shard"
+    },
+    "8": {
+      "item": "various_additions:eternal_shard"
+    }
+  },
+  "result": {
+    "item": "various_additions:eternium",
+    "count": 1
+  }
+}

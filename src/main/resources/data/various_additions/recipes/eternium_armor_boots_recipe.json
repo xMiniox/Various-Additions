@@ -1,0 +1,26 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:eternium"
+    },
+    "2": {
+      "item": "various_additions:eternium"
+    },
+    "3": {
+      "item": "various_additions:eternium"
+    },
+    "5": {
+      "item": "various_additions:eternium"
+    }
+  },
+  "result": {
+    "item": "various_additions:eternium_armor_boots",
+    "count": 1
+  }
+}

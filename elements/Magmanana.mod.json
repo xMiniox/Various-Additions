@@ -21,6 +21,9 @@
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "MagmananaProcedure"
+    }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:eternium"
+    },
+    "2": {
+      "item": "various_additions:eternium"
+    },
+    "3": {
+      "item": "various_additions:eternium"
+    },
+    "4": {
+      "item": "various_additions:eternium"
+    },
+    "5": {
+      "item": "various_additions:eternium"
+    },
+    "6": {
+      "item": "various_additions:eternium"
+    },
+    "7": {
+      "item": "various_additions:eternium"
+    },
+    "8": {
+      "item": "various_additions:eternium"
+    }
+  },
+  "result": {
+    "item": "various_additions:eternium_armor_chestplate",
+    "count": 1
+  }
+}

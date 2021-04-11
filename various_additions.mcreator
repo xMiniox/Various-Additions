@@ -242,35 +242,6 @@
       "registry_name": "magnium"
     },
     {
-      "name": "InfusionCrafting",
-      "type": "procedure",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "infusion_crafting",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "MagmaLamp",
       "type": "block",
       "sortid": 32,
@@ -783,6 +754,245 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "atherium_armor_armor_boots_recipe"
+    },
+    {
+      "name": "MagmananaProcedure",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmanana_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eternium",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium"
+    },
+    {
+      "name": "EterniumOre",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_ore"
+    },
+    {
+      "name": "EterniumBlock",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_block"
+    },
+    {
+      "name": "EterniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_ore_block_recipe"
+    },
+    {
+      "name": "EterniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_block_ore_recipe"
+    },
+    {
+      "name": "EterniumOreSmelting",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_ore_smelting"
+    },
+    {
+      "name": "EterniumPickaxe",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_pickaxe"
+    },
+    {
+      "name": "EterniumAxe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_axe"
+    },
+    {
+      "name": "EterniumSword",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_sword"
+    },
+    {
+      "name": "EterniumShovel",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_shovel"
+    },
+    {
+      "name": "EterniumHoe",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_hoe"
+    },
+    {
+      "name": "EterniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_pickaxe_recipe"
+    },
+    {
+      "name": "EterniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_axe_recipe"
+    },
+    {
+      "name": "EterniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_sword_recipe"
+    },
+    {
+      "name": "EterniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_shovel_recipe"
+    },
+    {
+      "name": "EterniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_hoe_recipe"
+    },
+    {
+      "name": "EterniumArmor",
+      "type": "armor",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EterniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_armor_helmet_recipe"
+    },
+    {
+      "name": "EterniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_armor_body_recipe"
+    },
+    {
+      "name": "EterniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_armor_leggings_recipe"
+    },
+    {
+      "name": "EterniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_armor_boots_recipe"
+    },
+    {
+      "name": "EternalShard",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternal_shard"
+    },
+    {
+      "name": "EterniumStar",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_star"
+    },
+    {
+      "name": "EterniumStarRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_star_recipe"
     }
   ],
   "variable_elements": [],
@@ -798,32 +1008,42 @@
   ],
   "language_map": {
     "en_us": {
+      "item.various_additions.eternium_star": "Eternium Star",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_textures.magnium_block": "Block of Magnium",
       "item.various_additions.atherium_armor_armor_chestplate": "AtheriumArmor Chestplate",
       "item.various_additions.magnium_armor_boots": "Magnium_Boots",
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "block.various_additions.magnium_ore": "Magnium Debree",
+      "item.various_additions.eternium_sword": "Eternium Sword",
       "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.star_fragment": "Star Fragment",
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
+      "block.various_additions.eternium_block": "Block of Eternium",
+      "item.various_additions.eternium_armor_chestplate": "Eternium Chestplate",
       "item.various_textures.magnium_shovel": "Magnium Shovel",
       "block.various_textures.magnium_ore": "Magnium Ore",
+      "block.various_additions.eternium_ore": "Eternium Ore",
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
       "block.various_additions.atherium_block": "Block of Atherium",
       "item.various_additions.atherium_armor_armor_boots": "AtheriumArmor Boots",
       "block.various_additions.magnium_block": "Block of Magnium",
       "item.various_additions.star_apple": "Star Apple",
+      "item.various_additions.eternium_pickaxe": "Eternium Pickaxe",
+      "item.various_additions.eternium_axe": "Eternium Axe",
       "item.various_additions.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
       "block.various_additions.magma_flower": "Magma Flower",
       "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.molten_blackstone": "Molten Blackstone",
+      "item.various_additions.eternal_shard": "Eternal Shard",
       "item.various_additions.magnium_armor_leggings": "Magnium_Leggings",
       "item.various_additions.atherium_armor_armor_helmet": "AtheriumArmor Helmet",
+      "item.various_additions.eternium_hoe": "Eternium Hoe",
+      "item.various_additions.eternium_armor_leggings": "Eternium Leggings",
       "item.various_additions.atherium_fragment": "Atherium Fragment",
       "block.various_additions.snad": "Snad",
       "item.various_textures.magnium_hoe": "Magnium Hoe",
@@ -831,9 +1051,11 @@
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium",
       "item.various_additions.magnium_disc": "Music Disc",
+      "item.various_additions.eternium": "eternal_crystal",
       "item.various_additions.magnium_armor_chestplate": "Magnium_Chestplate",
       "item.various_additions.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.atherium_tools_shovel": "Atherium Shovel",
+      "item.various_additions.eternium_armor_helmet": "Eternium Helmet",
       "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
       "itemGroup.tabmagnium": "Various Additions",
       "item.various_additions.magnium_hoe": "Magnium Hoe",
@@ -841,6 +1063,7 @@
       "block.various_additions.magma_lamp": "Magma Lamp",
       "item.various_additions.magma_launcher": "Magnium Launcher",
       "item.various_additions.atherium_armor_armor_leggings": "AtheriumArmor Leggings",
+      "item.various_additions.eternium_armor_boots": "Eternium Boots",
       "item.various_additions.magnium_catalyst": "Magnium Catalyst",
       "item.various_textures.magnium_scrap": "Magnium Scrap",
       "item.various_additions.magmanana": "Magmanana",
@@ -849,6 +1072,7 @@
       "item.various_additions.magnium_scrap": "Magnium Scrap",
       "item.various_additions.magnium_totem_of_undying": "Magnium Totem Of Undying",
       "item.various_textures.magnium_ingot": "Magnium",
+      "item.various_additions.eternium_shovel": "Eternium Shovel",
       "item.various_additions.atherium_tools_hoe": "Atherium Hoe",
       "item.various_textures.magnium_armor_boots": "Magnium_Boots",
       "item.various_additions.magnium_disc.desc": "Megalovania - Camellia Remix",
