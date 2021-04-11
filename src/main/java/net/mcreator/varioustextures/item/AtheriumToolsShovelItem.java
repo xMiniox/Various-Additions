@@ -24,19 +24,19 @@ public class AtheriumToolsShovelItem extends VariousAdditionsModElements.ModElem
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 286;
+				return 512;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 6.5f;
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantability() {

@@ -24,19 +24,19 @@ public class AtheriumToolsAxeItem extends VariousAdditionsModElements.ModElement
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 286;
+				return 512;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 7f;
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantability() {

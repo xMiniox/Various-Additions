@@ -5,18 +5,18 @@
     "renderType": 0,
     "texture": "atherium_hoe",
     "customModelName": "Normal",
-    "name": "AtheriumTools Hoe",
+    "name": "Atherium Hoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Magnium"
     },
     "toolType": "Hoe",
-    "harvestLevel": 2,
-    "efficiency": 6.0,
-    "attackSpeed": 1.0,
+    "harvestLevel": 3,
+    "efficiency": 6.5,
+    "attackSpeed": 3.5,
     "enchantability": 15,
     "damageVsEntity": 2.0,
-    "usageCount": 286,
+    "usageCount": 512,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

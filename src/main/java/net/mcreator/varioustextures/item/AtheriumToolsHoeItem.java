@@ -24,11 +24,11 @@ public class AtheriumToolsHoeItem extends VariousAdditionsModElements.ModElement
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 286;
+				return 512;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 6.5f;
 			}
 
 			public float getAttackDamage() {
@@ -36,7 +36,7 @@ public class AtheriumToolsHoeItem extends VariousAdditionsModElements.ModElement
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantability() {
@@ -46,7 +46,7 @@ public class AtheriumToolsHoeItem extends VariousAdditionsModElements.ModElement
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AtheriumItem.block, (int) (1)));
 			}
-		}, 0, -3f, new Item.Properties().group(MagniumItemGroup.tab)) {
+		}, 0, -0.5f, new Item.Properties().group(MagniumItemGroup.tab)) {
 		}.setRegistryName("atherium_tools_hoe"));
 	}
 }

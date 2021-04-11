@@ -24,19 +24,19 @@ public class AtheriumToolsSwordItem extends VariousAdditionsModElements.ModEleme
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 286;
+				return 512;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 6.5f;
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 2.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantability() {
@@ -46,7 +46,7 @@ public class AtheriumToolsSwordItem extends VariousAdditionsModElements.ModEleme
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AtheriumItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(MagniumItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(MagniumItemGroup.tab)) {
 		}.setRegistryName("atherium_tools_sword"));
 	}
 }
