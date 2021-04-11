@@ -59,8 +59,8 @@ public class AtheriumOreBlock extends VariousAdditionsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3.3000000000000003f, 5.3961517264944545f)
-					.setLightLevel(s -> 0).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5.3961517264944545f).setLightLevel(s -> 0)
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("atherium_ore");
 		}
 
@@ -69,7 +69,7 @@ public class AtheriumOreBlock extends VariousAdditionsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(AtheriumFragmentItem.block, (int) (2)));
+			return Collections.singletonList(new ItemStack(AtheriumFragmentItem.block, (int) (4)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -107,8 +107,8 @@ public class AtheriumOreBlock extends VariousAdditionsModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(79)
-					.square().func_242731_b(10);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(80)
+					.square().func_242731_b(14);
 			event.getRegistry().register(feature.setRegistryName("atherium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("various_additions:atherium_ore"), configuredFeature);
 		}

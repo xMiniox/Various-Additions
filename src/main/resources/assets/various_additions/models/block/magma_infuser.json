@@ -1,9 +1,0 @@
-{
-  "parent": "various_additions:custom/infuser_final",
-  "textures": {
-    "all": "various_additions:blocks/crafting_table_top",
-    "particle": "various_additions:blocks/crafting_table_top",
-    "2": "various_additions:blocks/obsidian",
-    "3": "various_additions:blocks/crafting_table_top"
-  }
-}

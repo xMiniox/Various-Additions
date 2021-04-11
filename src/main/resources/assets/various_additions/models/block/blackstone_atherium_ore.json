@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "various_additions:blocks/blackstone_atherium_ore",
+    "up": "various_additions:blocks/blackstone_atherium_ore",
+    "north": "various_additions:blocks/blackstone_atherium_ore",
+    "east": "various_additions:blocks/blackstone_atherium_ore",
+    "south": "various_additions:blocks/blackstone_atherium_ore",
+    "west": "various_additions:blocks/blackstone_atherium_ore",
+    "particle": "various_additions:blocks/blackstone_atherium_ore"
+  }
+}

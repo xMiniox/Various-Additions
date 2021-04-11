@@ -2,24 +2,24 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "crafting_table_top",
+    "texture": "blackstone_atherium_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "infuser_final:default",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -32,9 +32,9 @@
         "subtract": false
       }
     ],
-    "name": "Magma Infuser",
+    "name": "Blackstone Atherium Ore",
     "specialInfo": [],
-    "hardness": 20.0,
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -43,21 +43,21 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:AtheriumFragment"
     },
-    "dropAmount": 1,
+    "dropAmount": 4,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 1,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "TNT",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
@@ -69,24 +69,24 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "BLOCK",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "NETHERITE"
+      "value": "STONE"
     },
-    "luminance": 4,
+    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
-    "spawnParticles": true,
+    "breakHarvestLevel": 1,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "DRIP_LAVA"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 1.9,
-    "particleAmount": 1,
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": true,
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

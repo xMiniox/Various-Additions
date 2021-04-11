@@ -2,16 +2,16 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "ancient_debris_side",
+    "texture": "soul_soil_atherium_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -32,20 +32,20 @@
         "subtract": false
       }
     ],
-    "name": "Magnium Debree",
+    "name": "Soul Soil Atherium Ore",
     "specialInfo": [],
     "hardness": 3.0,
-    "resistance": 5.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Magnium"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:AtheriumFragment"
     },
-    "dropAmount": 1,
+    "dropAmount": 4,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -74,9 +74,9 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 2,
+    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -101,18 +101,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 20
+    "maxGenerateHeight": 64
   }
 }

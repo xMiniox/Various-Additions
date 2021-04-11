@@ -67,14 +67,10 @@
         "value": "CUSTOM:MoltenBlackstone"
       }
     ],
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 8,
     "spawnWorldTypes": [
       "Nether"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "basalt_deltas"
-      }
-    ]
+    "restrictionBiomes": []
   }
 }

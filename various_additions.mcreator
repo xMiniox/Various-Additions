@@ -242,24 +242,6 @@
       "registry_name": "magnium"
     },
     {
-      "name": "MagmaInfuser",
-      "type": "block",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_infuser"
-    },
-    {
-      "name": "MagmaInfuserRecipe",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_infuser_recipe"
-    },
-    {
       "name": "InfusionCrafting",
       "type": "procedure",
       "sortid": 30,
@@ -305,15 +287,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_launcher"
-    },
-    {
-      "name": "MagmaInfuserGui",
-      "type": "gui",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_infuser_gui"
     },
     {
       "name": "MagniumIngotRecipe",
@@ -628,6 +601,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone_stick_recipe"
+    },
+    {
+      "name": "SoulSoilAtheriumOre",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_soil_atherium_ore"
+    },
+    {
+      "name": "BlackstoneAtheriumOre",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackstone_atherium_ore"
     }
   ],
   "variable_elements": [],
@@ -642,24 +633,24 @@
       "item.various_additions.star_fragment": "Star Fragment",
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
-      "block.various_textures.magnium_ore": "Magnium Ore",
+      "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
       "item.various_textures.magnium_shovel": "Magnium Shovel",
+      "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
       "block.various_additions.atherium_block": "Block of Atherium",
       "block.various_additions.magnium_block": "Block of Magnium",
-      "block.various_additions.magma_infuser": "Magma Infuser",
       "item.various_additions.star_apple": "Star Apple",
       "item.various_additions.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
-      "block.various_additions.magma_flower": "Magma Flower",
-      "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.molten_blackstone": "Molten Blackstone",
+      "block.various_additions.star_lamp": "Star Lamp",
+      "block.various_additions.magma_flower": "Magma Flower",
       "item.various_additions.magnium_armor_leggings": "Magnium_Leggings",
       "item.various_additions.atherium_fragment": "Atherium Fragment",
       "block.various_additions.snad": "Snad",
       "item.various_textures.magnium_hoe": "Magnium Hoe",
-      "block.various_additions.atherium_ore": "Atherium Ore",
+      "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium",
       "item.various_additions.magnium_armor_chestplate": "Magnium_Chestplate",
@@ -681,7 +672,8 @@
       "item.various_textures.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium_tools_pickaxe": "Atherium Pickaxe",
       "item.various_additions.magnium_ingot": "Magnium Ingot",
-      "item.various_additions.magnium_launcher": "Magnium Launcher"
+      "item.various_additions.magnium_launcher": "Magnium Launcher",
+      "block.various_additions.soul_soil_atherium_ore": "Soul Soil Atherium Ore"
     }
   },
   "foldersRoot": {

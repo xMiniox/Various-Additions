@@ -32,9 +32,9 @@
         "subtract": false
       }
     ],
-    "name": "Atherium Ore",
+    "name": "Netherrack Atherium Ore",
     "specialInfo": [],
-    "hardness": 3.3000000000000003,
+    "hardness": 3.0,
     "resistance": 5.3961517264944545,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -45,7 +45,7 @@
     "customDrop": {
       "value": "CUSTOM:AtheriumFragment"
     },
-    "dropAmount": 2,
+    "dropAmount": 4,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -110,9 +110,9 @@
         "value": "Blocks.NETHERRACK"
       }
     ],
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 14,
     "frequencyOnChunk": 6,
-    "minGenerateHeight": 49,
-    "maxGenerateHeight": 79
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 80
   }
 }

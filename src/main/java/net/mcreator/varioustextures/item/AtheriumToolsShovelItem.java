@@ -32,7 +32,7 @@ public class AtheriumToolsShovelItem extends VariousAdditionsModElements.ModElem
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
