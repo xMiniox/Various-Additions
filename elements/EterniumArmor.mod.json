@@ -11,9 +11,9 @@
     "enableBoots": true,
     "textureBoots": "eternium_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Magnium"
     },
-    "armorTextureFile": "eternium",
+    "armorTextureFile": "eternium_",
     "helmetName": "Eternium Helmet",
     "bodyName": "Eternium Chestplate",
     "leggingsName": "Eternium Leggings",
@@ -38,16 +38,16 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 60,
-    "damageValueHelmet": 8,
-    "damageValueBody": 20,
-    "damageValueLeggings": 24,
-    "damageValueBoots": 8,
+    "maxDamage": 50,
+    "damageValueHelmet": 6,
+    "damageValueBody": 16,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 6,
     "enchantability": 36,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "toughness": 5.0,
+    "knockbackResistance": 0.3,
     "equipSound": {
-      "value": ""
+      "value": "block.beacon.activate"
     },
     "repairItems": [
       {

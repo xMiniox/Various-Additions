@@ -8,15 +8,15 @@
     "name": "Eternium Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Magnium"
     },
     "toolType": "Hoe",
-    "harvestLevel": 8,
+    "harvestLevel": 5,
     "efficiency": 14.0,
-    "attackSpeed": 1.0,
-    "enchantability": 56,
-    "damageVsEntity": 8.0,
-    "usageCount": 1741,
+    "attackSpeed": 5.0,
+    "enchantability": 30,
+    "damageVsEntity": 1.0,
+    "usageCount": 4096,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -24,7 +24,7 @@
         "value": "CUSTOM:Eternium"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

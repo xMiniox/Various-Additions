@@ -33,7 +33,7 @@ public class MagmananaItem extends VariousAdditionsModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON)
-					.food((new Food.Builder()).hunger(7).saturation(7f).build()));
+					.food((new Food.Builder()).hunger(8).saturation(8f).build()));
 			setRegistryName("magmanana");
 		}
 

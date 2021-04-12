@@ -1011,6 +1011,91 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "eternium_stick_recipe"
+    },
+    {
+      "name": "EterniumBootsProcedure",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_boots_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EterniumLeggingsProcedure",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_leggings_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EterniumChestplateProcedure",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_chestplate_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EterniumHelmetProcedure",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_helmet_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EterniumSetProcedure",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_set_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1029,8 +1114,8 @@
       "item.various_additions.eternium_star": "Eternium Star",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_textures.magnium_block": "Block of Magnium",
-      "item.various_additions.atherium_armor_armor_chestplate": "AtheriumArmor Chestplate",
-      "item.various_additions.magnium_armor_boots": "Magnium_Boots",
+      "item.various_additions.atherium_armor_armor_chestplate": "Atherium Chestplate",
+      "item.various_additions.magnium_armor_boots": "Magnium Boots",
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "block.various_additions.magnium_ore": "Magnium Debree",
       "item.various_additions.eternium_sword": "Eternium Sword",
@@ -1039,14 +1124,14 @@
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
-      "block.various_additions.eternium_block": "Block of Eternium",
+      "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "item.various_additions.eternium_armor_chestplate": "Eternium Chestplate",
       "item.various_textures.magnium_shovel": "Magnium Shovel",
       "block.various_textures.magnium_ore": "Magnium Ore",
-      "block.various_additions.eternium_ore": "Eternium Ore",
+      "block.various_additions.eternium_ore": "Eternal Shard Ore",
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
       "block.various_additions.atherium_block": "Block of Atherium",
-      "item.various_additions.atherium_armor_armor_boots": "AtheriumArmor Boots",
+      "item.various_additions.atherium_armor_armor_boots": "Atherium Boots",
       "block.various_additions.magnium_block": "Block of Magnium",
       "item.various_additions.star_apple": "Star Apple",
       "item.various_additions.eternium_pickaxe": "Eternium Pickaxe",
@@ -1058,8 +1143,8 @@
       "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.molten_blackstone": "Molten Blackstone",
       "item.various_additions.eternal_shard": "Eternal Shard",
-      "item.various_additions.magnium_armor_leggings": "Magnium_Leggings",
-      "item.various_additions.atherium_armor_armor_helmet": "AtheriumArmor Helmet",
+      "item.various_additions.magnium_armor_leggings": "Magnium Leggings",
+      "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",
       "item.various_additions.eternium_hoe": "Eternium Hoe",
       "item.various_additions.eternium_armor_leggings": "Eternium Leggings",
       "item.various_additions.atherium_fragment": "Atherium Fragment",
@@ -1070,18 +1155,18 @@
       "item.various_additions.atherium": "Atherium",
       "item.various_additions.magnium_disc": "Music Disc",
       "item.various_additions.eternium_stick": "Eternium Stick",
-      "item.various_additions.eternium": "eternal_crystal",
-      "item.various_additions.magnium_armor_chestplate": "Magnium_Chestplate",
+      "item.various_additions.eternium": "Eternal Crystal",
+      "item.various_additions.magnium_armor_chestplate": "Magnium Chestplate",
       "item.various_additions.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.atherium_tools_shovel": "Atherium Shovel",
       "item.various_additions.eternium_armor_helmet": "Eternium Helmet",
       "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
       "itemGroup.tabmagnium": "Various Additions",
       "item.various_additions.magnium_hoe": "Magnium Hoe",
-      "item.various_additions.magnium_armor_helmet": "Magnium_Helmet",
+      "item.various_additions.magnium_armor_helmet": "Magnium Helmet",
       "block.various_additions.magma_lamp": "Magma Lamp",
       "item.various_additions.magma_launcher": "Magnium Launcher",
-      "item.various_additions.atherium_armor_armor_leggings": "AtheriumArmor Leggings",
+      "item.various_additions.atherium_armor_armor_leggings": "Atherium Leggings",
       "item.various_additions.eternium_armor_boots": "Eternium Boots",
       "item.various_additions.magnium_catalyst": "Magnium Catalyst",
       "item.various_textures.magnium_scrap": "Magnium Scrap",

@@ -12,8 +12,8 @@
       "value": "CUSTOM:Magnium"
     },
     "stackSize": 64,
-    "nutritionalValue": 7,
-    "saturation": 7.0,
+    "nutritionalValue": 8,
+    "saturation": 8.0,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""

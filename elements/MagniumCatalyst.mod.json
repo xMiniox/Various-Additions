@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Catalyst for crafting some magnium items"
-    ],
+    "specialInfo": [],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
