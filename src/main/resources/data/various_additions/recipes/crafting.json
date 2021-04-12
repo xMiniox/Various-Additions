@@ -1,0 +1,26 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "1": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "2": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "3": {
+      "item": "various_additions:magma_palm_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

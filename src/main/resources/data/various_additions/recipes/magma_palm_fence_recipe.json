@@ -1,0 +1,32 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "3": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "various_additions:magma_palm_planks"
+    }
+  },
+  "result": {
+    "item": "various_additions:magma_palm_fence",
+    "count": 3
+  }
+}

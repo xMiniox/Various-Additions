@@ -1,0 +1,9 @@
+{
+  "parent": "various_additions:custom/magma_palm_log",
+  "textures": {
+    "all": "various_additions:blocks/dark_oak_log_top",
+    "particle": "various_additions:blocks/dark_oak_log_top",
+    "0": "various_additions:blocks/dark_oak_log",
+    "1": "various_additions:blocks/dark_oak_log_top"
+  }
+}

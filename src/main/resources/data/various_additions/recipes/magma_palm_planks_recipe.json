@@ -1,0 +1,13 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:magmapalm_log"
+    }
+  ],
+  "result": {
+    "item": "various_additions:magma_palm_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "various_additions:blocks/dark_oak_leaves",
+    "particle": "various_additions:blocks/dark_oak_leaves"
+  }
+}

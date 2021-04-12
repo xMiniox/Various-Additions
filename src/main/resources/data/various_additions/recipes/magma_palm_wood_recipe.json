@@ -1,0 +1,26 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:magma_palm_log"
+    },
+    "1": {
+      "item": "various_additions:magma_palm_log"
+    },
+    "2": {
+      "item": "various_additions:magma_palm_log"
+    },
+    "3": {
+      "item": "various_additions:magma_palm_log"
+    }
+  },
+  "result": {
+    "item": "various_additions:magma_palm_wood",
+    "count": 3
+  }
+}

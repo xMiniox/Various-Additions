@@ -1,0 +1,33 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "3": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "4": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "6": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "7": {
+      "item": "various_additions:magma_palm_planks"
+    },
+    "8": {
+      "item": "various_additions:magma_palm_planks"
+    }
+  },
+  "result": {
+    "item": "various_additions:magma_palm_stairs",
+    "count": 4
+  }
+}

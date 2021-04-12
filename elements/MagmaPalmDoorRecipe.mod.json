@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagmaPalmPlanks"
+      },
+      {
+        "value": "CUSTOM:MagmaPalmPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagmaPalmPlanks"
+      },
+      {
+        "value": "CUSTOM:MagmaPalmPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagmaPalmPlanks"
+      },
+      {
+        "value": "CUSTOM:MagmaPalmPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagmaPalmDoor"
+    },
+    "name": "magma_palm_door_recipe",
+    "namespace": "mod"
+  }
+}

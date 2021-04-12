@@ -1,0 +1,20 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MagmaPalmWood"
+      },
+      {
+        "value": "CUSTOM:MagmaPalmLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "magmapalm_log",
+    "namespace": "forge"
+  }
+}
