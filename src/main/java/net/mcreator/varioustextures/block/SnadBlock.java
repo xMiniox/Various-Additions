@@ -24,7 +24,7 @@ public class SnadBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:snad")
 	public static final Block block = null;
 	public SnadBlock(VariousAdditionsModElements instance) {
-		super(instance, 41);
+		super(instance, 45);
 	}
 
 	@Override

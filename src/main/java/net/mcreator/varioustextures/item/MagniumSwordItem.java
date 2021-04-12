@@ -17,7 +17,7 @@ public class MagniumSwordItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magnium_sword")
 	public static final Item block = null;
 	public MagniumSwordItem(VariousAdditionsModElements instance) {
-		super(instance, 7);
+		super(instance, 1);
 	}
 
 	@Override

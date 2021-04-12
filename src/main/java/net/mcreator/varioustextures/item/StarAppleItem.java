@@ -26,7 +26,7 @@ public class StarAppleItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:star_apple")
 	public static final Item block = null;
 	public StarAppleItem(VariousAdditionsModElements instance) {
-		super(instance, 44);
+		super(instance, 41);
 	}
 
 	@Override

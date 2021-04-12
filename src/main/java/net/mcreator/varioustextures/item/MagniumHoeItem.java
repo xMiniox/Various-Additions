@@ -17,7 +17,7 @@ public class MagniumHoeItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magnium_hoe")
 	public static final Item block = null;
 	public MagniumHoeItem(VariousAdditionsModElements instance) {
-		super(instance, 11);
+		super(instance, 5);
 	}
 
 	@Override

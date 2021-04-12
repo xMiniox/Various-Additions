@@ -18,7 +18,7 @@
     "damageVsEntity": 8.0,
     "usageCount": 4096,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
         "value": "CUSTOM:Eternium"

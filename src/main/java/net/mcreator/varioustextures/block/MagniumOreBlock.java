@@ -46,7 +46,7 @@ public class MagniumOreBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magnium_ore")
 	public static final Block block = null;
 	public MagniumOreBlock(VariousAdditionsModElements instance) {
-		super(instance, 3);
+		super(instance, 9);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

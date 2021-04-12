@@ -23,7 +23,7 @@ public class MoltenBlackstoneBlock extends VariousAdditionsModElements.ModElemen
 	@ObjectHolder("various_additions:molten_blackstone")
 	public static final Block block = null;
 	public MoltenBlackstoneBlock(VariousAdditionsModElements instance) {
-		super(instance, 5);
+		super(instance, 44);
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:entitybulletmagma_launcher")
 	public static final EntityType arrow = null;
 	public MagmaLauncherItem(VariousAdditionsModElements instance) {
-		super(instance, 33);
+		super(instance, 36);
 	}
 
 	@Override

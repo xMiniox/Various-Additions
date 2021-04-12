@@ -16,7 +16,7 @@ public class StoneStickItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:stone_stick")
 	public static final Item block = null;
 	public StoneStickItem(VariousAdditionsModElements instance) {
-		super(instance, 72);
+		super(instance, 37);
 	}
 
 	@Override

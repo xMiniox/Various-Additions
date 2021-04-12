@@ -2,6 +2,8 @@
 package net.mcreator.varioustextures.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -17,7 +19,7 @@ public class EterniumHoeItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternium_hoe")
 	public static final Item block = null;
 	public EterniumHoeItem(VariousAdditionsModElements instance) {
-		super(instance, 101);
+		super(instance, 27);
 	}
 
 	@Override
@@ -32,7 +34,7 @@ public class EterniumHoeItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return 0f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,6 +49,11 @@ public class EterniumHoeItem extends VariousAdditionsModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(EterniumItem.block, (int) (1)));
 			}
 		}, 0, 1f, new Item.Properties().group(MagniumItemGroup.tab).isImmuneToFire()) {
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
 		}.setRegistryName("eternium_hoe"));
 	}
 }

@@ -29,7 +29,7 @@ public class EterniumArmorItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternium_armor_boots")
 	public static final Item boots = null;
 	public EterniumArmorItem(VariousAdditionsModElements instance) {
-		super(instance, 107);
+		super(instance, 28);
 	}
 
 	@Override

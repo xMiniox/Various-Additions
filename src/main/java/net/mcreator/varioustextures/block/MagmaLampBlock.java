@@ -35,7 +35,7 @@ public class MagmaLampBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magma_lamp")
 	public static final Block block = null;
 	public MagmaLampBlock(VariousAdditionsModElements instance) {
-		super(instance, 32);
+		super(instance, 42);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class AtheriumToolsPickaxeItem extends VariousAdditionsModElements.ModEle
 	@ObjectHolder("various_additions:atherium_tools_pickaxe")
 	public static final Item block = null;
 	public AtheriumToolsPickaxeItem(VariousAdditionsModElements instance) {
-		super(instance, 62);
+		super(instance, 12);
 	}
 
 	@Override

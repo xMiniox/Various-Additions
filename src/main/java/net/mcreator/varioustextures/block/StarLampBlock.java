@@ -31,7 +31,7 @@ public class StarLampBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:star_lamp")
 	public static final Block block = null;
 	public StarLampBlock(VariousAdditionsModElements instance) {
-		super(instance, 47);
+		super(instance, 43);
 	}
 
 	@Override

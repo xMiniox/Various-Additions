@@ -16,7 +16,7 @@ public class MagniumScrapItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magnium_scrap")
 	public static final Item block = null;
 	public MagniumScrapItem(VariousAdditionsModElements instance) {
-		super(instance, 2);
+		super(instance, 8);
 	}
 
 	@Override

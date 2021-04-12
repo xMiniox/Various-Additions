@@ -17,7 +17,7 @@ public class AtheriumToolsAxeItem extends VariousAdditionsModElements.ModElement
 	@ObjectHolder("various_additions:atherium_tools_axe")
 	public static final Item block = null;
 	public AtheriumToolsAxeItem(VariousAdditionsModElements instance) {
-		super(instance, 63);
+		super(instance, 13);
 	}
 
 	@Override

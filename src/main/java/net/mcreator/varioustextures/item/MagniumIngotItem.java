@@ -16,7 +16,7 @@ public class MagniumIngotItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magnium_ingot")
 	public static final Item block = null;
 	public MagniumIngotItem(VariousAdditionsModElements instance) {
-		super(instance, 1);
+		super(instance, 7);
 	}
 
 	@Override

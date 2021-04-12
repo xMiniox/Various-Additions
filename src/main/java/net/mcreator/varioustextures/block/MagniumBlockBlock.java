@@ -24,7 +24,7 @@ public class MagniumBlockBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magnium_block")
 	public static final Block block = null;
 	public MagniumBlockBlock(VariousAdditionsModElements instance) {
-		super(instance, 4);
+		super(instance, 10);
 	}
 
 	@Override

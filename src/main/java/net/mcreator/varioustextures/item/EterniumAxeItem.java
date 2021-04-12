@@ -2,6 +2,8 @@
 package net.mcreator.varioustextures.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -17,7 +19,7 @@ public class EterniumAxeItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternium_axe")
 	public static final Item block = null;
 	public EterniumAxeItem(VariousAdditionsModElements instance) {
-		super(instance, 98);
+		super(instance, 25);
 	}
 
 	@Override
@@ -47,6 +49,11 @@ public class EterniumAxeItem extends VariousAdditionsModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(EterniumItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(MagniumItemGroup.tab).isImmuneToFire()) {
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
 		}.setRegistryName("eternium_axe"));
 	}
 }

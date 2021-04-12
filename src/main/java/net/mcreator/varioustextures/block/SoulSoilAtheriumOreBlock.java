@@ -47,7 +47,7 @@ public class SoulSoilAtheriumOreBlock extends VariousAdditionsModElements.ModEle
 	@ObjectHolder("various_additions:soul_soil_atherium_ore")
 	public static final Block block = null;
 	public SoulSoilAtheriumOreBlock(VariousAdditionsModElements instance) {
-		super(instance, 74);
+		super(instance, 20);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -17,7 +17,7 @@ public class MagniumAxeItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magnium_axe")
 	public static final Item block = null;
 	public MagniumAxeItem(VariousAdditionsModElements instance) {
-		super(instance, 9);
+		super(instance, 3);
 	}
 
 	@Override

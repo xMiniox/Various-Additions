@@ -15,10 +15,10 @@
     "efficiency": 14.0,
     "attackSpeed": 5.0,
     "enchantability": 30,
-    "damageVsEntity": 1.0,
+    "damageVsEntity": 2.0,
     "usageCount": 4096,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
         "value": "CUSTOM:Eternium"

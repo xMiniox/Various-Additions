@@ -2,6 +2,8 @@
 package net.mcreator.varioustextures.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
@@ -17,7 +19,7 @@ public class EterniumSwordItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternium_sword")
 	public static final Item block = null;
 	public EterniumSwordItem(VariousAdditionsModElements instance) {
-		super(instance, 99);
+		super(instance, 23);
 	}
 
 	@Override
@@ -32,7 +34,7 @@ public class EterniumSwordItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,6 +49,11 @@ public class EterniumSwordItem extends VariousAdditionsModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(EterniumItem.block, (int) (1)));
 			}
 		}, 3, -2.4f, new Item.Properties().group(MagniumItemGroup.tab).isImmuneToFire()) {
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
 		}.setRegistryName("eternium_sword"));
 	}
 }

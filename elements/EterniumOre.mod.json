@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "NETHER_ORE"
+      "value": "STONE"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -104,15 +104,25 @@
     "spawnWorldTypes": [
       "End"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_barrens"
+      },
+      {
+        "value": "end_midlands"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.END_STONE"
       }
     ],
-    "frequencyPerChunks": 2,
+    "frequencyPerChunks": 3,
     "frequencyOnChunk": 4,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 100
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 200
   }
 }

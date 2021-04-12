@@ -30,7 +30,7 @@ import java.util.HashMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class MagniumTotemOfUndyingProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public MagniumTotemOfUndyingProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 81);
+		super(instance, 84);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -80,15 +80,15 @@ public class MagniumTotemOfUndyingProcedureProcedure extends VariousAdditionsMod
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 200, (int) 1, (false), (false)));
 			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 3, 3, 3, 1);
+				((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 100, 1, 1, 1, 1);
 			}
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.toast.challenge_complete")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1);
 			} else {
 				((World) world).playSound(x, y, z,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.toast.challenge_complete")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
 			if (entity instanceof PlayerEntity) {

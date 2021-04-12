@@ -17,7 +17,7 @@ public class AtheriumToolsShovelItem extends VariousAdditionsModElements.ModElem
 	@ObjectHolder("various_additions:atherium_tools_shovel")
 	public static final Item block = null;
 	public AtheriumToolsShovelItem(VariousAdditionsModElements instance) {
-		super(instance, 65);
+		super(instance, 14);
 	}
 
 	@Override

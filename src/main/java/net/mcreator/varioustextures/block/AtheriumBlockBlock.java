@@ -24,7 +24,7 @@ public class AtheriumBlockBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:atherium_block")
 	public static final Block block = null;
 	public AtheriumBlockBlock(VariousAdditionsModElements instance) {
-		super(instance, 57);
+		super(instance, 22);
 	}
 
 	@Override

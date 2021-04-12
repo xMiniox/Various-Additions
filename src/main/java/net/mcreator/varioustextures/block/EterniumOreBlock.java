@@ -47,7 +47,7 @@ public class EterniumOreBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternium_ore")
 	public static final Block block = null;
 	public EterniumOreBlock(VariousAdditionsModElements instance) {
-		super(instance, 92);
+		super(instance, 31);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -59,8 +59,8 @@ public class EterniumOreBlock extends VariousAdditionsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHER_ORE).hardnessAndResistance(12f, 15f).setLightLevel(s -> 0)
-					.harvestLevel(8).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(12f, 15f).setLightLevel(s -> 0).harvestLevel(8)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("eternium_ore");
 		}
 
@@ -107,14 +107,23 @@ public class EterniumOreBlock extends VariousAdditionsModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(100)
-					.square().func_242731_b(2);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(200)
+					.square().func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("eternium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("various_additions:eternium_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("end_highlands").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("end_barrens").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("end_midlands").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

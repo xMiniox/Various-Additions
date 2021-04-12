@@ -17,7 +17,7 @@ public class MagniumShovelItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magnium_shovel")
 	public static final Item block = null;
 	public MagniumShovelItem(VariousAdditionsModElements instance) {
-		super(instance, 10);
+		super(instance, 4);
 	}
 
 	@Override

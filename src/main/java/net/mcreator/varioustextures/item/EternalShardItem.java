@@ -16,7 +16,7 @@ public class EternalShardItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternal_shard")
 	public static final Item block = null;
 	public EternalShardItem(VariousAdditionsModElements instance) {
-		super(instance, 112);
+		super(instance, 30);
 	}
 
 	@Override

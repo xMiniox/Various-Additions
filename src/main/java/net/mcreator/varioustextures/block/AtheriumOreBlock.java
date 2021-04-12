@@ -47,7 +47,7 @@ public class AtheriumOreBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:atherium_ore")
 	public static final Block block = null;
 	public AtheriumOreBlock(VariousAdditionsModElements instance) {
-		super(instance, 56);
+		super(instance, 19);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

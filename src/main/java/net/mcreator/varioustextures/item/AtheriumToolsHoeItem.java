@@ -17,7 +17,7 @@ public class AtheriumToolsHoeItem extends VariousAdditionsModElements.ModElement
 	@ObjectHolder("various_additions:atherium_tools_hoe")
 	public static final Item block = null;
 	public AtheriumToolsHoeItem(VariousAdditionsModElements instance) {
-		super(instance, 66);
+		super(instance, 15);
 	}
 
 	@Override

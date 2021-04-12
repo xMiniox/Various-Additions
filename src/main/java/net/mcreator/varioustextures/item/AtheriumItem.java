@@ -16,7 +16,7 @@ public class AtheriumItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:atherium")
 	public static final Item block = null;
 	public AtheriumItem(VariousAdditionsModElements instance) {
-		super(instance, 55);
+		super(instance, 17);
 	}
 
 	@Override
