@@ -3,9 +3,9 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "eternium_head",
+    "textureHelmet": "eternium_helmet",
     "enableBody": true,
-    "textureBody": "eternium_body",
+    "textureBody": "eternium_chestplate",
     "enableLeggings": true,
     "textureLeggings": "eternium_leggings",
     "enableBoots": true,
