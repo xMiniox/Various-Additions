@@ -1,12 +1,1 @@
-{
-  "megalovania": {
-    "category": "music",
-    "subtitle": "subtitles.megalovania",
-    "sounds": [
-      {
-        "name": "various_additions:megalovania",
-        "stream": true
-      }
-    ]
-  }
-}
+{}

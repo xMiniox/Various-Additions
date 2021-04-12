@@ -678,24 +678,6 @@
       }
     },
     {
-      "name": "MagniumDisc",
-      "type": "musicdisc",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magnium_disc"
-    },
-    {
-      "name": "MagniumDiscRecipe",
-      "type": "recipe",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magnium_disc_recipe"
-    },
-    {
       "name": "Magmanana",
       "type": "food",
       "sortid": 84,
@@ -1099,16 +1081,7 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [
-    {
-      "name": "megalovania",
-      "files": [
-        "megalovania"
-      ],
-      "category": "music",
-      "subtitle": "Camellia - Megalovania Remix"
-    }
-  ],
+  "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.various_additions.eternium_star": "Eternium Star",
@@ -1119,8 +1092,8 @@
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "block.various_additions.magnium_ore": "Magnium Debree",
       "item.various_additions.eternium_sword": "Eternium Sword",
-      "item.various_additions.star_fragment": "Star Fragment",
       "subtitles.megalovania": "Camellia - Megalovania Remix",
+      "item.various_additions.star_fragment": "Star Fragment",
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
@@ -1153,7 +1126,6 @@
       "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium",
-      "item.various_additions.magnium_disc": "Music Disc",
       "item.various_additions.eternium_stick": "Eternium Stick",
       "item.various_additions.eternium": "Eternal Crystal",
       "item.various_additions.magnium_armor_chestplate": "Magnium Chestplate",
@@ -1179,7 +1151,6 @@
       "item.various_additions.eternium_shovel": "Eternium Shovel",
       "item.various_additions.atherium_tools_hoe": "Atherium Hoe",
       "item.various_textures.magnium_armor_boots": "Magnium_Boots",
-      "item.various_additions.magnium_disc.desc": "Megalovania - Camellia Remix",
       "item.various_textures.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium_tools_pickaxe": "Atherium Pickaxe",
       "item.various_additions.magnium_ingot": "Magnium Ingot",
@@ -1194,14 +1165,13 @@
   "workspaceSettings": {
     "modid": "various_additions",
     "modName": "Various Additions",
-    "version": "0.1",
+    "version": "0.2",
     "description": "A mod with some random features we wanted to add",
     "author": "Various Additions Team",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "netherite_ingot",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

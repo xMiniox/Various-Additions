@@ -45,8 +45,6 @@ public class VariousAdditionsModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public VariousAdditionsModElements() {
-		sounds.put(new ResourceLocation("various_additions", "megalovania"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("various_additions", "megalovania")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("various_additions").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
