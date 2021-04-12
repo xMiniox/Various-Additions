@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "eternal_shard_2",
+    "texture": "eternium_stick",
     "customModelName": "Normal",
-    "name": "Eternal Shard",
-    "rarity": "UNCOMMON",
+    "name": "Eternium Stick",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Magnium"
     },
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64

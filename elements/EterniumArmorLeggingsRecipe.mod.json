@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Eternium"
+        "value": "CUSTOM:EterniumStar"
       },
       {
-        "value": "CUSTOM:Eternium"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:Eternium"
+        "value": "CUSTOM:EterniumStar"
       },
       {
-        "value": "CUSTOM:Eternium"
+        "value": "Items.SUGAR"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Eternium"
+        "value": "Items.SUGAR"
       },
       {
         "value": "CUSTOM:Eternium"

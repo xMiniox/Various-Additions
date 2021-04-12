@@ -10,7 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "Items.QUARTZ"
+      },
+      {
         "value": "CUSTOM:EternalShard"
+      },
+      {
+        "value": "Items.QUARTZ"
       },
       {
         "value": "CUSTOM:EternalShard"
@@ -22,19 +28,13 @@
         "value": "CUSTOM:EternalShard"
       },
       {
-        "value": "CUSTOM:EternalShard"
+        "value": "Items.QUARTZ"
       },
       {
         "value": "CUSTOM:EternalShard"
       },
       {
-        "value": "CUSTOM:EternalShard"
-      },
-      {
-        "value": "CUSTOM:EternalShard"
-      },
-      {
-        "value": "CUSTOM:EternalShard"
+        "value": "Items.QUARTZ"
       }
     ],
     "recipeReturnStack": {

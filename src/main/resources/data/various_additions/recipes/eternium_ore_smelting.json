@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "various_additions:eternal_shard"
+      "item": "minecraft:quartz"
     },
     "1": {
       "item": "various_additions:eternal_shard"
     },
     "2": {
-      "item": "various_additions:eternal_shard"
+      "item": "minecraft:quartz"
     },
     "3": {
       "item": "various_additions:eternal_shard"
@@ -26,13 +26,13 @@
       "item": "various_additions:eternal_shard"
     },
     "6": {
-      "item": "various_additions:eternal_shard"
+      "item": "minecraft:quartz"
     },
     "7": {
       "item": "various_additions:eternal_shard"
     },
     "8": {
-      "item": "various_additions:eternal_shard"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

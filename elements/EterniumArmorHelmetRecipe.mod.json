@@ -10,19 +10,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Eternium"
+        "value": "CUSTOM:EterniumStar"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:EterniumStar"
       },
       {
         "value": "CUSTOM:Eternium"
       },
       {
-        "value": "CUSTOM:Eternium"
-      },
-      {
-        "value": "CUSTOM:Eternium"
-      },
-      {
-        "value": ""
+        "value": "Items.FISH#3"
       },
       {
         "value": "CUSTOM:Eternium"

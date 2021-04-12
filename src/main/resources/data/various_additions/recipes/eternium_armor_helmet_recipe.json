@@ -3,20 +3,23 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5"
+    "345"
   ],
   "key": {
     "0": {
-      "item": "various_additions:eternium"
+      "item": "various_additions:eternium_star"
     },
     "1": {
-      "item": "various_additions:eternium"
+      "item": "minecraft:netherite_ingot"
     },
     "2": {
-      "item": "various_additions:eternium"
+      "item": "various_additions:eternium_star"
     },
     "3": {
       "item": "various_additions:eternium"
+    },
+    "4": {
+      "item": "minecraft:pufferfish"
     },
     "5": {
       "item": "various_additions:eternium"

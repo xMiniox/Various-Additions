@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "various_additions:eternium"
+      "item": "various_additions:eternium_star"
     },
     "1": {
-      "item": "minecraft:stick"
+      "item": "various_additions:eternium_stick"
     },
     "2": {
-      "item": "minecraft:stick"
+      "item": "various_additions:eternium_stick"
     }
   },
   "result": {

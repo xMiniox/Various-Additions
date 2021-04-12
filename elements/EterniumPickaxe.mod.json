@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "eternium_pickaxe",
+    "texture": "eternium_pickaxe_2",
     "customModelName": "Normal",
     "name": "Eternium Pickaxe",
     "specialInfo": [],

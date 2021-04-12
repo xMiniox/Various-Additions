@@ -19,22 +19,22 @@
         "value": "CUSTOM:Eternium"
       },
       {
-        "value": "CUSTOM:Eternium"
+        "value": "CUSTOM:EterniumStar"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:EterniumStar"
+      },
+      {
+        "value": "Items.MAGMA_CREAM"
       },
       {
         "value": "CUSTOM:Eternium"
       },
       {
-        "value": "CUSTOM:Eternium"
-      },
-      {
-        "value": "CUSTOM:Eternium"
-      },
-      {
-        "value": "CUSTOM:Eternium"
-      },
-      {
-        "value": "CUSTOM:Eternium"
+        "value": "Items.MAGMA_CREAM"
       }
     ],
     "recipeReturnStack": {

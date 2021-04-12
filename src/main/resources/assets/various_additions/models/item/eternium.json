@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "various_additions:items/eternal_crystal"
+    "layer0": "various_additions:items/eternal_crystal_2"
   }
 }

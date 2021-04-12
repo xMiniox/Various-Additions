@@ -3,20 +3,23 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "0 2",
-    "3 5"
+    "345"
   ],
   "key": {
     "0": {
-      "item": "various_additions:eternium"
+      "item": "various_additions:eternium_star"
     },
     "2": {
-      "item": "various_additions:eternium"
+      "item": "various_additions:eternium_star"
     },
     "3": {
-      "item": "various_additions:eternium"
+      "item": "minecraft:feather"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
     },
     "5": {
-      "item": "various_additions:eternium"
+      "item": "minecraft:feather"
     }
   },
   "result": {

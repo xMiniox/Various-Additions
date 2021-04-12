@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "eternal_crystal",
+    "texture": "eternal_crystal_2",
     "customModelName": "Normal",
     "name": "eternal_crystal",
     "rarity": "UNCOMMON",

@@ -993,6 +993,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "eternium_star_recipe"
+    },
+    {
+      "name": "EterniumStick",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_stick"
     }
   ],
   "variable_elements": [],
@@ -1051,6 +1060,7 @@
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium",
       "item.various_additions.magnium_disc": "Music Disc",
+      "item.various_additions.eternium_stick": "Eternium Stick",
       "item.various_additions.eternium": "eternal_crystal",
       "item.various_additions.magnium_armor_chestplate": "Magnium_Chestplate",
       "item.various_additions.magnium_pickaxe": "Magnium Pickaxe",

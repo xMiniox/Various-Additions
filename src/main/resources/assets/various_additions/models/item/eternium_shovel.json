@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "various_additions:items/eternium_shovel"
+    "layer0": "various_additions:items/eternium_shovel_2"
   }
 }

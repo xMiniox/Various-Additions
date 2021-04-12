@@ -11,13 +11,13 @@
       "item": "various_additions:eternium"
     },
     "1": {
-      "item": "various_additions:eternium"
+      "item": "various_additions:eternium_star"
     },
     "3": {
-      "item": "minecraft:stick"
+      "item": "various_additions:eternium_stick"
     },
     "5": {
-      "item": "minecraft:stick"
+      "item": "various_additions:eternium_stick"
     }
   },
   "result": {
