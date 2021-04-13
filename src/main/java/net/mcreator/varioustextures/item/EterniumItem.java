@@ -16,7 +16,7 @@ public class EterniumItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternium")
 	public static final Item block = null;
 	public EterniumItem(VariousAdditionsModElements instance) {
-		super(instance, 91);
+		super(instance, 29);
 	}
 
 	@Override

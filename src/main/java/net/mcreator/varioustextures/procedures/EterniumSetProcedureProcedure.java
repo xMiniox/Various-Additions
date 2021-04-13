@@ -22,7 +22,7 @@ import java.util.HashMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class EterniumSetProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public EterniumSetProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 121);
+		super(instance, 118);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

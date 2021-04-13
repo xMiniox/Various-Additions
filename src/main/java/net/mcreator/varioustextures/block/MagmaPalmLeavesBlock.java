@@ -2,6 +2,7 @@
 package net.mcreator.varioustextures.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -27,7 +28,7 @@ public class MagmaPalmLeavesBlock extends VariousAdditionsModElements.ModElement
 	@ObjectHolder("various_additions:magma_palm_leaves")
 	public static final Block block = null;
 	public MagmaPalmLeavesBlock(VariousAdditionsModElements instance) {
-		super(instance, 112);
+		super(instance, 50);
 	}
 
 	@Override
@@ -38,7 +39,7 @@ public class MagmaPalmLeavesBlock extends VariousAdditionsModElements.ModElement
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.24f, 0.24f).setLightLevel(s -> 0)
-					.notSolid());
+					.harvestLevel(0).harvestTool(ToolType.HOE).setRequiresTool().notSolid());
 			setRegistryName("magma_palm_leaves");
 		}
 

@@ -24,7 +24,7 @@ public class EterniumBlockBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternium_block")
 	public static final Block block = null;
 	public EterniumBlockBlock(VariousAdditionsModElements instance) {
-		super(instance, 93);
+		super(instance, 32);
 	}
 
 	@Override

@@ -1,7 +1,28 @@
 {
   "variants": {
-    "": {
+    "facing=south": {
       "model": "various_additions:block/magma_palm_log"
+    },
+    "facing=north": {
+      "model": "various_additions:block/magma_palm_log"
+    },
+    "facing=east": {
+      "model": "various_additions:block/magma_palm_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "various_additions:block/magma_palm_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "various_additions:block/magma_palm_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "various_additions:block/magma_palm_log",
+      "x": 90,
+      "y": 90
     }
   }
 }

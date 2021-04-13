@@ -29,7 +29,7 @@ public class AtheriumArmorArmorItem extends VariousAdditionsModElements.ModEleme
 	@ObjectHolder("various_additions:atherium_armor_armor_boots")
 	public static final Item boots = null;
 	public AtheriumArmorArmorItem(VariousAdditionsModElements instance) {
-		super(instance, 85);
+		super(instance, 16);
 	}
 
 	@Override

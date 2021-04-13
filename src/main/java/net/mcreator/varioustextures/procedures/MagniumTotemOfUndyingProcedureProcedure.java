@@ -30,7 +30,7 @@ import java.util.HashMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class MagniumTotemOfUndyingProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public MagniumTotemOfUndyingProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 84);
+		super(instance, 94);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

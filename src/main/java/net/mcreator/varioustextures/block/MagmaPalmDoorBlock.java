@@ -2,6 +2,7 @@
 package net.mcreator.varioustextures.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.state.properties.DoubleBlockHalf;
 import net.minecraft.state.properties.BlockStateProperties;
@@ -26,7 +27,7 @@ public class MagmaPalmDoorBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magma_palm_door")
 	public static final Block block = null;
 	public MagmaPalmDoorBlock(VariousAdditionsModElements instance) {
-		super(instance, 125);
+		super(instance, 55);
 	}
 
 	@Override
@@ -36,7 +37,8 @@ public class MagmaPalmDoorBlock extends VariousAdditionsModElements.ModElement {
 	}
 	public static class CustomBlock extends DoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("magma_palm_door");
 		}
 

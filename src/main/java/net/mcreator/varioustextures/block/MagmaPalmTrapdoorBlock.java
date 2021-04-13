@@ -3,6 +3,7 @@ package net.mcreator.varioustextures.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -31,7 +32,7 @@ public class MagmaPalmTrapdoorBlock extends VariousAdditionsModElements.ModEleme
 	@ObjectHolder("various_additions:magma_palm_trapdoor")
 	public static final Block block = null;
 	public MagmaPalmTrapdoorBlock(VariousAdditionsModElements instance) {
-		super(instance, 126);
+		super(instance, 56);
 	}
 
 	@Override
@@ -47,8 +48,8 @@ public class MagmaPalmTrapdoorBlock extends VariousAdditionsModElements.ModEleme
 	}
 	public static class CustomBlock extends TrapDoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
-					.setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("magma_palm_trapdoor");
 		}
 

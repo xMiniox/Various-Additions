@@ -2,6 +2,7 @@
 package net.mcreator.varioustextures.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -27,7 +28,7 @@ public class MagmaPalmFenceGateBlock extends VariousAdditionsModElements.ModElem
 	@ObjectHolder("various_additions:magma_palm_fence_gate")
 	public static final Block block = null;
 	public MagmaPalmFenceGateBlock(VariousAdditionsModElements instance) {
-		super(instance, 116);
+		super(instance, 54);
 	}
 
 	@Override
@@ -38,7 +39,7 @@ public class MagmaPalmFenceGateBlock extends VariousAdditionsModElements.ModElem
 	public static class CustomBlock extends FenceGateBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.4000000000000004f, 3.6000000000000005f)
-					.setLightLevel(s -> 0));
+					.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("magma_palm_fence_gate");
 		}
 

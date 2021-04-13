@@ -2,6 +2,7 @@
 package net.mcreator.varioustextures.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -27,7 +28,7 @@ public class MagmaPalmStairsBlock extends VariousAdditionsModElements.ModElement
 	@ObjectHolder("various_additions:magma_palm_stairs")
 	public static final Block block = null;
 	public MagmaPalmStairsBlock(VariousAdditionsModElements instance) {
-		super(instance, 113);
+		super(instance, 51);
 	}
 
 	@Override
@@ -39,7 +40,7 @@ public class MagmaPalmStairsBlock extends VariousAdditionsModElements.ModElement
 		public CustomBlock() {
 			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.6000000000000005f, 2.4000000000000004f)).getDefaultState(),
 					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(3.6000000000000005f, 2.4000000000000004f)
-							.setLightLevel(s -> 0));
+							.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("magma_palm_stairs");
 		}
 
