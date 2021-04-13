@@ -1267,6 +1267,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crafting"
+    },
+    {
+      "name": "MagmaPalmLeavesLT",
+      "type": "loottable",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_palm_leaves_lt"
     }
   ],
   "variable_elements": [],
