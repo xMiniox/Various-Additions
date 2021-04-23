@@ -22,7 +22,7 @@
       "value": "entity.blaze.shoot"
     },
     "hasGlow": false,
-    "animation": "none",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 2.0,

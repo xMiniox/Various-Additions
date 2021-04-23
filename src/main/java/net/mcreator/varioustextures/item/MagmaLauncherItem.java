@@ -86,7 +86,7 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.NONE;
+			return UseAction.BOW;
 		}
 
 		@Override

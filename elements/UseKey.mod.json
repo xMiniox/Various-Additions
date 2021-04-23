@@ -1,0 +1,12 @@
+{
+  "_fv": 17,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Use Key",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "RocketOnPlayer"
+    }
+  }
+}

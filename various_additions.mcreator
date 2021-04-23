@@ -1276,6 +1276,63 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_palm_leaves_lt"
+    },
+    {
+      "name": "UseKey",
+      "type": "keybind",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_key"
+    },
+    {
+      "name": "RocketOnPlayer",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket_on_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaserVest",
+      "type": "armor",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laser_vest",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -1283,6 +1340,7 @@
   "language_map": {
     "en_us": {
       "block.various_additions.magma_palm_slab": "MagmaPalm Slab",
+      "item.various_additions.laser_vest_helmet": "Laser Vest Helmet",
       "item.various_additions.eternium_star": "Eternium Star",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_additions.magma_palm_door": "Magma Palm Door",
@@ -1315,10 +1373,13 @@
       "item.various_textures.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
       "block.various_additions.magma_palm_fence_gate": "MagmaPalm Fence Gate",
+      "item.various_additions.laser_vest_leggings": "Laser Vest Leggings",
       "block.various_additions.magma_flower": "Magma Flower",
       "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.molten_blackstone": "Molten Blackstone",
       "item.various_additions.eternal_shard": "Eternal Shard",
+      "item.various_additions.laser_vest_chestplate": "Laser Vest",
+      "item.various_additions.laser_vest_boots": "Laser Vest Boots",
       "item.various_additions.magnium_armor_leggings": "Magnium Leggings",
       "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",
       "item.various_additions.eternium_hoe": "Eternium Hoe",
@@ -1332,6 +1393,7 @@
       "block.various_additions.magma_palm_planks": "MagmaPalm Planks",
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium",
+      "key.various_additions.use_key": "Use Key",
       "item.various_additions.eternium_stick": "Eternium Stick",
       "item.various_additions.eternium": "Eternal Crystal",
       "item.various_additions.magnium_armor_chestplate": "Magnium Chestplate",
