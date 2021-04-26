@@ -1398,6 +1398,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_palm_sapling"
+    },
+    {
+      "name": "TemporaryMagmaWoodCrafting",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temporary_magma_wood_crafting"
+    },
+    {
+      "name": "TemporaryMagmaPalmRecipe2",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temporary_magma_palm_recipe_2"
+    },
+    {
+      "name": "TemporaryMagmaPalmRecipe3",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temporary_magma_palm_recipe_3"
     }
   ],
   "variable_elements": [],

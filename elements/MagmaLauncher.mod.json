@@ -14,15 +14,15 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": ""
+      "value": "Blocks.MAGMA"
     },
     "shootConstantly": false,
-    "usageCount": 100,
+    "usageCount": 0,
     "actionSound": {
       "value": "entity.blaze.shoot"
     },
     "hasGlow": false,
-    "animation": "bow",
+    "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 2.0,

@@ -21,6 +21,7 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
+import net.minecraft.item.ShootableItem;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -35,6 +36,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.Minecraft;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
@@ -68,7 +70,7 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(MagniumItemGroup.tab).maxDamage(100));
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(1));
 			setRegistryName("magma_launcher");
 		}
 
@@ -86,7 +88,7 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BOW;
+			return UseAction.NONE;
 		}
 
 		@Override
@@ -102,9 +104,36 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 2f, 5, 2);
-					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
-					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
+					ItemStack stack = ShootableItem.getHeldAmmo(entity, e -> e.getItem() == new ItemStack(Blocks.MAGMA_BLOCK, (int) (1)).getItem());
+					if (stack == ItemStack.EMPTY) {
+						for (int i = 0; i < entity.inventory.mainInventory.size(); i++) {
+							ItemStack teststack = entity.inventory.mainInventory.get(i);
+							if (teststack != null && teststack.getItem() == new ItemStack(Blocks.MAGMA_BLOCK, (int) (1)).getItem()) {
+								stack = teststack;
+								break;
+							}
+						}
+					}
+					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 2f, 5, 2);
+						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
+						if (entity.abilities.isCreativeMode) {
+							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
+						} else {
+							if (new ItemStack(Blocks.MAGMA_BLOCK, (int) (1)).isDamageable()) {
+								if (stack.attemptDamageItem(1, random, entity)) {
+									stack.shrink(1);
+									stack.setDamage(0);
+									if (stack.isEmpty())
+										entity.inventory.deleteStack(stack);
+								}
+							} else {
+								stack.shrink(1);
+								if (stack.isEmpty())
+									entity.inventory.deleteStack(stack);
+							}
+						}
+					}
 				}
 			}
 		}
@@ -141,7 +170,7 @@ public class MagmaLauncherItem extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		protected ItemStack getArrowStack() {
-			return null;
+			return new ItemStack(Blocks.MAGMA_BLOCK, (int) (1));
 		}
 
 		@Override

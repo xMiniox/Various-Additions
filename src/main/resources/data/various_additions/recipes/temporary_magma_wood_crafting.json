@@ -1,0 +1,42 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_log"
+    },
+    "1": {
+      "item": "minecraft:oak_log"
+    },
+    "2": {
+      "item": "minecraft:oak_log"
+    },
+    "3": {
+      "item": "minecraft:oak_log"
+    },
+    "4": {
+      "item": "minecraft:magma_block"
+    },
+    "5": {
+      "item": "minecraft:oak_log"
+    },
+    "6": {
+      "item": "minecraft:oak_log"
+    },
+    "7": {
+      "item": "minecraft:oak_log"
+    },
+    "8": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "various_additions:magma_palm_log",
+    "count": 8
+  }
+}

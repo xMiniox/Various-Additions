@@ -1,0 +1,19 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:magnium_catalyst"
+    },
+    "1": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "various_additions:magma_palm_planks",
+    "count": 1
+  }
+}
