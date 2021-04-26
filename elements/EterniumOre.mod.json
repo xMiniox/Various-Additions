@@ -57,7 +57,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "ICE",
     "creativePickItem": {
       "value": ""
     },
@@ -104,24 +104,14 @@
     "spawnWorldTypes": [
       "End"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "end_highlands"
-      },
-      {
-        "value": "end_barrens"
-      },
-      {
-        "value": "end_midlands"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.END_STONE"
       }
     ],
-    "frequencyPerChunks": 6,
-    "frequencyOnChunk": 5,
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 6,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 200
   }

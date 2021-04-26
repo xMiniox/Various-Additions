@@ -28,6 +28,7 @@ import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
@@ -62,6 +63,11 @@ public class EterniumOreBlock extends VariousAdditionsModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(12f, 15f).setLightLevel(s -> 0).harvestLevel(8)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("eternium_ore");
+		}
+
+		@Override
+		public MaterialColor getMaterialColor() {
+			return MaterialColor.ICE;
 		}
 
 		@Override
@@ -107,23 +113,14 @@ public class EterniumOreBlock extends VariousAdditionsModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(200)
-					.square().func_242731_b(6);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(200)
+					.square().func_242731_b(8);
 			event.getRegistry().register(feature.setRegistryName("eternium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("various_additions:eternium_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		boolean biomeCriteria = false;
-		if (new ResourceLocation("end_highlands").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("end_barrens").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("end_midlands").equals(event.getName()))
-			biomeCriteria = true;
-		if (!biomeCriteria)
-			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }
