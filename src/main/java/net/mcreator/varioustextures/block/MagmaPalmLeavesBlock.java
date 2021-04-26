@@ -7,8 +7,6 @@ import net.minecraftforge.common.ToolType;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -19,9 +17,6 @@ import net.minecraft.block.Block;
 
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
-
-import java.util.List;
-import java.util.Collections;
 
 @VariousAdditionsModElements.ModElement.Tag
 public class MagmaPalmLeavesBlock extends VariousAdditionsModElements.ModElement {
@@ -46,14 +41,6 @@ public class MagmaPalmLeavesBlock extends VariousAdditionsModElements.ModElement
 		@Override
 		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
 			return 36;
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }

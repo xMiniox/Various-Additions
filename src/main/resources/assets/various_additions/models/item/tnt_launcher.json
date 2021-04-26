@@ -1,0 +1,7 @@
+{
+  "parent": "various_additions:custom/tnt_launcher",
+  "textures": {
+    "0": "various_additions:blocks/tnt_launcher",
+    "particle": "various_additions:items/tnt_side"
+  }
+}

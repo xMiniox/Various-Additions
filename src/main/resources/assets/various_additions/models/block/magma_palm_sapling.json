@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "various_additions:blocks/acacia_sapling",
+    "particle": "various_additions:blocks/acacia_sapling"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:magnium_ingot"
+    },
+    "2": {
+      "item": "various_additions:magnium_ingot"
+    },
+    "3": {
+      "item": "minecraft:obsidian"
+    },
+    "4": {
+      "item": "various_additions:magnium_catalyst"
+    },
+    "5": {
+      "item": "minecraft:obsidian"
+    },
+    "7": {
+      "item": "various_additions:molten_blackstone"
+    }
+  },
+  "result": {
+    "item": "various_additions:laser_vest_chestplate",
+    "count": 1
+  }
+}

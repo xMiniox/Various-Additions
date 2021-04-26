@@ -3,8 +3,8 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 3.0,
-    "cookingTime": 400,
+    "xpReward": 10.0,
+    "cookingTime": 600,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
