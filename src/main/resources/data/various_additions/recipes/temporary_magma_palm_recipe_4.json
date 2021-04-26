@@ -6,11 +6,11 @@
       "item": "various_additions:magnium_catalyst"
     },
     {
-      "tag": "minecraft:planks"
+      "item": "minecraft:oak_leaves"
     }
   ],
   "result": {
-    "item": "various_additions:magma_palm_planks",
+    "item": "various_additions:magma_palm_leaves",
     "count": 1
   }
 }
