@@ -1443,6 +1443,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "amogus"
+    },
+    {
+      "name": "EterniumOreLT",
+      "type": "loottable",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternium_ore_lt"
     }
   ],
   "variable_elements": [],
