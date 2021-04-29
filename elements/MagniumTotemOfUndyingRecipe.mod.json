@@ -13,7 +13,7 @@
         "value": "CUSTOM:StarFragment"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.SKULL#1"
       },
       {
         "value": "CUSTOM:StarFragment"
@@ -22,7 +22,7 @@
         "value": "CUSTOM:MagniumIngot"
       },
       {
-        "value": "Blocks.NETHERITE_BLOCK"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
         "value": "CUSTOM:MagniumIngot"

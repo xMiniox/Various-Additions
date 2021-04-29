@@ -34,7 +34,7 @@
     ],
     "name": "Eternal Shard Ore",
     "specialInfo": [],
-    "hardness": 12.0,
+    "hardness": 8.0,
     "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,

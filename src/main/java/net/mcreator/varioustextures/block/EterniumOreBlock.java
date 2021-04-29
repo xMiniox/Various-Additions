@@ -60,7 +60,7 @@ public class EterniumOreBlock extends VariousAdditionsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(12f, 15f).setLightLevel(s -> 0).harvestLevel(4)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(8f, 15f).setLightLevel(s -> 0).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("eternium_ore");
 		}
