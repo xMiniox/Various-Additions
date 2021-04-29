@@ -32,7 +32,7 @@ public class MagniumPickaxeItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 3.5f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {

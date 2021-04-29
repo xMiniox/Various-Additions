@@ -10,10 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:EterniumStar"
+        "value": "CUSTOM:Eternium"
       },
       {
-        "value": "CUSTOM:Eternium"
+        "value": "CUSTOM:EterniumStar"
       },
       {
         "value": ""

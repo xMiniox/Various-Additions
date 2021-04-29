@@ -60,7 +60,7 @@ public class EterniumOreBlock extends VariousAdditionsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(12f, 15f).setLightLevel(s -> 0).harvestLevel(8)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(12f, 15f).setLightLevel(s -> 0).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("eternium_ore");
 		}
@@ -75,7 +75,7 @@ public class EterniumOreBlock extends VariousAdditionsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(EternalShardItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(EternalShardItem.block, (int) (2)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

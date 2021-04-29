@@ -32,7 +32,7 @@ public class MagniumAxeItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 7.5f;
+				return 8.5f;
 			}
 
 			public int getHarvestLevel() {

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "atherium_fragment",
+    "texture": "atherium_shard",
     "customModelName": "Normal",
-    "name": "Atherium Fragment",
+    "name": "Atherium Shard",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Magnium"

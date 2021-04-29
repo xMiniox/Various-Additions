@@ -32,7 +32,7 @@ public class MagniumHoeItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {

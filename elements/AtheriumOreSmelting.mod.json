@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.QUARTZ"
       },
       {
         "value": "CUSTOM:AtheriumFragment"
       },
       {
-        "value": ""
+        "value": "Items.QUARTZ"
       },
       {
         "value": "CUSTOM:AtheriumFragment"
@@ -28,13 +28,13 @@
         "value": "CUSTOM:AtheriumFragment"
       },
       {
-        "value": ""
+        "value": "Items.QUARTZ"
       },
       {
         "value": "CUSTOM:AtheriumFragment"
       },
       {
-        "value": ""
+        "value": "Items.QUARTZ"
       }
     ],
     "recipeReturnStack": {

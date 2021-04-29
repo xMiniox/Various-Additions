@@ -37,12 +37,12 @@ public class MagniumArmorItem extends VariousAdditionsModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 37;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 40;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 6, 8, 3}[slot.getIndex()];
+				return new int[]{4, 7, 9, 4}[slot.getIndex()];
 			}
 
 			@Override

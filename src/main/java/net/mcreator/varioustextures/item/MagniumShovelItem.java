@@ -32,7 +32,7 @@ public class MagniumShovelItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 5f;
 			}
 
 			public int getHarvestLevel() {

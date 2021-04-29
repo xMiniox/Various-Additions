@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "atherium",
+    "texture": "atherium_crystal",
     "customModelName": "Normal",
-    "name": "Atherium",
+    "name": "Atherium Crystal",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Magnium"

@@ -2,13 +2,19 @@
   "group": "various_additions",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "012",
     "345",
-    " 7 "
+    "678"
   ],
   "key": {
+    "0": {
+      "item": "minecraft:quartz"
+    },
     "1": {
       "item": "various_additions:atherium_fragment"
+    },
+    "2": {
+      "item": "minecraft:quartz"
     },
     "3": {
       "item": "various_additions:atherium_fragment"
@@ -19,8 +25,14 @@
     "5": {
       "item": "various_additions:atherium_fragment"
     },
+    "6": {
+      "item": "minecraft:quartz"
+    },
     "7": {
       "item": "various_additions:atherium_fragment"
+    },
+    "8": {
+      "item": "minecraft:quartz"
     }
   },
   "result": {

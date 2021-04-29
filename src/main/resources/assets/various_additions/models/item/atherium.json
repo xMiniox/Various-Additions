@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "various_additions:items/atherium"
+    "layer0": "various_additions:items/atherium_crystal"
   }
 }
