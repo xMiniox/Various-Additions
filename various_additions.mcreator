@@ -1452,6 +1452,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "eternium_ore_lt"
+    },
+    {
+      "name": "WitherSkeletonSkullRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_skeleton_skull_recipe"
+    },
+    {
+      "name": "GhastTearRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ghast_tear_recipe"
+    },
+    {
+      "name": "ElytraRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elytra_recipe"
     }
   ],
   "variable_elements": [],

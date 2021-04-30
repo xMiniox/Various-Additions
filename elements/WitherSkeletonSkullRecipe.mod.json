@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BLACKSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BLACKSTONE"
+      },
+      {
+        "value": "Blocks.SKULL#0"
+      },
+      {
+        "value": "Blocks.BLACKSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BLACKSTONE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.SKULL#1"
+    },
+    "name": "wither_skeleton_skull_recipe",
+    "namespace": "mod"
+  }
+}
