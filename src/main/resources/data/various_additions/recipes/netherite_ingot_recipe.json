@@ -1,0 +1,42 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:obsidian"
+    },
+    "1": {
+      "item": "minecraft:coal_block"
+    },
+    "2": {
+      "item": "minecraft:obsidian"
+    },
+    "3": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    },
+    "5": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "6": {
+      "item": "minecraft:obsidian"
+    },
+    "7": {
+      "item": "minecraft:coal_block"
+    },
+    "8": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherite_ingot",
+    "count": 1
+  }
+}

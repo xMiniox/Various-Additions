@@ -1,0 +1,10 @@
+{
+  "_fv": 17,
+  "_type": "loottable",
+  "definition": {
+    "type": "Generic",
+    "pools": [],
+    "name": "blocks/soul_soil_atherium_ore",
+    "namespace": "mod"
+  }
+}

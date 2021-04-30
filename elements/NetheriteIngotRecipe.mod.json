@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:MagniumIngot"
+        "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:MagniumIngot"
+        "value": "Blocks.COAL_BLOCK"
       },
       {
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "CUSTOM:MagniumCatalyst"
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
       },
       {
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": ""
+        "value": "Blocks.COAL_BLOCK"
       },
       {
-        "value": "CUSTOM:MoltenBlackstone"
-      },
-      {
-        "value": ""
+        "value": "Blocks.OBSIDIAN"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LaserVest.body"
+      "value": "Items.NETHERITE_INGOT"
     },
-    "name": "laser_vest_recipe",
+    "name": "netherite_ingot_recipe",
     "namespace": "mod"
   }
 }

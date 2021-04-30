@@ -3,10 +3,7 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "R",
-    "keyBindingName": "Use Key",
-    "keyBindingCategoryKey": "misc",
-    "onKeyPressed": {
-      "name": "RocketOnPlayer"
-    }
+    "keyBindingName": "Various Additions Use Key",
+    "keyBindingCategoryKey": "misc"
   }
 }

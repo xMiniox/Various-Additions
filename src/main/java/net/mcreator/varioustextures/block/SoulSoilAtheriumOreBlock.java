@@ -59,7 +59,7 @@ public class SoulSoilAtheriumOreBlock extends VariousAdditionsModElements.ModEle
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.SOUL_SOIL).hardnessAndResistance(3f, 10f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.SAND).sound(SoundType.SOUL_SOIL).hardnessAndResistance(3f, 10f).setLightLevel(s -> 0)
 					.harvestLevel(1).harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("soul_soil_atherium_ore");
 		}
