@@ -2,12 +2,15 @@
   "group": "various_additions",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 2",
+    "012",
     "345"
   ],
   "key": {
     "0": {
       "item": "various_additions:eternium_star"
+    },
+    "1": {
+      "item": "various_additions:eternium"
     },
     "2": {
       "item": "various_additions:eternium_star"

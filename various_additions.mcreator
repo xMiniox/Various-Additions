@@ -1476,6 +1476,39 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soul_soil_atherium_ore_lt"
+    },
+    {
+      "name": "Launch",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "launch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
