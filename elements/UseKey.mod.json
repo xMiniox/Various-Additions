@@ -4,6 +4,9 @@
   "definition": {
     "triggerKey": "R",
     "keyBindingName": "Various Additions Use Key",
-    "keyBindingCategoryKey": "misc"
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "MissileSwarm"
+    }
   }
 }

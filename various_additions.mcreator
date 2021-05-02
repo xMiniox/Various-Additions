@@ -1518,6 +1518,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "missiles"
+    },
+    {
+      "name": "MissileSwarm",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "missile_swarm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
