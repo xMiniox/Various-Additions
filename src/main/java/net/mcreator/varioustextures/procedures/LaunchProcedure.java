@@ -12,8 +12,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.particles.ParticleTypes;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.varioustextures.item.MissilesItem;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 import net.mcreator.varioustextures.VariousAdditionsMod;
 
@@ -56,20 +60,28 @@ public class LaunchProcedure extends VariousAdditionsModElements.ModElement {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((entity.isAlive())) {
+		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() == new ItemStack(MissilesItem.block, (int) (1)).getItem())
+				|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
+						.getItem() == new ItemStack(MissilesItem.block, (int) (1)).getItem()))) {
+			if (entity instanceof PlayerEntity)
+				((PlayerEntity) entity).getCooldownTracker().setCooldown((new ItemStack(MissilesItem.block, (int) (1))).getItem(), (int) 600);
 			entity.setNoGravity((true));
 			entity.setMotion(0, 2, 0);
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.firework_rocket.launch")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1);
 			} else {
 				((World) world).playSound(x, y, z,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.firework_rocket.launch")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
 			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 100, 3, 3, 3, 0.1);
+				((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 100, 1, 1, 1, 0.1);
+			}
+			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.CLOUD, x, y, z, (int) 200, 3, 3, 3, 0.1);
 			}
 			new Object() {
 				private int ticks = 0;
@@ -92,7 +104,7 @@ public class LaunchProcedure extends VariousAdditionsModElements.ModElement {
 
 				private void run() {
 					if (world instanceof ServerWorld) {
-						((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 3, 3, 3, 0.1);
+						((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 1, 1, 1, 0.1);
 					}
 					new Object() {
 						private int ticks = 0;
@@ -115,7 +127,7 @@ public class LaunchProcedure extends VariousAdditionsModElements.ModElement {
 
 						private void run() {
 							if (world instanceof ServerWorld) {
-								((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 3, 3, 3, 0.1);
+								((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 1, 1, 1, 0.1);
 							}
 							new Object() {
 								private int ticks = 0;
@@ -138,7 +150,7 @@ public class LaunchProcedure extends VariousAdditionsModElements.ModElement {
 
 								private void run() {
 									if (world instanceof ServerWorld) {
-										((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 3, 3, 3, 0.1);
+										((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 1, 1, 1, 0.1);
 									}
 									new Object() {
 										private int ticks = 0;
@@ -161,7 +173,7 @@ public class LaunchProcedure extends VariousAdditionsModElements.ModElement {
 
 										private void run() {
 											if (world instanceof ServerWorld) {
-												((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 3, 3, 3, 0.1);
+												((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 20, 1, 1, 1, 0.1);
 											}
 											MinecraftForge.EVENT_BUS.unregister(this);
 										}
@@ -198,7 +210,7 @@ public class LaunchProcedure extends VariousAdditionsModElements.ModElement {
 					entity.setNoGravity((false));
 					MinecraftForge.EVENT_BUS.unregister(this);
 				}
-			}.start(world, (int) 20);
+			}.start(world, (int) 30);
 		}
 	}
 }

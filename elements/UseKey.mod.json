@@ -4,9 +4,6 @@
   "definition": {
     "triggerKey": "R",
     "keyBindingName": "Various Additions Use Key",
-    "keyBindingCategoryKey": "misc",
-    "onKeyPressed": {
-      "name": "Launch"
-    }
+    "keyBindingCategoryKey": "misc"
   }
 }
