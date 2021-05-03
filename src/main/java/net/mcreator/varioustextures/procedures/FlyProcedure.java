@@ -11,7 +11,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.varioustextures.item.AtheriumArmorArmorItem;
+import net.mcreator.varioustextures.item.CreativeWingsItem;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 import net.mcreator.varioustextures.VariousAdditionsMod;
 
@@ -34,8 +34,8 @@ public class FlyProcedure extends VariousAdditionsModElements.ModElement {
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof PlayerEntity) {
 			((PlayerEntity) entity).abilities.allowFlying = (((entity instanceof LivingEntity)
-					? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1))
-					: ItemStack.EMPTY).getItem() == new ItemStack(AtheriumArmorArmorItem.legs, (int) (1)).getItem());
+					? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
+					: ItemStack.EMPTY).getItem() == new ItemStack(CreativeWingsItem.body, (int) (1)).getItem());
 			((PlayerEntity) entity).sendPlayerAbilities();
 		}
 	}

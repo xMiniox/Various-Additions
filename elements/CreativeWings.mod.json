@@ -19,7 +19,9 @@
     "leggingsName": "Creative Wings Leggings",
     "bootsName": "Creative Wings Boots",
     "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
+    "bodySpecialInfo": [
+      "Gives creative flight when worn."
+    ],
     "leggingsSpecialInfo": [],
     "bootsSpecialInfo": [],
     "helmetModelName": "Default",

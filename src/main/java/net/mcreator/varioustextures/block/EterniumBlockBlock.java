@@ -35,7 +35,7 @@ public class EterniumBlockBlock extends VariousAdditionsModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.NETHERITE).hardnessAndResistance(5f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(8).harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("eternium_block");
 		}
 
