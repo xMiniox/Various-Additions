@@ -48,7 +48,7 @@ public class MissilesItem extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public int getUseDuration(ItemStack itemstack) {
-			return 0;
+			return -1;
 		}
 
 		@Override

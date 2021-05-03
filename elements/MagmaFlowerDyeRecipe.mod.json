@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Items.NETHERITE_SCRAP"
+        "value": ""
       },
       {
-        "value": "Items.BLAZE_ROD"
+        "value": "CUSTOM:MagmaFlower"
       },
       {
-        "value": "Items.NETHERITE_SCRAP"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.NETHERITE_INGOT"
+      "value": "Items.DYE#14"
     },
-    "name": "netherite_ingot_recipe",
+    "name": "magma_flower_dye_recipe",
     "namespace": "mod"
   }
 }

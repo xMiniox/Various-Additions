@@ -24,7 +24,7 @@ public class MagniumSwordItem extends VariousAdditionsModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2048;
 			}
 
 			public float getEfficiency() {
