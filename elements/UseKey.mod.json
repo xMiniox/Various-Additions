@@ -3,10 +3,7 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "R",
-    "keyBindingName": "Various Additions Use Key",
-    "keyBindingCategoryKey": "misc",
-    "onKeyPressed": {
-      "name": "MissileSwarm"
-    }
+    "keyBindingName": "Various Additions 'Use' Key",
+    "keyBindingCategoryKey": "misc"
   }
 }

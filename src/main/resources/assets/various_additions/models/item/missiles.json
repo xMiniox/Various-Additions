@@ -1,7 +1,0 @@
-{
-  "parent": "various_additions:custom/missiles_fp_pov",
-  "textures": {
-    "0": "various_additions:blocks/missilesfp",
-    "particle": "various_additions:items/missilesitem"
-  }
-}
