@@ -18,7 +18,10 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.varioustextures.item.MagniumCatalystItem;
+import net.mcreator.varioustextures.item.JumpKitItem;
+import net.mcreator.varioustextures.item.HoverCoreItem;
+import net.mcreator.varioustextures.item.GlideCoreItem;
+import net.mcreator.varioustextures.item.FlightCoreItem;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 import net.mcreator.varioustextures.VariousAdditionsMod;
 
@@ -62,26 +65,26 @@ public class LaunchProcedure extends VariousAdditionsModElements.ModElement {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if ((((((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-				.getItem() == new ItemStack(MagniumCatalystItem.block, (int) (1)).getItem())
+				.getItem() == new ItemStack(GlideCoreItem.block, (int) (1)).getItem())
 				|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
-						.getItem() == new ItemStack(MagniumCatalystItem.block, (int) (1)).getItem()))
+						.getItem() == new ItemStack(GlideCoreItem.block, (int) (1)).getItem()))
 				|| ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-						.getItem() == new ItemStack(MagniumCatalystItem.block, (int) (1)).getItem())
+						.getItem() == new ItemStack(HoverCoreItem.block, (int) (1)).getItem())
 						|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
-								.getItem() == new ItemStack(MagniumCatalystItem.block, (int) (1)).getItem())))
+								.getItem() == new ItemStack(HoverCoreItem.block, (int) (1)).getItem())))
 				|| ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-						.getItem() == new ItemStack(MagniumCatalystItem.block, (int) (1)).getItem())
+						.getItem() == new ItemStack(FlightCoreItem.block, (int) (1)).getItem())
 						|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
-								.getItem() == new ItemStack(MagniumCatalystItem.block, (int) (1)).getItem())))
+								.getItem() == new ItemStack(FlightCoreItem.block, (int) (1)).getItem())))
 				&& (((entity instanceof LivingEntity)
-						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
-						: ItemStack.EMPTY).getItem() == new ItemStack(MagniumCatalystItem.block, (int) (1)).getItem()))) {
+						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
+						: ItemStack.EMPTY).getItem() == new ItemStack(JumpKitItem.body, (int) (1)).getItem()))) {
 			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).getCooldownTracker().setCooldown((new ItemStack(MagniumCatalystItem.block, (int) (1))).getItem(), (int) 600);
+				((PlayerEntity) entity).getCooldownTracker().setCooldown((new ItemStack(GlideCoreItem.block, (int) (1))).getItem(), (int) 600);
 			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).getCooldownTracker().setCooldown((new ItemStack(MagniumCatalystItem.block, (int) (1))).getItem(), (int) 600);
+				((PlayerEntity) entity).getCooldownTracker().setCooldown((new ItemStack(HoverCoreItem.block, (int) (1))).getItem(), (int) 600);
 			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).getCooldownTracker().setCooldown((new ItemStack(MagniumCatalystItem.block, (int) (1))).getItem(), (int) 600);
+				((PlayerEntity) entity).getCooldownTracker().setCooldown((new ItemStack(FlightCoreItem.block, (int) (1))).getItem(), (int) 600);
 			entity.setNoGravity((true));
 			entity.setMotion(0, 2, 0);
 			if (world instanceof World && !world.isRemote()) {

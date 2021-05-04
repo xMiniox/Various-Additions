@@ -1278,15 +1278,6 @@
       "registry_name": "magma_palm_leaves_lt"
     },
     {
-      "name": "UseKey",
-      "type": "keybind",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "use_key"
-    },
-    {
       "name": "TNTLauncher",
       "type": "gun",
       "sortid": 135,
@@ -1518,6 +1509,112 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_flower_dye_recipe"
+    },
+    {
+      "name": "GlideCore",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glide_core"
+    },
+    {
+      "name": "HoverCore",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hover_core"
+    },
+    {
+      "name": "FlightCore",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flight_core"
+    },
+    {
+      "name": "JumpKit",
+      "type": "armor",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jump_kit",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "UseKey",
+      "type": "keybind",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_key"
+    },
+    {
+      "name": "HoverCoreProcedure",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hover_core_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlideCoreProcedure",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glide_core_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlightCoreProcedure",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flight_core_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1525,6 +1622,7 @@
   "language_map": {
     "en_us": {
       "block.various_additions.magma_palm_slab": "Magma Palm Slab",
+      "item.various_additions.jump_kit_helmet": "Jump Kit Helmet",
       "item.various_additions.eternium_star": "Eternium Star",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_additions.magma_palm_door": "Magma Palm Door",
@@ -1539,6 +1637,7 @@
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
+      "item.various_additions.hover_core": "Hover Core",
       "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "item.various_additions.eternium_armor_chestplate": "Eternium Chestplate",
       "item.various_textures.magnium_shovel": "Magnium Shovel",
@@ -1547,11 +1646,14 @@
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
       "block.various_additions.atherium_block": "Block of Atherium",
       "item.various_additions.atherium_armor_armor_boots": "Atherium Boots",
+      "item.various_additions.jump_kit_chestplate": "Jump Kit",
       "block.various_additions.magnium_block": "Block of Magnium",
+      "item.various_additions.flight_core": "Flight Core",
       "block.various_additions.magma_palm_leaves": "Magma Palm Leaves",
       "item.various_additions.star_apple": "Star Apple",
       "item.various_additions.eternium_pickaxe": "Eternium Pickaxe",
       "block.various_additions.magma_palm_wood": "Magma Palm Wood",
+      "item.various_additions.jump_kit_leggings": "Jump Kit",
       "item.various_additions.eternium_axe": "Eternium Axe",
       "item.various_additions.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_sword": "Magnium Sword",
@@ -1566,11 +1668,13 @@
       "item.various_additions.eternium_hoe": "Eternium Hoe",
       "item.various_additions.eternium_armor_leggings": "Eternium Leggings",
       "block.various_additions.magma_palm_sapling": "Magma Palm Sapling",
+      "item.various_additions.glide_core": "Glide Core",
       "item.various_additions.atherium_fragment": "Atherium Shard",
       "block.various_additions.snad": "Snad",
       "block.various_additions.magma_palm_stairs": "Magma Palm Stairs",
       "item.various_textures.magnium_hoe": "Magnium Hoe",
       "block.various_additions.magma_palm_trapdoor": "Magma Palm Trapdoor",
+      "item.various_additions.jump_kit_boots": "Jump Kit Boots",
       "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "block.various_additions.magma_palm_planks": "Magma Palm Planks",
       "item.various_additions.magnium_axe": "Magnium Axe",
@@ -1621,11 +1725,12 @@
     "modName": "Various Additions",
     "version": "0.2",
     "description": "A mod with some random features we wanted to add",
-    "author": "Various Additions Team",
+    "author": "xMinio and NOveXoR",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "mod_logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

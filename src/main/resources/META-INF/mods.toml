@@ -8,7 +8,8 @@ version="0.2"
 displayName="Various Additions"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Various Additions Team"
+logoFile="logo.png"
+authors="xMinio and NOveXoR"
 description='''
 A mod with some random features we wanted to add
 '''

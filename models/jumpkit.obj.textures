@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_1": "jumpkitarmortexture"
+      },
+      "name": "default"
+    }
+  }
+}
