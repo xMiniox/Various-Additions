@@ -4,15 +4,19 @@ package net.mcreator.varioustextures.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
+import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.varioustextures.procedures.HoverCoreProcedureProcedure;
+import net.mcreator.varioustextures.procedures.GlideCoreProcedureProcedure;
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 
@@ -24,7 +28,7 @@ public class GlideCoreItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:glide_core")
 	public static final Item block = null;
 	public GlideCoreItem(VariousAdditionsModElements instance) {
-		super(instance, 160);
+		super(instance, 61);
 	}
 
 	@Override
@@ -62,10 +66,28 @@ public class GlideCoreItem extends VariousAdditionsModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("world", world);
-				HoverCoreProcedureProcedure.executeProcedure($_dependencies);
+				GlideCoreProcedureProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
+		}
+
+		@Override
+		public ActionResultType onItemUseFirst(ItemStack stack, ItemUseContext context) {
+			ActionResultType retval = super.onItemUseFirst(stack, context);
+			World world = context.getWorld();
+			BlockPos pos = context.getPos();
+			PlayerEntity entity = context.getPlayer();
+			Direction direction = context.getFace();
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			ItemStack itemstack = context.getItem();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				GlideCoreProcedureProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 	}
 }

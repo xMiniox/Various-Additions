@@ -13,7 +13,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class StarAppleFunctionProcedure extends VariousAdditionsModElements.ModElement {
 	public StarAppleFunctionProcedure(VariousAdditionsModElements instance) {
-		super(instance, 77);
+		super(instance, 84);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

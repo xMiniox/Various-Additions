@@ -42,7 +42,7 @@ public class JumpKitItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:jump_kit_boots")
 	public static final Item boots = null;
 	public JumpKitItem(VariousAdditionsModElements instance) {
-		super(instance, 163);
+		super(instance, 60);
 	}
 
 	@Override

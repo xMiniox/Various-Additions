@@ -17,7 +17,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class GlideCoreProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public GlideCoreProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 166);
+		super(instance, 158);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -35,7 +35,7 @@ public class GlideCoreProcedureProcedure extends VariousAdditionsModElements.Mod
 						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
 						: ItemStack.EMPTY).getItem() == new ItemStack(JumpKitItem.body, (int) (1)).getItem()))) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) 1, (int) 1, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) 5, (int) 1, (false), (false)));
 		}
 	}
 }

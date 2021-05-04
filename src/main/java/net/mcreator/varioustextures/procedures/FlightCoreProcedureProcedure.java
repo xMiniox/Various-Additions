@@ -16,7 +16,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class FlightCoreProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public FlightCoreProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 167);
+		super(instance, 159);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

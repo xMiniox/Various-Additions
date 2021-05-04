@@ -24,10 +24,18 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Kinda SUS"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "AMOGUSProcedure"
+    },
+    "onRightClickedOnBlock": {
+      "name": "AMOGUSProcedure"
+    }
   }
 }

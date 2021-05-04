@@ -49,7 +49,7 @@ public class TNTLauncherItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:entitybullettnt_launcher")
 	public static final EntityType arrow = null;
 	public TNTLauncherItem(VariousAdditionsModElements instance) {
-		super(instance, 135);
+		super(instance, 58);
 	}
 
 	@Override

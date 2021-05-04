@@ -32,7 +32,7 @@ public class MagmaPalmTrapdoorBlock extends VariousAdditionsModElements.ModEleme
 	@ObjectHolder("various_additions:magma_palm_trapdoor")
 	public static final Block block = null;
 	public MagmaPalmTrapdoorBlock(VariousAdditionsModElements instance) {
-		super(instance, 56);
+		super(instance, 57);
 	}
 
 	@Override
