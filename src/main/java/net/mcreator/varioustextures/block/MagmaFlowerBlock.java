@@ -132,7 +132,7 @@ public class MagmaFlowerBlock extends VariousAdditionsModElements.ModElement {
 		@Override
 		public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			Block block = state.getBlock();
-			return (block == Blocks.MAGMA_BLOCK.getDefaultState().getBlock() || block == MoltenBlackstoneBlock.block.getDefaultState().getBlock());
+			return (block == Blocks.MAGMA_BLOCK.getDefaultState().getBlock());
 		}
 
 		@Override

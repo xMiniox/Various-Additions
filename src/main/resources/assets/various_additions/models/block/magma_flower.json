@@ -1,7 +1,7 @@
 {
   "parent": "various_additions:custom/magma_flower_final",
   "textures": {
-    "all": "various_additions:blocks/magmaflowerlogo",
+    "all": "various_additions:blocks/acacia_sapling",
     "particle": "various_additions:blocks/magma",
     "0": "various_additions:blocks/flowertxt"
   }

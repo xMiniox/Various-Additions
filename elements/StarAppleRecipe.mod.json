@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:StarFragment"
+        "value": ""
       },
       {
         "value": "CUSTOM:StarFragment"
       },
       {
-        "value": "CUSTOM:StarFragment"
+        "value": ""
       },
       {
         "value": "CUSTOM:StarFragment"
@@ -28,13 +28,13 @@
         "value": "CUSTOM:StarFragment"
       },
       {
-        "value": "CUSTOM:StarFragment"
+        "value": ""
       },
       {
         "value": "CUSTOM:StarFragment"
       },
       {
-        "value": "CUSTOM:StarFragment"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

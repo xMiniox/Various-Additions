@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 2,
-    "texture": "magmaflowerlogo",
+    "texture": "acacia_sapling",
     "textureBottom": "",
     "customModelName": "magma_flower_final:default",
     "itemTexture": "magmaflowerlogo",
@@ -62,9 +62,6 @@
     "canBePlacedOn": [
       {
         "value": "Blocks.MAGMA"
-      },
-      {
-        "value": "CUSTOM:MoltenBlackstone"
       }
     ],
     "frequencyOnChunks": 8,

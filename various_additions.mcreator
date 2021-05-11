@@ -197,24 +197,6 @@
       "registry_name": "magnium_armor_boots_recipe"
     },
     {
-      "name": "MoltenBlackstone",
-      "type": "block",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "molten_blackstone"
-    },
-    {
-      "name": "MoltenBlackstoneRecipe",
-      "type": "recipe",
-      "sortid": 76,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "molten_blackstone_recipe"
-    },
-    {
       "name": "MagniumScrap",
       "type": "item",
       "sortid": 8,
@@ -1674,7 +1656,6 @@
       "block.various_additions.magma_palm_fence_gate": "Magma Palm Fence Gate",
       "block.various_additions.magma_flower": "Magma Flower",
       "block.various_additions.star_lamp": "Star Lamp",
-      "block.various_additions.molten_blackstone": "Molten Blackstone",
       "item.various_additions.eternal_shard": "Eternal Shard",
       "item.various_additions.magnium_armor_leggings": "Magnium Leggings",
       "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",

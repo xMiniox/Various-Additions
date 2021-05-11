@@ -2,18 +2,12 @@
   "group": "various_additions",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    " 1 ",
     "345",
-    "678"
+    " 7 "
   ],
   "key": {
-    "0": {
-      "item": "various_additions:star_fragment"
-    },
     "1": {
-      "item": "various_additions:star_fragment"
-    },
-    "2": {
       "item": "various_additions:star_fragment"
     },
     "3": {
@@ -25,13 +19,7 @@
     "5": {
       "item": "various_additions:star_fragment"
     },
-    "6": {
-      "item": "various_additions:star_fragment"
-    },
     "7": {
-      "item": "various_additions:star_fragment"
-    },
-    "8": {
       "item": "various_additions:star_fragment"
     }
   },
