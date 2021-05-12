@@ -1,0 +1,29 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cactus"
+    },
+    "1": {
+      "item": "minecraft:cactus"
+    },
+    "2": {
+      "item": "minecraft:cactus"
+    },
+    "3": {
+      "item": "minecraft:cactus"
+    },
+    "5": {
+      "item": "minecraft:cactus"
+    }
+  },
+  "result": {
+    "item": "various_additions:cactus_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cactus"
+    },
+    "2": {
+      "item": "minecraft:cactus"
+    },
+    "3": {
+      "item": "minecraft:cactus"
+    },
+    "4": {
+      "item": "minecraft:cactus"
+    },
+    "5": {
+      "item": "minecraft:cactus"
+    },
+    "6": {
+      "item": "minecraft:cactus"
+    },
+    "7": {
+      "item": "minecraft:cactus"
+    },
+    "8": {
+      "item": "minecraft:cactus"
+    }
+  },
+  "result": {
+    "item": "various_additions:cactus_armor_chestplate",
+    "count": 1
+  }
+}

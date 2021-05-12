@@ -3,6 +3,7 @@
   "item.various_additions.jump_kit_helmet": "Jump Kit Helmet",
   "item.various_additions.eternium_star": "Eternium Star",
   "block.various_textures.magnium_block": "Block of Magnium",
+  "item.various_additions.cactus_armor_helmet": "Cactus Helmet",
   "block.various_additions.magnium_ore": "Magnium Debris",
   "item.various_additions.eternium_sword": "Eternium Sword",
   "block.various_additions.iceron_block": "Block of Iceron",
@@ -18,6 +19,7 @@
   "block.various_additions.eternium_ore": "Eternal Shard Ore",
   "block.various_additions.atherium_block": "Block of Atherium",
   "item.various_additions.atherium_armor_armor_boots": "Atherium Boots",
+  "item.various_additions.cactus_armor_chestplate": "Cactus Chestplate",
   "item.various_additions.jump_kit_chestplate": "Jump Kit",
   "block.various_additions.magnium_block": "Block of Magnium",
   "block.various_additions.magma_palm_leaves": "Magma Palm Leaves",
@@ -82,6 +84,7 @@
   "block.various_additions.magma_palm_stairs": "Magma Palm Stairs",
   "item.various_additions.jump_kit_boots": "Jump Kit Boots",
   "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
+  "item.various_additions.cactus_armor_leggings": "Cactus Leggings",
   "item.various_additions.iceron_sword": "Iceron Sword",
   "key.various_additions.use_key": "Various Additions \u0027Use\u0027 Key",
   "item.various_additions.eternium_armor_helmet": "Eternium Helmet",
@@ -102,5 +105,6 @@
   "item.various_additions.amogus": "A M O G U S",
   "item.various_additions.atherium_tools_pickaxe": "Atherium Pickaxe",
   "item.various_additions.magnium_ingot": "Magnium Ingot",
-  "block.various_additions.soul_soil_atherium_ore": "Soul Soil Atherium Ore"
+  "block.various_additions.soul_soil_atherium_ore": "Soul Soil Atherium Ore",
+  "item.various_additions.cactus_armor_boots": "Cactus Boots"
 }
