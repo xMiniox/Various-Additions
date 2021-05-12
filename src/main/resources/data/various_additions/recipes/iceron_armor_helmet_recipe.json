@@ -1,0 +1,29 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:iceron_ingot"
+    },
+    "1": {
+      "item": "various_additions:iceron_ingot"
+    },
+    "2": {
+      "item": "various_additions:iceron_ingot"
+    },
+    "3": {
+      "item": "various_additions:iceron_ingot"
+    },
+    "5": {
+      "item": "various_additions:iceron_ingot"
+    }
+  },
+  "result": {
+    "item": "various_additions:iceron_armor_helmet",
+    "count": 1
+  }
+}

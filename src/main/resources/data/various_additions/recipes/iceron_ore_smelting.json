@@ -1,0 +1,12 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:smelting",
+  "experience": 0.8400000000000001,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "various_additions:iceron_ore"
+  },
+  "result": {
+    "item": "various_additions:iceron_ingot"
+  }
+}

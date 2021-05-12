@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IceronIngot"
+      },
+      {
+        "value": "CUSTOM:IceronIngot"
+      },
+      {
+        "value": "CUSTOM:IceronIngot"
+      },
+      {
+        "value": "CUSTOM:IceronIngot"
+      },
+      {
+        "value": "CUSTOM:IceronIngot"
+      },
+      {
+        "value": "CUSTOM:IceronIngot"
+      },
+      {
+        "value": "CUSTOM:IceronIngot"
+      },
+      {
+        "value": "CUSTOM:IceronIngot"
+      },
+      {
+        "value": "CUSTOM:IceronIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IceronBlock"
+    },
+    "name": "iceron_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

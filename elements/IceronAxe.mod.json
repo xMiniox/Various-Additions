@@ -1,0 +1,31 @@
+{
+  "_fv": 17,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "iceron_axe",
+    "customModelName": "Normal",
+    "name": "Iceron Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Magnium"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 17,
+    "damageVsEntity": 11.0,
+    "usageCount": 323,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IceronIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
