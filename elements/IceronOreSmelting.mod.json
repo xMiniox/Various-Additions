@@ -4,15 +4,15 @@
   "definition": {
     "recipeType": "Smelting",
     "xpReward": 0.8400000000000001,
-    "cookingTime": 200,
+    "cookingTime": 100,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:IceronOre"
+      "value": "CUSTOM:IceronIngot"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:IceronIngot"
+      "value": "Items.IRON_INGOT"
     },
     "name": "iceron_ore_smelting",
     "namespace": "mod"
