@@ -2,7 +2,7 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "ancient_debris_side",
+    "texture": "magnium_debris",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -101,17 +101,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.NETHERRACK"
-      }
-    ],
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 3,
+    "blocksToReplace": [],
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 20
   }
