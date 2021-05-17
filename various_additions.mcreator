@@ -1451,39 +1451,6 @@
       "registry_name": "soul_soil_atherium_ore_lt"
     },
     {
-      "name": "Launch",
-      "type": "procedure",
-      "sortid": 154,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "launch",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "MagmaFlowerDyeRecipe",
       "type": "recipe",
       "sortid": 155,
@@ -1491,108 +1458,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_flower_dye_recipe"
-    },
-    {
-      "name": "GlideCore",
-      "type": "item",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "glide_core"
-    },
-    {
-      "name": "HoverCore",
-      "type": "item",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hover_core"
-    },
-    {
-      "name": "FlightCore",
-      "type": "item",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "flight_core"
-    },
-    {
-      "name": "JumpKit",
-      "type": "armor",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "jump_kit",
-      "metadata": {
-        "eh": false,
-        "el": false,
-        "eb": false,
-        "ec": true
-      }
-    },
-    {
-      "name": "UseKey",
-      "type": "keybind",
-      "sortid": 156,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "use_key"
-    },
-    {
-      "name": "HoverCoreProcedure",
-      "type": "procedure",
-      "sortid": 157,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hover_core_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "GlideCoreProcedure",
-      "type": "procedure",
-      "sortid": 158,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "glide_core_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "FlightCoreProcedure",
-      "type": "procedure",
-      "sortid": 159,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "flight_core_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "AMOGUSProcedure",
@@ -1874,6 +1739,194 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cactus_sword_recipe"
+    },
+    {
+      "name": "ArtifactEmpty",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_empty"
+    },
+    {
+      "name": "ArtifactDiamondEmpty",
+      "type": "item",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_empty"
+    },
+    {
+      "name": "ArtifactRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_recipe"
+    },
+    {
+      "name": "ArtifactDiamondRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_recipe"
+    },
+    {
+      "name": "ArtifactFly",
+      "type": "item",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_fly"
+    },
+    {
+      "name": "ArtifactFlyProcedure",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_fly_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactRegeneration",
+      "type": "item",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_regeneration"
+    },
+    {
+      "name": "ArtifactStrength",
+      "type": "item",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_strength"
+    },
+    {
+      "name": "ArtifactResistance",
+      "type": "item",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_resistance"
+    },
+    {
+      "name": "ArtifactFireres",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_fireres"
+    },
+    {
+      "name": "ArtifactWaterbreathing",
+      "type": "item",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_waterbreathing"
+    },
+    {
+      "name": "ArtifactLuck",
+      "type": "item",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_luck"
+    },
+    {
+      "name": "ArtifactNightvision",
+      "type": "item",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_nightvision"
+    },
+    {
+      "name": "ArtifactDiamondRegeneration",
+      "type": "item",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_regeneration"
+    },
+    {
+      "name": "ArtifactDiamondStrength",
+      "type": "item",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_strength"
+    },
+    {
+      "name": "ArtifactDiamondResistance",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_resistance"
+    },
+    {
+      "name": "ArtifactDiamondFireres",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_fireres"
+    },
+    {
+      "name": "ArtifactDiamondWaterbreathing",
+      "type": "item",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_waterbreathing"
+    },
+    {
+      "name": "ArtifactDiamondLuck",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_luck"
+    },
+    {
+      "name": "ArtifactDiamondNightvision",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_nightvision"
     }
   ],
   "variable_elements": [],
@@ -1881,8 +1934,8 @@
   "language_map": {
     "en_us": {
       "block.various_additions.magma_palm_slab": "Magma Palm Slab",
-      "item.various_additions.jump_kit_helmet": "Jump Kit Helmet",
       "item.various_additions.eternium_star": "Eternium Star",
+      "item.various_additions.artifact_nightvision": "Night Vision Artifact",
       "block.various_textures.magnium_block": "Block of Magnium",
       "item.various_additions.cactus_armor_helmet": "Cactus Helmet",
       "block.various_additions.magnium_ore": "Magnium Debris",
@@ -1893,30 +1946,33 @@
       "item.various_additions.iceron_armor_boots": "Iceron Boots",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
-      "item.various_additions.hover_core": "Hover Core",
       "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "item.various_additions.iceron_ingot": "Iceron",
       "block.various_textures.magnium_ore": "Magnium Ore",
       "block.various_additions.eternium_ore": "Eternal Shard Ore",
+      "item.various_additions.artifact_diamond_fireres": "Diamond Fire Resistance Artifact",
       "block.various_additions.atherium_block": "Block of Atherium",
       "item.various_additions.atherium_armor_armor_boots": "Atherium Boots",
+      "item.various_additions.artifact_diamond_luck": "Diamond Luck Artifact",
       "item.various_additions.cactus_armor_chestplate": "Cactus Chestplate",
-      "item.various_additions.jump_kit_chestplate": "Jump Kit",
       "block.various_additions.magnium_block": "Block of Magnium",
       "block.various_additions.magma_palm_leaves": "Magma Palm Leaves",
       "item.various_additions.star_apple": "Star Apple",
+      "item.various_additions.artifact_diamond_empty": "Empty Diamond Artifact ",
       "item.various_additions.eternium_axe": "Eternium Axe",
       "item.various_additions.cactus_sword": "Cactus Sword",
       "item.various_textures.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
+      "item.various_additions.artifact_regeneration": "Regeneration Artifact",
       "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.magma_flower": "Magma Flower",
       "item.various_additions.iceron_armor_leggings": "Iceron Leggings",
       "item.various_additions.eternium_hoe": "Eternium Hoe",
-      "item.various_additions.glide_core": "Glide Core",
       "item.various_additions.atherium_fragment": "Atherium Shard",
       "item.various_textures.magnium_hoe": "Magnium Hoe",
       "block.various_additions.magma_palm_trapdoor": "Magma Palm Trapdoor",
+      "item.various_additions.artifact_resistance": "Resistance Artifact",
+      "item.various_additions.artifact_strength": "Strenght Artifact",
       "block.various_additions.magma_palm_planks": "Magma Palm Planks",
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium Crystal",
@@ -1932,15 +1988,22 @@
       "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.atherium_armor_armor_leggings": "Atherium Leggings",
       "item.various_additions.magmanana": "Magmanana",
+      "item.various_additions.artifact_fireres": "Fire Resistance Artifact",
       "item.various_additions.magnium_shovel": "Magnium Shovel",
       "item.various_additions.iceron_hoe": "Iceron Hoe",
+      "item.various_additions.artifact_diamond_resistance": "Diamond Resistance Artifact",
+      "item.various_additions.artifact_diamond_nightvision": "Diamond Night Vision Artifact",
       "item.various_additions.eternium_shovel": "Eternium Shovel",
+      "item.various_additions.artifact_diamond_regeneration": "Diamond Regeneration Artifact",
+      "item.various_additions.artifact_luck": "Luck Artifact",
       "block.various_additions.magma_palm_log": "Magma Palm Log",
       "item.various_textures.magnium_armor_boots": "Magnium_Boots",
+      "item.various_additions.artifact_fly": "Artifact Of Flight",
       "item.various_textures.magnium_axe": "Magnium Axe",
       "block.various_additions.iceron_ore": "Iceron Ore",
       "item.various_additions.magnium_launcher": "Magnium Launcher",
       "item.various_additions.iceron_pickaxe": "Iceron Pickaxe",
+      "item.various_additions.artifact_diamond_waterbreathing": "Diamond Water Breathing Artifact",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_additions.magma_palm_door": "Magma Palm Door",
       "item.various_additions.atherium_armor_armor_chestplate": "Atherium Chestplate",
@@ -1951,10 +2014,10 @@
       "item.various_textures.magnium_shovel": "Magnium Shovel",
       "item.various_additions.iceron_axe": "Iceron Axe",
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
-      "item.various_additions.flight_core": "Flight Core",
+      "item.various_additions.artifact_diamond_strength": "Diamond Strength Artifact",
       "item.various_additions.eternium_pickaxe": "Eternium Pickaxe",
       "block.various_additions.magma_palm_wood": "Magma Palm Wood",
-      "item.various_additions.jump_kit_leggings": "Jump Kit",
+      "item.various_additions.artifact_waterbreathing": "Water Breathing Artifact",
       "item.various_additions.magnium_sword": "Magnium Sword",
       "block.various_additions.magma_palm_fence_gate": "Magma Palm Fence Gate",
       "item.various_additions.eternal_shard": "Eternal Shard",
@@ -1964,11 +2027,10 @@
       "item.various_additions.eternium_armor_leggings": "Eternium Leggings",
       "block.various_additions.snad": "Snad",
       "block.various_additions.magma_palm_stairs": "Magma Palm Stairs",
-      "item.various_additions.jump_kit_boots": "Jump Kit Boots",
       "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "item.various_additions.cactus_armor_leggings": "Cactus Leggings",
       "item.various_additions.iceron_sword": "Iceron Sword",
-      "key.various_additions.use_key": "Various Additions \u0027Use\u0027 Key",
+      "item.various_additions.artifact_empty": "Empty Artifact",
       "item.various_additions.eternium_armor_helmet": "Eternium Helmet",
       "item.various_additions.magnium_armor_helmet": "Magnium Helmet",
       "block.various_additions.magma_lamp": "Magma Lamp",

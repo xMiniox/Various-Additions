@@ -1,0 +1,33 @@
+{
+  "_fv": 17,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "artifact_regeneration",
+    "customModelName": "Normal",
+    "name": "Regeneration Artifact",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Magnium"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

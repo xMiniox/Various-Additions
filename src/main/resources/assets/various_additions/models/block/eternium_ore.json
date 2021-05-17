@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "various_additions:blocks/eternal_shard_ore_2",
-    "particle": "various_additions:blocks/eternal_shard_ore_2"
+    "all": "various_additions:blocks/eternium_crystal_ore",
+    "particle": "various_additions:blocks/eternium_crystal_ore"
   }
 }
