@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "artifact_flight",
+    "texture": "crystal_effect",
     "customModelName": "Normal",
-    "name": "Artifact Of Flight",
+    "name": "Effect Crystal",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Magnium"
@@ -24,18 +24,10 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Creative only item - right-click to enable creative flight"
-    ],
-    "hasGlow": true,
+    "specialInfo": [],
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "ArtifactFlyProcedure"
-    },
-    "onRightClickedOnBlock": {
-      "name": "ArtifactFlyProcedure"
-    }
+    "inventoryStackSize": 64
   }
 }

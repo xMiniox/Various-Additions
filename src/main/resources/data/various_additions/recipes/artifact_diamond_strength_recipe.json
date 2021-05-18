@@ -1,0 +1,16 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "various_additions:artifact_diamond_empty"
+    },
+    {
+      "item": "various_additions:crystal_strength"
+    }
+  ],
+  "result": {
+    "item": "various_additions:artifact_diamond_strength",
+    "count": 1
+  }
+}

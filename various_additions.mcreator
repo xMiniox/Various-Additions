@@ -1927,6 +1927,204 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "artifact_diamond_nightvision"
+    },
+    {
+      "name": "CrystalEffect",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_effect"
+    },
+    {
+      "name": "CrystalRegeneration",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_regeneration"
+    },
+    {
+      "name": "CrystalStrength",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_strength"
+    },
+    {
+      "name": "CrystalResistance",
+      "type": "item",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_resistance"
+    },
+    {
+      "name": "CrystalFireres",
+      "type": "item",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_fireres"
+    },
+    {
+      "name": "CrystalWaterbreathing",
+      "type": "item",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_waterbreathing"
+    },
+    {
+      "name": "CrystalLuck",
+      "type": "item",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_luck"
+    },
+    {
+      "name": "CrystalNightvision",
+      "type": "item",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_nightvision"
+    },
+    {
+      "name": "ArtifactRegenerationRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_regeneration_recipe"
+    },
+    {
+      "name": "ArtifactStrengthRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_strength_recipe"
+    },
+    {
+      "name": "ArtifactResistanceRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_resistance_recipe"
+    },
+    {
+      "name": "ArtifactFireresRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_fireres_recipe"
+    },
+    {
+      "name": "ArtifactWaterbreathingRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_waterbreathing_recipe"
+    },
+    {
+      "name": "ArtifactLuckRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_luck_recipe"
+    },
+    {
+      "name": "ArtifactNightvisionRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_nightvision_recipe"
+    },
+    {
+      "name": "ArtifactDiamondRegenerationRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_regeneration_recipe"
+    },
+    {
+      "name": "ArtifactDiamondStrengthRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_strength_recipe"
+    },
+    {
+      "name": "ArtifactDiamondResistanceRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_resistance_recipe"
+    },
+    {
+      "name": "ArtifactDiamondFireresRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_fireres_recipe"
+    },
+    {
+      "name": "ArtifactDiamondWaterbreathingRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_waterbreathing_recipe"
+    },
+    {
+      "name": "ArtifactDiamondLuckRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_luck_recipe"
+    },
+    {
+      "name": "ArtifactDiamondNightvisionRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_nightvision_recipe"
     }
   ],
   "variable_elements": [],
@@ -1995,10 +2193,12 @@
       "item.various_additions.artifact_diamond_nightvision": "Diamond Night Vision Artifact",
       "item.various_additions.eternium_shovel": "Eternium Shovel",
       "item.various_additions.artifact_diamond_regeneration": "Diamond Regeneration Artifact",
+      "item.various_additions.crystal_effect": "Effect Crystal",
       "item.various_additions.artifact_luck": "Luck Artifact",
       "block.various_additions.magma_palm_log": "Magma Palm Log",
       "item.various_textures.magnium_armor_boots": "Magnium_Boots",
       "item.various_additions.artifact_fly": "Artifact Of Flight",
+      "item.various_additions.crystal_strength": "Strength Crystal",
       "item.various_textures.magnium_axe": "Magnium Axe",
       "block.various_additions.iceron_ore": "Iceron Ore",
       "item.various_additions.magnium_launcher": "Magnium Launcher",
@@ -2010,16 +2210,21 @@
       "item.various_additions.magnium_armor_boots": "Magnium Boots",
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "item.various_additions.stone_stick": "Stone Stick",
+      "item.various_additions.crystal_regeneration": "Regeneration Crystal",
+      "item.various_additions.crystal_luck": "Luck Crystal",
       "item.various_additions.eternium_armor_chestplate": "Eternium Chestplate",
+      "item.various_additions.crystal_resistance": "Resistance Crystal",
       "item.various_textures.magnium_shovel": "Magnium Shovel",
       "item.various_additions.iceron_axe": "Iceron Axe",
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
       "item.various_additions.artifact_diamond_strength": "Diamond Strength Artifact",
+      "item.various_additions.crystal_waterbreathing": "Water Breathing Crystal",
       "item.various_additions.eternium_pickaxe": "Eternium Pickaxe",
       "block.various_additions.magma_palm_wood": "Magma Palm Wood",
       "item.various_additions.artifact_waterbreathing": "Water Breathing Artifact",
       "item.various_additions.magnium_sword": "Magnium Sword",
       "block.various_additions.magma_palm_fence_gate": "Magma Palm Fence Gate",
+      "item.various_additions.crystal_nightvision": "Night Vision Crystal",
       "item.various_additions.eternal_shard": "Eternal Shard",
       "item.various_additions.magnium_armor_leggings": "Magnium Leggings",
       "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",
@@ -2041,6 +2246,7 @@
       "block.various_additions.magma_palm_fence": "Magma Palm Fence",
       "item.various_additions.magnium_catalyst": "Magnium Catalyst",
       "item.various_textures.magnium_scrap": "Magnium Scrap",
+      "item.various_additions.crystal_fireres": "Fire Resistance Crystal",
       "block.various_textures.molten_blackstone": "Molten Blackstone",
       "item.various_additions.magnium_scrap": "Magnium Scrap",
       "item.various_additions.magnium_totem_of_undying": "Magnium Totem Of Undying",
