@@ -27,7 +27,7 @@ public class ArtifactDiamondWaterbreathingItem extends VariousAdditionsModElemen
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("artifact_diamond_waterbreathing");
 		}
 
@@ -43,7 +43,7 @@ public class ArtifactDiamondWaterbreathingItem extends VariousAdditionsModElemen
 
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-			return 1F;
+			return 0F;
 		}
 
 		@Override

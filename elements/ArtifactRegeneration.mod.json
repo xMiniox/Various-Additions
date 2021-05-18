@@ -6,15 +6,15 @@
     "texture": "artifact_regeneration",
     "customModelName": "Normal",
     "name": "Regeneration Artifact",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:Magnium"
     },
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
-    "toolType": 1.0,
-    "damageCount": 1000,
+    "toolType": 0.0,
+    "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },

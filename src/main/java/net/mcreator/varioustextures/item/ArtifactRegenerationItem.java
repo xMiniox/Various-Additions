@@ -27,7 +27,7 @@ public class ArtifactRegenerationItem extends VariousAdditionsModElements.ModEle
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MagniumItemGroup.tab).maxDamage(1000).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(1).rarity(Rarity.UNCOMMON));
 			setRegistryName("artifact_regeneration");
 		}
 
@@ -53,7 +53,7 @@ public class ArtifactRegenerationItem extends VariousAdditionsModElements.ModEle
 
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-			return 1F;
+			return 0F;
 		}
 
 		@Override

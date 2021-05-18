@@ -25,7 +25,7 @@ public class CrystalEffectItem extends VariousAdditionsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(16).rarity(Rarity.COMMON));
 			setRegistryName("crystal_effect");
 		}
 
@@ -41,7 +41,7 @@ public class CrystalEffectItem extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-			return 1F;
+			return 0F;
 		}
 	}
 }

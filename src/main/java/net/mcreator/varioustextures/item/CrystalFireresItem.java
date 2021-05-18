@@ -27,7 +27,7 @@ public class CrystalFireresItem extends VariousAdditionsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(16).rarity(Rarity.UNCOMMON));
 			setRegistryName("crystal_fireres");
 		}
 
@@ -43,7 +43,7 @@ public class CrystalFireresItem extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-			return 1F;
+			return 0F;
 		}
 
 		@Override

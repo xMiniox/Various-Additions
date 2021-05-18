@@ -32,7 +32,7 @@ public class IceronSwordItem extends VariousAdditionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class IceronSwordItem extends VariousAdditionsModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(IceronIngotItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(MagniumItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(MagniumItemGroup.tab)) {
 		}.setRegistryName("iceron_sword"));
 	}
 }

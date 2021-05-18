@@ -46,7 +46,7 @@ public class IceronHoeItem extends VariousAdditionsModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(IceronIngotItem.block, (int) (1)));
 			}
-		}, 0, -3f, new Item.Properties().group(MagniumItemGroup.tab)) {
+		}, 0, -1f, new Item.Properties().group(MagniumItemGroup.tab)) {
 		}.setRegistryName("iceron_hoe"));
 	}
 }
