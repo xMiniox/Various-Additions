@@ -2125,6 +2125,69 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "artifact_diamond_nightvision_recipe"
+    },
+    {
+      "name": "CrystalRegenerationRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_regeneration_recipe"
+    },
+    {
+      "name": "CrystalStrengthRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_strength_recipe"
+    },
+    {
+      "name": "CrystalResistanceRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_resistance_recipe"
+    },
+    {
+      "name": "CrystalFireresRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_fireres_recipe"
+    },
+    {
+      "name": "CrystalWaterbreathingRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_waterbreathing_recipe"
+    },
+    {
+      "name": "CrystalLuckRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_luck_recipe"
+    },
+    {
+      "name": "CrystalNightvisionRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_nightvision_recipe"
     }
   ],
   "variable_elements": [],
@@ -2139,15 +2202,15 @@
       "block.various_additions.magnium_ore": "Magnium Debris",
       "item.various_additions.eternium_sword": "Eternium Sword",
       "block.various_additions.iceron_block": "Block of Iceron",
-      "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.star_fragment": "Star Fragment",
+      "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.iceron_armor_boots": "Iceron Boots",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
-      "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "item.various_additions.iceron_ingot": "Iceron",
-      "block.various_textures.magnium_ore": "Magnium Ore",
+      "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "block.various_additions.eternium_ore": "Eternal Shard Ore",
+      "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_additions.artifact_diamond_fireres": "Diamond Fire Resistance Artifact",
       "block.various_additions.atherium_block": "Block of Atherium",
       "item.various_additions.atherium_armor_armor_boots": "Atherium Boots",
@@ -2162,8 +2225,8 @@
       "item.various_textures.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
       "item.various_additions.artifact_regeneration": "Regeneration Artifact",
-      "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.magma_flower": "Magma Flower",
+      "block.various_additions.star_lamp": "Star Lamp",
       "item.various_additions.iceron_armor_leggings": "Iceron Leggings",
       "item.various_additions.eternium_hoe": "Eternium Hoe",
       "item.various_additions.atherium_fragment": "Atherium Shard",
