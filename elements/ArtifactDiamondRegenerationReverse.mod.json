@@ -19,10 +19,10 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ArtifactEmpty"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CrystalNightvision"
+        "value": "CUSTOM:ArtifactDiamondRegeneration"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ArtifactNightvision"
+      "value": "CUSTOM:ArtifactDiamondEmpty"
     },
-    "name": "artifact_nightvision_recipe",
+    "name": "artifact_diamond_regeneration_reverse",
     "namespace": "mod"
   }
 }

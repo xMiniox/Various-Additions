@@ -20,16 +20,16 @@ import java.util.Map;
 import java.util.HashMap;
 
 @VariousAdditionsModElements.ModElement.Tag
-public class ArtifactRegenerationProcedureProcedure extends VariousAdditionsModElements.ModElement {
-	public ArtifactRegenerationProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 241);
+public class ArtifactDiamondStrengthProcedureProcedure extends VariousAdditionsModElements.ModElement {
+	public ArtifactDiamondStrengthProcedureProcedure(VariousAdditionsModElements instance) {
+		super(instance, 246);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				VariousAdditionsMod.LOGGER.warn("Failed to load dependency entity for procedure ArtifactRegenerationProcedure!");
+				VariousAdditionsMod.LOGGER.warn("Failed to load dependency entity for procedure ArtifactDiamondStrengthProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -37,7 +37,7 @@ public class ArtifactRegenerationProcedureProcedure extends VariousAdditionsModE
 				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactRegenerationItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 0, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 30, (int) 1, (false), (false)));
 		}
 	}
 

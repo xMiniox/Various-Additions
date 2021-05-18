@@ -12,7 +12,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.varioustextures.item.ArtifactRegenerationItem;
+import net.mcreator.varioustextures.item.ArtifactDiamondWaterbreathingItem;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 import net.mcreator.varioustextures.VariousAdditionsMod;
 
@@ -20,24 +20,24 @@ import java.util.Map;
 import java.util.HashMap;
 
 @VariousAdditionsModElements.ModElement.Tag
-public class ArtifactRegenerationProcedureProcedure extends VariousAdditionsModElements.ModElement {
-	public ArtifactRegenerationProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 241);
+public class ArtifactDiamondWaterbreathingProcedureProcedure extends VariousAdditionsModElements.ModElement {
+	public ArtifactDiamondWaterbreathingProcedureProcedure(VariousAdditionsModElements instance) {
+		super(instance, 249);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				VariousAdditionsMod.LOGGER.warn("Failed to load dependency entity for procedure ArtifactRegenerationProcedure!");
+				VariousAdditionsMod.LOGGER.warn("Failed to load dependency entity for procedure ArtifactDiamondWaterbreathingProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (((entity instanceof PlayerEntity)
-				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactRegenerationItem.block, (int) (1)))
+				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactDiamondWaterbreathingItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 0, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WATER_BREATHING, (int) 30, (int) 0, (false), (false)));
 		}
 	}
 

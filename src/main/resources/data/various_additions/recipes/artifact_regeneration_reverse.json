@@ -1,0 +1,13 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "various_additions:artifact_regeneration"
+    }
+  ],
+  "result": {
+    "item": "various_additions:artifact_empty",
+    "count": 1
+  }
+}

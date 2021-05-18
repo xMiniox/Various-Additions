@@ -1,7 +1,6 @@
 {
   "block.various_additions.magma_palm_slab": "Magma Palm Slab",
   "item.various_additions.eternium_star": "Eternium Star",
-  "item.various_additions.artifact_nightvision": "Night Vision Artifact",
   "block.various_textures.magnium_block": "Block of Magnium",
   "item.various_additions.cactus_armor_helmet": "Cactus Helmet",
   "block.various_additions.magnium_ore": "Magnium Debris",
@@ -54,7 +53,6 @@
   "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
   "item.various_additions.atherium_armor_armor_leggings": "Atherium Leggings",
   "item.various_additions.magmanana": "Magmanana",
-  "item.various_additions.artifact_fireres": "Fire Resistance Artifact",
   "item.various_additions.magnium_shovel": "Magnium Shovel",
   "item.various_additions.iceron_hoe": "Iceron Hoe",
   "item.various_additions.artifact_diamond_resistance": "Diamond Resistance Artifact",
@@ -89,7 +87,6 @@
   "item.various_additions.crystal_waterbreathing": "Water Breathing Crystal",
   "item.various_additions.eternium_pickaxe": "Eternium Pickaxe",
   "block.various_additions.magma_palm_wood": "Magma Palm Wood",
-  "item.various_additions.artifact_waterbreathing": "Water Breathing Artifact",
   "item.various_additions.magnium_sword": "Magnium Sword",
   "block.various_additions.magma_palm_fence_gate": "Magma Palm Fence Gate",
   "item.various_additions.crystal_nightvision": "Night Vision Crystal",

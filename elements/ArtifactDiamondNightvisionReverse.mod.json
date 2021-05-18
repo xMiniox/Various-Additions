@@ -19,10 +19,10 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ArtifactEmpty"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CrystalWaterbreathing"
+        "value": "CUSTOM:ArtifactDiamondNightvision"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ArtifactWaterbreathing"
+      "value": "CUSTOM:ArtifactDiamondEmpty"
     },
-    "name": "artifact_waterbreathing_recipe",
+    "name": "artifact_diamond_nightvision_reverse",
     "namespace": "mod"
   }
 }

@@ -1830,24 +1830,6 @@
       "registry_name": "artifact_resistance"
     },
     {
-      "name": "ArtifactFireres",
-      "type": "item",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_fireres"
-    },
-    {
-      "name": "ArtifactWaterbreathing",
-      "type": "item",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_waterbreathing"
-    },
-    {
       "name": "ArtifactLuck",
       "type": "item",
       "sortid": 203,
@@ -1855,15 +1837,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "artifact_luck"
-    },
-    {
-      "name": "ArtifactNightvision",
-      "type": "item",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_nightvision"
     },
     {
       "name": "ArtifactDiamondRegeneration",
@@ -2028,24 +2001,6 @@
       "registry_name": "artifact_resistance_recipe"
     },
     {
-      "name": "ArtifactFireresRecipe",
-      "type": "recipe",
-      "sortid": 223,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_fireres_recipe"
-    },
-    {
-      "name": "ArtifactWaterbreathingRecipe",
-      "type": "recipe",
-      "sortid": 224,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_waterbreathing_recipe"
-    },
-    {
       "name": "ArtifactLuckRecipe",
       "type": "recipe",
       "sortid": 225,
@@ -2053,15 +2008,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "artifact_luck_recipe"
-    },
-    {
-      "name": "ArtifactNightvisionRecipe",
-      "type": "recipe",
-      "sortid": 226,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_nightvision_recipe"
     },
     {
       "name": "ArtifactDiamondRegenerationRecipe",
@@ -2202,13 +2148,278 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
+    },
+    {
+      "name": "ArtifactStrengthProcedure",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_strength_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactResistanceProcedure",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_resistance_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactLuckProcedure",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_luck_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactDiamondRegenerationProcedure",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_regeneration_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactDiamondStrengthProcedure",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_strength_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactDiamondResistanceProcedure",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_resistance_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactDiamondFireresProcedure",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_fireres_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactDiamondWaterbreathingProcedure",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_waterbreathing_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactDiamondLuckProcedure",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_luck_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactDiamondNightvisionProcedure",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_nightvision_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactRegenerationReverse",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_regeneration_reverse"
+    },
+    {
+      "name": "ArtifactStrengthReverse",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_strength_reverse"
+    },
+    {
+      "name": "ArtifactResistanceReverse",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_resistance_reverse"
+    },
+    {
+      "name": "ArtifactLuckReverse",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_luck_reverse"
+    },
+    {
+      "name": "ArtifactDiamondRegenerationReverse",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_regeneration_reverse"
+    },
+    {
+      "name": "ArtifactDiamondStrengthReverse",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_strength_reverse"
+    },
+    {
+      "name": "ArtifactDiamondResistanceReverse",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_resistance_reverse"
+    },
+    {
+      "name": "ArtifactDiamondFireresReverse",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_fireres_reverse"
+    },
+    {
+      "name": "ArtifactDiamondWaterbreathingReverse",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_waterbreathing_reverse"
+    },
+    {
+      "name": "ArtifactDiamondLuckReverse",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_luck_reverse"
+    },
+    {
+      "name": "ArtifactDiamondNightvisionReverse",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_diamond_nightvision_reverse"
     }
   ],
   "variable_elements": [],
@@ -2217,7 +2428,6 @@
     "en_us": {
       "block.various_additions.magma_palm_slab": "Magma Palm Slab",
       "item.various_additions.eternium_star": "Eternium Star",
-      "item.various_additions.artifact_nightvision": "Night Vision Artifact",
       "block.various_textures.magnium_block": "Block of Magnium",
       "item.various_additions.cactus_armor_helmet": "Cactus Helmet",
       "block.various_additions.magnium_ore": "Magnium Debris",
@@ -2270,7 +2480,6 @@
       "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.atherium_armor_armor_leggings": "Atherium Leggings",
       "item.various_additions.magmanana": "Magmanana",
-      "item.various_additions.artifact_fireres": "Fire Resistance Artifact",
       "item.various_additions.magnium_shovel": "Magnium Shovel",
       "item.various_additions.iceron_hoe": "Iceron Hoe",
       "item.various_additions.artifact_diamond_resistance": "Diamond Resistance Artifact",
@@ -2305,7 +2514,6 @@
       "item.various_additions.crystal_waterbreathing": "Water Breathing Crystal",
       "item.various_additions.eternium_pickaxe": "Eternium Pickaxe",
       "block.various_additions.magma_palm_wood": "Magma Palm Wood",
-      "item.various_additions.artifact_waterbreathing": "Water Breathing Artifact",
       "item.various_additions.magnium_sword": "Magnium Sword",
       "block.various_additions.magma_palm_fence_gate": "Magma Palm Fence Gate",
       "item.various_additions.crystal_nightvision": "Night Vision Crystal",

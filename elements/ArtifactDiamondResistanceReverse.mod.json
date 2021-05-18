@@ -19,10 +19,10 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ArtifactEmpty"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CrystalFireres"
+        "value": "CUSTOM:ArtifactDiamondResistance"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ArtifactFireres"
+      "value": "CUSTOM:ArtifactDiamondEmpty"
     },
-    "name": "artifact_fireres_recipe",
+    "name": "artifact_diamond_resistance_reverse",
     "namespace": "mod"
   }
 }
