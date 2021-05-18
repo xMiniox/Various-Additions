@@ -27,7 +27,7 @@ public class ArtifactRegenerationItem extends VariousAdditionsModElements.ModEle
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxDamage(1000).rarity(Rarity.COMMON));
 			setRegistryName("artifact_regeneration");
 		}
 
