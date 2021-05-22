@@ -1,5 +1,5 @@
 {
-  "parent": "various_additions:custom/crate",
+  "parent": "various_additions:custom/cratefinal",
   "textures": {
     "all": "various_additions:blocks/oak_planks",
     "particle": "various_additions:blocks/oak_planks",

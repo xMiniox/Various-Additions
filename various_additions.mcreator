@@ -2420,15 +2420,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wooden_crate"
-    },
-    {
-      "name": "CrateGUI",
-      "type": "gui",
-      "sortid": 243,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crate_gui"
     }
   ],
   "variable_elements": [],
