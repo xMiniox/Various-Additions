@@ -1,5 +1,5 @@
 {
-  "parent": "various_additions:block/snad",
+  "parent": "various_additions:block/wooden_crate",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -30,7 +30,7 @@ public class CactusArmorItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:cactus_armor_boots")
 	public static final Item boots = null;
 	public CactusArmorItem(VariousAdditionsModElements instance) {
-		super(instance, 182);
+		super(instance, 43);
 	}
 
 	@Override

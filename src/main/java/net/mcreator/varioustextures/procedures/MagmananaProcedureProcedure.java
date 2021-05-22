@@ -10,7 +10,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class MagmananaProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public MagmananaProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 106);
+		super(instance, 132);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

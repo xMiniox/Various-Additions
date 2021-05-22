@@ -32,7 +32,7 @@ public class AmogusItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:amogus")
 	public static final Item block = null;
 	public AmogusItem(VariousAdditionsModElements instance) {
-		super(instance, 59);
+		super(instance, 67);
 	}
 
 	@Override

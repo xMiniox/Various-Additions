@@ -29,7 +29,7 @@ public class IceronArmorItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:iceron_armor_boots")
 	public static final Item boots = null;
 	public IceronArmorItem(VariousAdditionsModElements instance) {
-		super(instance, 177);
+		super(instance, 38);
 	}
 
 	@Override

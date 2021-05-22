@@ -23,7 +23,7 @@ public class MagmananaItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magmanana")
 	public static final Item block = null;
 	public MagmananaItem(VariousAdditionsModElements instance) {
-		super(instance, 34);
+		super(instance, 45);
 	}
 
 	@Override

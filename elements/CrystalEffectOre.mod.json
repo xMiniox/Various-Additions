@@ -1,5 +1,5 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "block",
   "definition": {
     "texture": "crystal_effect_ore",
@@ -111,8 +111,8 @@
       }
     ],
     "frequencyPerChunks": 1,
-    "frequencyOnChunk": 1,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 11
+    "maxGenerateHeight": 16
   }
 }

@@ -18,7 +18,7 @@ public class ArtifactDiamondNightvisionItem extends VariousAdditionsModElements.
 	@ObjectHolder("various_additions:artifact_diamond_nightvision")
 	public static final Item block = null;
 	public ArtifactDiamondNightvisionItem(VariousAdditionsModElements instance) {
-		super(instance, 211);
+		super(instance, 81);
 	}
 
 	@Override

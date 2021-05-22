@@ -18,7 +18,7 @@ public class ArtifactStrengthItem extends VariousAdditionsModElements.ModElement
 	@ObjectHolder("various_additions:artifact_strength")
 	public static final Item block = null;
 	public ArtifactStrengthItem(VariousAdditionsModElements instance) {
-		super(instance, 199);
+		super(instance, 72);
 	}
 
 	@Override

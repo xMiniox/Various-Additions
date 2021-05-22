@@ -13,7 +13,7 @@ import net.mcreator.varioustextures.VariousAdditionsModElements;
 @VariousAdditionsModElements.ModElement.Tag
 public class MagniumItemGroup extends VariousAdditionsModElements.ModElement {
 	public MagniumItemGroup(VariousAdditionsModElements instance) {
-		super(instance, 78);
+		super(instance, 104);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class MagniumTotemOfUndyingItem extends VariousAdditionsModElements.ModEl
 	@ObjectHolder("various_additions:magnium_totem_of_undying")
 	public static final Item block = null;
 	public MagniumTotemOfUndyingItem(VariousAdditionsModElements instance) {
-		super(instance, 35);
+		super(instance, 46);
 	}
 
 	@Override

@@ -19,7 +19,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class TNTLauncherBulletHitsBlockProcedure extends VariousAdditionsModElements.ModElement {
 	public TNTLauncherBulletHitsBlockProcedure(VariousAdditionsModElements instance) {
-		super(instance, 138);
+		super(instance, 164);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

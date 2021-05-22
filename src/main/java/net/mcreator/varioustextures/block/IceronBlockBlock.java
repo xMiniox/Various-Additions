@@ -24,7 +24,7 @@ public class IceronBlockBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:iceron_block")
 	public static final Block block = null;
 	public IceronBlockBlock(VariousAdditionsModElements instance) {
-		super(instance, 163);
+		super(instance, 41);
 	}
 
 	@Override

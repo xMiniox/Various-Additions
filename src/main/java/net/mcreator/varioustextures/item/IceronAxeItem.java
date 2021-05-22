@@ -17,7 +17,7 @@ public class IceronAxeItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:iceron_axe")
 	public static final Item block = null;
 	public IceronAxeItem(VariousAdditionsModElements instance) {
-		super(instance, 168);
+		super(instance, 35);
 	}
 
 	@Override

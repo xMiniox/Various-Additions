@@ -38,7 +38,7 @@ public class MagmaPalmLogBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magma_palm_log")
 	public static final Block block = null;
 	public MagmaPalmLogBlock(VariousAdditionsModElements instance) {
-		super(instance, 48);
+		super(instance, 56);
 	}
 
 	@Override

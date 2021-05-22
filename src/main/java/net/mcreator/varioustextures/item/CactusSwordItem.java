@@ -16,7 +16,7 @@ public class CactusSwordItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:cactus_sword")
 	public static final Item block = null;
 	public CactusSwordItem(VariousAdditionsModElements instance) {
-		super(instance, 187);
+		super(instance, 42);
 	}
 
 	@Override

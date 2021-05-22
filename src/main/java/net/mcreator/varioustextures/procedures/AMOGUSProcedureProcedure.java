@@ -16,7 +16,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class AMOGUSProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public AMOGUSProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 160);
+		super(instance, 181);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

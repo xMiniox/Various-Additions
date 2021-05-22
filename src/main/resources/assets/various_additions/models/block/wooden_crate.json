@@ -1,0 +1,10 @@
+{
+  "parent": "various_additions:custom/crate",
+  "textures": {
+    "all": "various_additions:blocks/oak_planks",
+    "particle": "various_additions:blocks/oak_planks",
+    "0": "various_additions:blocks/oak_planks",
+    "1": "various_additions:blocks/stripped_oak_log",
+    "2": "various_additions:blocks/stone"
+  }
+}

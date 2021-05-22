@@ -17,7 +17,7 @@ public class IceronPickaxeItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:iceron_pickaxe")
 	public static final Item block = null;
 	public IceronPickaxeItem(VariousAdditionsModElements instance) {
-		super(instance, 167);
+		super(instance, 34);
 	}
 
 	@Override

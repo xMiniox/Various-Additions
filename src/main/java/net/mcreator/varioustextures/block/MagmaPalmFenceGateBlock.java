@@ -28,7 +28,7 @@ public class MagmaPalmFenceGateBlock extends VariousAdditionsModElements.ModElem
 	@ObjectHolder("various_additions:magma_palm_fence_gate")
 	public static final Block block = null;
 	public MagmaPalmFenceGateBlock(VariousAdditionsModElements instance) {
-		super(instance, 55);
+		super(instance, 63);
 	}
 
 	@Override

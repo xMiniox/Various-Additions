@@ -17,7 +17,7 @@ public class IceronSwordItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:iceron_sword")
 	public static final Item block = null;
 	public IceronSwordItem(VariousAdditionsModElements instance) {
-		super(instance, 169);
+		super(instance, 33);
 	}
 
 	@Override

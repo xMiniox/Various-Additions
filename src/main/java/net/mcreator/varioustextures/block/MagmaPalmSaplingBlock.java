@@ -35,7 +35,7 @@ public class MagmaPalmSaplingBlock extends VariousAdditionsModElements.ModElemen
 	@ObjectHolder("various_additions:magma_palm_sapling")
 	public static final Block block = null;
 	public MagmaPalmSaplingBlock(VariousAdditionsModElements instance) {
-		super(instance, 47);
+		super(instance, 55);
 	}
 
 	@Override

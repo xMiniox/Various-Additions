@@ -28,7 +28,7 @@ public class MagmaPalmWoodBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magma_palm_wood")
 	public static final Block block = null;
 	public MagmaPalmWoodBlock(VariousAdditionsModElements instance) {
-		super(instance, 49);
+		super(instance, 57);
 	}
 
 	@Override

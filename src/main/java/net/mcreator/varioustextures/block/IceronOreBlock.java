@@ -47,7 +47,7 @@ public class IceronOreBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:iceron_ore")
 	public static final Block block = null;
 	public IceronOreBlock(VariousAdditionsModElements instance) {
-		super(instance, 162);
+		super(instance, 40);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

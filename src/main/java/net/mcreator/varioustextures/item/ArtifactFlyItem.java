@@ -34,7 +34,7 @@ public class ArtifactFlyItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:artifact_fly")
 	public static final Item block = null;
 	public ArtifactFlyItem(VariousAdditionsModElements instance) {
-		super(instance, 196);
+		super(instance, 70);
 	}
 
 	@Override

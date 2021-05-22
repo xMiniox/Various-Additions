@@ -16,7 +16,7 @@ public class IceronIngotItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:iceron_ingot")
 	public static final Item block = null;
 	public IceronIngotItem(VariousAdditionsModElements instance) {
-		super(instance, 161);
+		super(instance, 39);
 	}
 
 	@Override

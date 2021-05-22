@@ -18,7 +18,7 @@ public class ArtifactLuckItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:artifact_luck")
 	public static final Item block = null;
 	public ArtifactLuckItem(VariousAdditionsModElements instance) {
-		super(instance, 203);
+		super(instance, 74);
 	}
 
 	@Override

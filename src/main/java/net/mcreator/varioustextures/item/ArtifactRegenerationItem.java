@@ -18,7 +18,7 @@ public class ArtifactRegenerationItem extends VariousAdditionsModElements.ModEle
 	@ObjectHolder("various_additions:artifact_regeneration")
 	public static final Item block = null;
 	public ArtifactRegenerationItem(VariousAdditionsModElements instance) {
-		super(instance, 198);
+		super(instance, 71);
 	}
 
 	@Override
@@ -29,16 +29,6 @@ public class ArtifactRegenerationItem extends VariousAdditionsModElements.ModEle
 		public ItemCustom() {
 			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(1).rarity(Rarity.UNCOMMON));
 			setRegistryName("artifact_regeneration");
-		}
-
-		@Override
-		public boolean hasContainerItem() {
-			return true;
-		}
-
-		@Override
-		public ItemStack getContainerItem(ItemStack itemstack) {
-			return new ItemStack(this);
 		}
 
 		@Override

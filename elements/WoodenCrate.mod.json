@@ -1,15 +1,15 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "sand",
+    "texture": "oak_planks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 2,
+    "customModelName": "crate:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -17,7 +17,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "Snad",
+    "name": "Wooden Crate",
     "specialInfo": [],
-    "hardness": 0.5,
-    "resistance": 0.5,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Magnium"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -50,9 +50,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "SAND"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SAND"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -85,8 +85,8 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "guiBoundTo": "CrateGUI",
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

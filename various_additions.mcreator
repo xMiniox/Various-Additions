@@ -31,7 +31,7 @@
     {
       "name": "MagniumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "MagniumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "MagniumOreSmelting",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "MagniumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "MagniumAxeRecipe",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "MagniumSwordRecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "MagniumShovelRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "MagniumHoeRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -163,7 +163,7 @@
     {
       "name": "MagniumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -172,7 +172,7 @@
     {
       "name": "MagniumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -181,7 +181,7 @@
     {
       "name": "MagniumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -190,7 +190,7 @@
     {
       "name": "MagniumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -208,7 +208,7 @@
     {
       "name": "MagniumScrapRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -217,7 +217,7 @@
     {
       "name": "Magnium",
       "type": "tab",
-      "sortid": 78,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -226,25 +226,16 @@
     {
       "name": "MagmaLamp",
       "type": "block",
-      "sortid": 42,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_lamp"
     },
     {
-      "name": "MagmaLauncher",
-      "type": "gun",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_launcher"
-    },
-    {
       "name": "MagniumIngotRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -253,7 +244,7 @@
     {
       "name": "MagniumLauncherRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -262,7 +253,7 @@
     {
       "name": "MagmaLampRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -271,25 +262,16 @@
     {
       "name": "StarFragment",
       "type": "item",
-      "sortid": 40,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "star_fragment"
     },
     {
-      "name": "Snad",
-      "type": "block",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snad"
-    },
-    {
       "name": "SnadRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -298,7 +280,7 @@
     {
       "name": "SandRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -307,7 +289,7 @@
     {
       "name": "StarApple",
       "type": "food",
-      "sortid": 41,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -316,7 +298,7 @@
     {
       "name": "StarAppleFunction",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -333,7 +315,7 @@
     {
       "name": "StarAppleRecipe",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -342,7 +324,7 @@
     {
       "name": "StarLamp",
       "type": "block",
-      "sortid": 43,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -351,7 +333,7 @@
     {
       "name": "StarLampRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -360,7 +342,7 @@
     {
       "name": "StarFragmentRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -369,7 +351,7 @@
     {
       "name": "NetherStarRecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -378,7 +360,7 @@
     {
       "name": "MagmaFlower",
       "type": "plant",
-      "sortid": 46,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -414,7 +396,7 @@
     {
       "name": "AtheriumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -423,7 +405,7 @@
     {
       "name": "AtheriumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -432,7 +414,7 @@
     {
       "name": "AtheriumOreSmelting",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -495,7 +477,7 @@
     {
       "name": "AtheriumToolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -504,7 +486,7 @@
     {
       "name": "AtheriumToolsAxeRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -513,7 +495,7 @@
     {
       "name": "AtheriumToolsSwordRecipe",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -522,7 +504,7 @@
     {
       "name": "AtheriumToolsShovelRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -531,7 +513,7 @@
     {
       "name": "AtheriumToolsHoeRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -540,7 +522,7 @@
     {
       "name": "StoneStick",
       "type": "item",
-      "sortid": 37,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -549,7 +531,7 @@
     {
       "name": "StoneStickRecipe",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -576,7 +558,7 @@
     {
       "name": "MagniumCatalyst",
       "type": "item",
-      "sortid": 33,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -585,7 +567,7 @@
     {
       "name": "MagniumCatalystRecipe",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -594,7 +576,7 @@
     {
       "name": "MagniumArmorProcedure",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -611,7 +593,7 @@
     {
       "name": "MagniumTotemOfUndying",
       "type": "item",
-      "sortid": 35,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -620,7 +602,7 @@
     {
       "name": "MagniumTotemOfUndyingRecipe",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -629,7 +611,7 @@
     {
       "name": "MagniumTotemOfUndyingProcedure",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -662,7 +644,7 @@
     {
       "name": "Magmanana",
       "type": "food",
-      "sortid": 34,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -686,7 +668,7 @@
     {
       "name": "AtheriumArmorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -695,7 +677,7 @@
     {
       "name": "AtheriumArmorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -704,7 +686,7 @@
     {
       "name": "AtheriumArmorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -713,7 +695,7 @@
     {
       "name": "AtheriumArmorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -722,7 +704,7 @@
     {
       "name": "MagmananaProcedure",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -766,7 +748,7 @@
     {
       "name": "EterniumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -775,7 +757,7 @@
     {
       "name": "EterniumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -784,7 +766,7 @@
     {
       "name": "EterniumOreSmelting",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -838,7 +820,7 @@
     {
       "name": "EterniumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -847,7 +829,7 @@
     {
       "name": "EterniumAxeRecipe",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -856,7 +838,7 @@
     {
       "name": "EterniumSwordRecipe",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -865,7 +847,7 @@
     {
       "name": "EterniumShovelRecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -874,7 +856,7 @@
     {
       "name": "EterniumHoeRecipe",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -898,7 +880,7 @@
     {
       "name": "EterniumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -907,7 +889,7 @@
     {
       "name": "EterniumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -916,7 +898,7 @@
     {
       "name": "EterniumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -925,7 +907,7 @@
     {
       "name": "EterniumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -943,7 +925,7 @@
     {
       "name": "EterniumStar",
       "type": "item",
-      "sortid": 38,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -952,7 +934,7 @@
     {
       "name": "EterniumStarRecipe",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -961,7 +943,7 @@
     {
       "name": "EterniumStick",
       "type": "item",
-      "sortid": 39,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -970,7 +952,7 @@
     {
       "name": "EterniumStickRecipe",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -979,7 +961,7 @@
     {
       "name": "EterniumBootsProcedure",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -996,7 +978,7 @@
     {
       "name": "EterniumLeggingsProcedure",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1013,7 +995,7 @@
     {
       "name": "EterniumChestplateProcedure",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1030,7 +1012,7 @@
     {
       "name": "EterniumHelmetProcedure",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1047,7 +1029,7 @@
     {
       "name": "EterniumSetProcedure",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1064,7 +1046,7 @@
     {
       "name": "MagmaPalmWood",
       "type": "block",
-      "sortid": 49,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1073,7 +1055,7 @@
     {
       "name": "MagmaPalmLog",
       "type": "block",
-      "sortid": 48,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1082,7 +1064,7 @@
     {
       "name": "MagmaPalmPlanks",
       "type": "block",
-      "sortid": 50,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1091,7 +1073,7 @@
     {
       "name": "MagmaPalmLeaves",
       "type": "block",
-      "sortid": 51,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1100,7 +1082,7 @@
     {
       "name": "MagmaPalmStairs",
       "type": "block",
-      "sortid": 52,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1109,7 +1091,7 @@
     {
       "name": "MagmaPalmSlab",
       "type": "block",
-      "sortid": 53,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1118,7 +1100,7 @@
     {
       "name": "MagmaPalmFence",
       "type": "block",
-      "sortid": 54,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1127,7 +1109,7 @@
     {
       "name": "MagmaPalmFenceGate",
       "type": "block",
-      "sortid": 55,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1136,7 +1118,7 @@
     {
       "name": "MagmaPalmItemsTag",
       "type": "tag",
-      "sortid": 126,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1145,7 +1127,7 @@
     {
       "name": "MagmaPalmWoodRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1154,7 +1136,7 @@
     {
       "name": "MagmaPalmPlanksRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1163,7 +1145,7 @@
     {
       "name": "MagmaPalmStairsRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1172,7 +1154,7 @@
     {
       "name": "MagmaPalmSlabRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1181,7 +1163,7 @@
     {
       "name": "MagmaPalmFenceRecipe",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1190,7 +1172,7 @@
     {
       "name": "MagmaPalmFenceGateRecipe",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1199,7 +1181,7 @@
     {
       "name": "MagmaPalmStickRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1208,7 +1190,7 @@
     {
       "name": "MagmaPalmDoor",
       "type": "block",
-      "sortid": 56,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1217,7 +1199,7 @@
     {
       "name": "MagmaPalmTrapdoor",
       "type": "block",
-      "sortid": 57,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1226,7 +1208,7 @@
     {
       "name": "MagmaPalmDoorRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1235,7 +1217,7 @@
     {
       "name": "MagmaPalmTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1244,7 +1226,7 @@
     {
       "name": "Crafting",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1253,7 +1235,7 @@
     {
       "name": "MagmaPalmLeavesLT",
       "type": "loottable",
-      "sortid": 137,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1262,7 +1244,7 @@
     {
       "name": "TNTLauncher",
       "type": "gun",
-      "sortid": 58,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1271,7 +1253,7 @@
     {
       "name": "TNTLauncherBulletHitsBlock",
       "type": "procedure",
-      "sortid": 138,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1300,7 +1282,7 @@
     {
       "name": "TNTLauncherRecipe",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1309,7 +1291,7 @@
     {
       "name": "MagmaPalmSapling",
       "type": "plant",
-      "sortid": 47,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1318,7 +1300,7 @@
     {
       "name": "TemporaryMagmaWoodCrafting",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1327,7 +1309,7 @@
     {
       "name": "TemporaryMagmaPalmRecipe2",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1336,7 +1318,7 @@
     {
       "name": "TemporaryMagmaPalmRecipe3",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1345,7 +1327,7 @@
     {
       "name": "TemporaryMagmaPalmRecipe4",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1354,7 +1336,7 @@
     {
       "name": "Amogus",
       "type": "item",
-      "sortid": 59,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1363,7 +1345,7 @@
     {
       "name": "EterniumOreLT",
       "type": "loottable",
-      "sortid": 144,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1372,7 +1354,7 @@
     {
       "name": "WitherSkeletonSkullRecipe",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1381,7 +1363,7 @@
     {
       "name": "GhastTearRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1390,7 +1372,7 @@
     {
       "name": "ElytraRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1399,7 +1381,7 @@
     {
       "name": "PrismarineShardRecipe",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1408,7 +1390,7 @@
     {
       "name": "PrismarineCrystalRecipe",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1417,7 +1399,7 @@
     {
       "name": "NetheriteIngotRecipe",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1426,7 +1408,7 @@
     {
       "name": "AtheriumOreLT",
       "type": "loottable",
-      "sortid": 151,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1435,7 +1417,7 @@
     {
       "name": "BlackstoneAtheriumOreLT",
       "type": "loottable",
-      "sortid": 152,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1444,7 +1426,7 @@
     {
       "name": "SoulSoilAtheriumOreLT",
       "type": "loottable",
-      "sortid": 153,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1453,7 +1435,7 @@
     {
       "name": "MagmaFlowerDyeRecipe",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1462,7 +1444,7 @@
     {
       "name": "AMOGUSProcedure",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1479,7 +1461,7 @@
     {
       "name": "IceronIngot",
       "type": "item",
-      "sortid": 161,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1488,7 +1470,7 @@
     {
       "name": "IceronOre",
       "type": "block",
-      "sortid": 162,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1497,7 +1479,7 @@
     {
       "name": "IceronBlock",
       "type": "block",
-      "sortid": 163,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1506,7 +1488,7 @@
     {
       "name": "IceronOreBlockRecipe",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1515,7 +1497,7 @@
     {
       "name": "IceronBlockOreRecipe",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1524,7 +1506,7 @@
     {
       "name": "IceronOreSmelting",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1533,7 +1515,7 @@
     {
       "name": "IceronPickaxe",
       "type": "tool",
-      "sortid": 167,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1542,7 +1524,7 @@
     {
       "name": "IceronAxe",
       "type": "tool",
-      "sortid": 168,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1551,7 +1533,7 @@
     {
       "name": "IceronSword",
       "type": "tool",
-      "sortid": 169,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1560,7 +1542,7 @@
     {
       "name": "IceronShovel",
       "type": "tool",
-      "sortid": 170,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1569,7 +1551,7 @@
     {
       "name": "IceronHoe",
       "type": "tool",
-      "sortid": 171,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1578,7 +1560,7 @@
     {
       "name": "IceronPickaxeRecipe",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1587,7 +1569,7 @@
     {
       "name": "IceronAxeRecipe",
       "type": "recipe",
-      "sortid": 173,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1596,7 +1578,7 @@
     {
       "name": "IceronSwordRecipe",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1605,7 +1587,7 @@
     {
       "name": "IceronShovelRecipe",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1614,7 +1596,7 @@
     {
       "name": "IceronHoeRecipe",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1623,7 +1605,7 @@
     {
       "name": "IceronArmor",
       "type": "armor",
-      "sortid": 177,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1638,7 +1620,7 @@
     {
       "name": "IceronArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1647,7 +1629,7 @@
     {
       "name": "IceronArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 179,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1656,7 +1638,7 @@
     {
       "name": "IceronArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 180,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1665,7 +1647,7 @@
     {
       "name": "IceronArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1674,7 +1656,7 @@
     {
       "name": "CactusArmor",
       "type": "armor",
-      "sortid": 182,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1689,7 +1671,7 @@
     {
       "name": "CactusArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 183,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1698,7 +1680,7 @@
     {
       "name": "CactusArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 184,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1707,7 +1689,7 @@
     {
       "name": "CactusArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1716,7 +1698,7 @@
     {
       "name": "CactusArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1725,7 +1707,7 @@
     {
       "name": "CactusSword",
       "type": "tool",
-      "sortid": 187,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1734,7 +1716,7 @@
     {
       "name": "CactusSwordRecipe",
       "type": "recipe",
-      "sortid": 188,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1743,7 +1725,7 @@
     {
       "name": "ArtifactEmpty",
       "type": "item",
-      "sortid": 189,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1752,7 +1734,7 @@
     {
       "name": "ArtifactDiamondEmpty",
       "type": "item",
-      "sortid": 193,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1761,7 +1743,7 @@
     {
       "name": "ArtifactRecipe",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1770,7 +1752,7 @@
     {
       "name": "ArtifactDiamondRecipe",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1779,7 +1761,7 @@
     {
       "name": "ArtifactFly",
       "type": "item",
-      "sortid": 196,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1788,7 +1770,7 @@
     {
       "name": "ArtifactFlyProcedure",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1805,7 +1787,7 @@
     {
       "name": "ArtifactRegeneration",
       "type": "item",
-      "sortid": 198,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1814,7 +1796,7 @@
     {
       "name": "ArtifactStrength",
       "type": "item",
-      "sortid": 199,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1823,7 +1805,7 @@
     {
       "name": "ArtifactResistance",
       "type": "item",
-      "sortid": 200,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1832,7 +1814,7 @@
     {
       "name": "ArtifactLuck",
       "type": "item",
-      "sortid": 203,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1841,7 +1823,7 @@
     {
       "name": "ArtifactDiamondRegeneration",
       "type": "item",
-      "sortid": 205,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1850,7 +1832,7 @@
     {
       "name": "ArtifactDiamondStrength",
       "type": "item",
-      "sortid": 206,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1859,7 +1841,7 @@
     {
       "name": "ArtifactDiamondResistance",
       "type": "item",
-      "sortid": 207,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1868,7 +1850,7 @@
     {
       "name": "ArtifactDiamondFireres",
       "type": "item",
-      "sortid": 208,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1877,7 +1859,7 @@
     {
       "name": "ArtifactDiamondWaterbreathing",
       "type": "item",
-      "sortid": 209,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1886,7 +1868,7 @@
     {
       "name": "ArtifactDiamondLuck",
       "type": "item",
-      "sortid": 210,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1895,7 +1877,7 @@
     {
       "name": "ArtifactDiamondNightvision",
       "type": "item",
-      "sortid": 211,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1904,7 +1886,7 @@
     {
       "name": "CrystalEffect",
       "type": "item",
-      "sortid": 212,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1913,7 +1895,7 @@
     {
       "name": "CrystalRegeneration",
       "type": "item",
-      "sortid": 213,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1922,7 +1904,7 @@
     {
       "name": "CrystalStrength",
       "type": "item",
-      "sortid": 214,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1931,7 +1913,7 @@
     {
       "name": "CrystalResistance",
       "type": "item",
-      "sortid": 215,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1940,7 +1922,7 @@
     {
       "name": "CrystalFireres",
       "type": "item",
-      "sortid": 216,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1949,7 +1931,7 @@
     {
       "name": "CrystalWaterbreathing",
       "type": "item",
-      "sortid": 217,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1958,7 +1940,7 @@
     {
       "name": "CrystalLuck",
       "type": "item",
-      "sortid": 218,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1967,7 +1949,7 @@
     {
       "name": "CrystalNightvision",
       "type": "item",
-      "sortid": 219,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1976,7 +1958,7 @@
     {
       "name": "ArtifactRegenerationRecipe",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1985,7 +1967,7 @@
     {
       "name": "ArtifactStrengthRecipe",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1994,7 +1976,7 @@
     {
       "name": "ArtifactResistanceRecipe",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2003,7 +1985,7 @@
     {
       "name": "ArtifactLuckRecipe",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2012,7 +1994,7 @@
     {
       "name": "ArtifactDiamondRegenerationRecipe",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2021,7 +2003,7 @@
     {
       "name": "ArtifactDiamondStrengthRecipe",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2030,7 +2012,7 @@
     {
       "name": "ArtifactDiamondResistanceRecipe",
       "type": "recipe",
-      "sortid": 229,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2039,7 +2021,7 @@
     {
       "name": "ArtifactDiamondFireresRecipe",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2048,7 +2030,7 @@
     {
       "name": "ArtifactDiamondWaterbreathingRecipe",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2057,7 +2039,7 @@
     {
       "name": "ArtifactDiamondLuckRecipe",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2066,7 +2048,7 @@
     {
       "name": "ArtifactDiamondNightvisionRecipe",
       "type": "recipe",
-      "sortid": 233,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2075,7 +2057,7 @@
     {
       "name": "CrystalRegenerationRecipe",
       "type": "recipe",
-      "sortid": 234,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2084,7 +2066,7 @@
     {
       "name": "CrystalStrengthRecipe",
       "type": "recipe",
-      "sortid": 235,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2093,7 +2075,7 @@
     {
       "name": "CrystalResistanceRecipe",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2102,7 +2084,7 @@
     {
       "name": "CrystalFireresRecipe",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2111,7 +2093,7 @@
     {
       "name": "CrystalWaterbreathingRecipe",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2120,7 +2102,7 @@
     {
       "name": "CrystalLuckRecipe",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2129,7 +2111,7 @@
     {
       "name": "CrystalNightvisionRecipe",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2138,7 +2120,7 @@
     {
       "name": "ArtifactRegenerationProcedure",
       "type": "procedure",
-      "sortid": 241,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2155,7 +2137,7 @@
     {
       "name": "ArtifactStrengthProcedure",
       "type": "procedure",
-      "sortid": 242,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2172,7 +2154,7 @@
     {
       "name": "ArtifactResistanceProcedure",
       "type": "procedure",
-      "sortid": 243,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2189,7 +2171,7 @@
     {
       "name": "ArtifactLuckProcedure",
       "type": "procedure",
-      "sortid": 244,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2206,7 +2188,7 @@
     {
       "name": "ArtifactDiamondRegenerationProcedure",
       "type": "procedure",
-      "sortid": 245,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2223,7 +2205,7 @@
     {
       "name": "ArtifactDiamondStrengthProcedure",
       "type": "procedure",
-      "sortid": 246,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2240,7 +2222,7 @@
     {
       "name": "ArtifactDiamondResistanceProcedure",
       "type": "procedure",
-      "sortid": 247,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2257,7 +2239,7 @@
     {
       "name": "ArtifactDiamondFireresProcedure",
       "type": "procedure",
-      "sortid": 248,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2274,7 +2256,7 @@
     {
       "name": "ArtifactDiamondWaterbreathingProcedure",
       "type": "procedure",
-      "sortid": 249,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2291,7 +2273,7 @@
     {
       "name": "ArtifactDiamondLuckProcedure",
       "type": "procedure",
-      "sortid": 250,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2308,7 +2290,7 @@
     {
       "name": "ArtifactDiamondNightvisionProcedure",
       "type": "procedure",
-      "sortid": 251,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2325,7 +2307,7 @@
     {
       "name": "ArtifactRegenerationReverse",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2334,7 +2316,7 @@
     {
       "name": "ArtifactStrengthReverse",
       "type": "recipe",
-      "sortid": 253,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2343,7 +2325,7 @@
     {
       "name": "ArtifactResistanceReverse",
       "type": "recipe",
-      "sortid": 254,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2352,7 +2334,7 @@
     {
       "name": "ArtifactLuckReverse",
       "type": "recipe",
-      "sortid": 255,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2361,7 +2343,7 @@
     {
       "name": "ArtifactDiamondRegenerationReverse",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2370,7 +2352,7 @@
     {
       "name": "ArtifactDiamondStrengthReverse",
       "type": "recipe",
-      "sortid": 257,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2379,7 +2361,7 @@
     {
       "name": "ArtifactDiamondResistanceReverse",
       "type": "recipe",
-      "sortid": 258,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2388,7 +2370,7 @@
     {
       "name": "ArtifactDiamondFireresReverse",
       "type": "recipe",
-      "sortid": 259,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2397,7 +2379,7 @@
     {
       "name": "ArtifactDiamondWaterbreathingReverse",
       "type": "recipe",
-      "sortid": 260,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2406,7 +2388,7 @@
     {
       "name": "ArtifactDiamondLuckReverse",
       "type": "recipe",
-      "sortid": 261,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2415,7 +2397,7 @@
     {
       "name": "ArtifactDiamondNightvisionReverse",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2424,11 +2406,29 @@
     {
       "name": "CrystalEffectOre",
       "type": "block",
-      "sortid": 263,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crystal_effect_ore"
+    },
+    {
+      "name": "WoodenCrate",
+      "type": "block",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_crate"
+    },
+    {
+      "name": "CrateGUI",
+      "type": "gui",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_gui"
     }
   ],
   "variable_elements": [],
@@ -2438,6 +2438,7 @@
       "block.various_additions.magma_palm_slab": "Magma Palm Slab",
       "item.various_additions.eternium_star": "Eternium Star",
       "block.various_textures.magnium_block": "Block of Magnium",
+      "block.various_additions.wooden_crate": "Wooden Crate",
       "item.various_additions.cactus_armor_helmet": "Cactus Helmet",
       "block.various_additions.magnium_ore": "Magnium Debris",
       "item.various_additions.eternium_sword": "Eternium Sword",
@@ -2531,7 +2532,6 @@
       "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",
       "block.various_additions.magma_palm_sapling": "Magma Palm Sapling",
       "item.various_additions.eternium_armor_leggings": "Eternium Leggings",
-      "block.various_additions.snad": "Snad",
       "block.various_additions.magma_palm_stairs": "Magma Palm Stairs",
       "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "item.various_additions.cactus_armor_leggings": "Cactus Leggings",
@@ -2540,7 +2540,6 @@
       "item.various_additions.eternium_armor_helmet": "Eternium Helmet",
       "item.various_additions.magnium_armor_helmet": "Magnium Helmet",
       "block.various_additions.magma_lamp": "Magma Lamp",
-      "item.various_additions.magma_launcher": "Magnium Launcher",
       "item.various_additions.iceron_shovel": "Iceron Shovel",
       "item.various_additions.iceron_armor_helmet": "Iceron Helmet",
       "item.various_additions.eternium_armor_boots": "Eternium Boots",
@@ -2585,5 +2584,5 @@
     "modElementsPackage": "net.mcreator.varioustextures",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100112313
+  "mcreatorVersion": 202100118117
 }

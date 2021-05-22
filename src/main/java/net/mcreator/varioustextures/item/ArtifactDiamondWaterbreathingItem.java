@@ -18,7 +18,7 @@ public class ArtifactDiamondWaterbreathingItem extends VariousAdditionsModElemen
 	@ObjectHolder("various_additions:artifact_diamond_waterbreathing")
 	public static final Item block = null;
 	public ArtifactDiamondWaterbreathingItem(VariousAdditionsModElements instance) {
-		super(instance, 209);
+		super(instance, 79);
 	}
 
 	@Override

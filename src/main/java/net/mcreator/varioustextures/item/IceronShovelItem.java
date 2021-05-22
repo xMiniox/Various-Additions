@@ -17,7 +17,7 @@ public class IceronShovelItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:iceron_shovel")
 	public static final Item block = null;
 	public IceronShovelItem(VariousAdditionsModElements instance) {
-		super(instance, 170);
+		super(instance, 36);
 	}
 
 	@Override

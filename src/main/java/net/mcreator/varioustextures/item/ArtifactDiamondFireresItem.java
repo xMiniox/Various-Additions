@@ -18,7 +18,7 @@ public class ArtifactDiamondFireresItem extends VariousAdditionsModElements.ModE
 	@ObjectHolder("various_additions:artifact_diamond_fireres")
 	public static final Item block = null;
 	public ArtifactDiamondFireresItem(VariousAdditionsModElements instance) {
-		super(instance, 208);
+		super(instance, 78);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class StarFragmentItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:star_fragment")
 	public static final Item block = null;
 	public StarFragmentItem(VariousAdditionsModElements instance) {
-		super(instance, 40);
+		super(instance, 50);
 	}
 
 	@Override

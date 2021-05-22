@@ -16,7 +16,7 @@ public class ArtifactEmptyItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:artifact_empty")
 	public static final Item block = null;
 	public ArtifactEmptyItem(VariousAdditionsModElements instance) {
-		super(instance, 189);
+		super(instance, 68);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class ArtifactEmptyItem extends VariousAdditionsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxStackSize(16).rarity(Rarity.UNCOMMON));
 			setRegistryName("artifact_empty");
 		}
 
@@ -41,7 +41,7 @@ public class ArtifactEmptyItem extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-			return 1F;
+			return 0F;
 		}
 	}
 }

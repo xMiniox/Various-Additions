@@ -18,7 +18,7 @@ public class ArtifactResistanceItem extends VariousAdditionsModElements.ModEleme
 	@ObjectHolder("various_additions:artifact_resistance")
 	public static final Item block = null;
 	public ArtifactResistanceItem(VariousAdditionsModElements instance) {
-		super(instance, 200);
+		super(instance, 73);
 	}
 
 	@Override

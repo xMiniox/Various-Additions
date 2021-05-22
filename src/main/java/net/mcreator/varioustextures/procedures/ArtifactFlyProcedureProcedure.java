@@ -14,7 +14,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class ArtifactFlyProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public ArtifactFlyProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 197);
+		super(instance, 201);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

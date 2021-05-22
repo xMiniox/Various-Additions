@@ -18,7 +18,7 @@ public class MagniumCatalystItem extends VariousAdditionsModElements.ModElement 
 	@ObjectHolder("various_additions:magnium_catalyst")
 	public static final Item block = null;
 	public MagniumCatalystItem(VariousAdditionsModElements instance) {
-		super(instance, 33);
+		super(instance, 44);
 	}
 
 	@Override

@@ -12,7 +12,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.varioustextures.item.ArtifactRegenerationItem;
+import net.mcreator.varioustextures.item.ArtifactDiamondStrengthItem;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 import net.mcreator.varioustextures.VariousAdditionsMod;
 
@@ -22,7 +22,7 @@ import java.util.HashMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class ArtifactDiamondStrengthProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public ArtifactDiamondStrengthProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 246);
+		super(instance, 225);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -34,7 +34,7 @@ public class ArtifactDiamondStrengthProcedureProcedure extends VariousAdditionsM
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (((entity instanceof PlayerEntity)
-				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactRegenerationItem.block, (int) (1)))
+				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactDiamondStrengthItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 30, (int) 1, (false), (false)));

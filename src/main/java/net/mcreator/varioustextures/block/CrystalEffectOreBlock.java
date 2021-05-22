@@ -47,7 +47,7 @@ public class CrystalEffectOreBlock extends VariousAdditionsModElements.ModElemen
 	@ObjectHolder("various_additions:crystal_effect_ore")
 	public static final Block block = null;
 	public CrystalEffectOreBlock(VariousAdditionsModElements instance) {
-		super(instance, 263);
+		super(instance, 90);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -107,7 +107,7 @@ public class CrystalEffectOreBlock extends VariousAdditionsModElements.ModElemen
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 1)).range(11)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(16)
 					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("crystal_effect_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("various_additions:crystal_effect_ore"), configuredFeature);

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "stripped_oak_log",
+        "2": "stone"
+      },
+      "name": "default"
+    }
+  }
+}

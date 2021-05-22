@@ -18,7 +18,7 @@ public class CrystalRegenerationItem extends VariousAdditionsModElements.ModElem
 	@ObjectHolder("various_additions:crystal_regeneration")
 	public static final Item block = null;
 	public CrystalRegenerationItem(VariousAdditionsModElements instance) {
-		super(instance, 213);
+		super(instance, 83);
 	}
 
 	@Override

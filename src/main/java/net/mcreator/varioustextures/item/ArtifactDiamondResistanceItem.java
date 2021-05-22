@@ -18,7 +18,7 @@ public class ArtifactDiamondResistanceItem extends VariousAdditionsModElements.M
 	@ObjectHolder("various_additions:artifact_diamond_resistance")
 	public static final Item block = null;
 	public ArtifactDiamondResistanceItem(VariousAdditionsModElements instance) {
-		super(instance, 207);
+		super(instance, 77);
 	}
 
 	@Override

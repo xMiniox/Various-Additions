@@ -18,7 +18,7 @@ public class EterniumStarItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:eternium_star")
 	public static final Item block = null;
 	public EterniumStarItem(VariousAdditionsModElements instance) {
-		super(instance, 38);
+		super(instance, 48);
 	}
 
 	@Override

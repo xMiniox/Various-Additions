@@ -22,7 +22,7 @@ import java.util.HashMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class ArtifactLuckProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public ArtifactLuckProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 244);
+		super(instance, 223);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

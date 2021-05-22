@@ -57,7 +57,7 @@ public class MagmaFlowerBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:magma_flower")
 	public static final Block block = null;
 	public MagmaFlowerBlock(VariousAdditionsModElements instance) {
-		super(instance, 46);
+		super(instance, 54);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

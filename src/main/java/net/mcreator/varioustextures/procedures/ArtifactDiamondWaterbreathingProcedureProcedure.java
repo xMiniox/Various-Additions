@@ -22,7 +22,7 @@ import java.util.HashMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class ArtifactDiamondWaterbreathingProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public ArtifactDiamondWaterbreathingProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 249);
+		super(instance, 228);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

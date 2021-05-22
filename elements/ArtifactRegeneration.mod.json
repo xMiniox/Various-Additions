@@ -1,5 +1,5 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -20,7 +20,7 @@
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": true,
+    "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,

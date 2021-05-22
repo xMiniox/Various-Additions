@@ -18,7 +18,7 @@ public class CrystalWaterbreathingItem extends VariousAdditionsModElements.ModEl
 	@ObjectHolder("various_additions:crystal_waterbreathing")
 	public static final Item block = null;
 	public CrystalWaterbreathingItem(VariousAdditionsModElements instance) {
-		super(instance, 217);
+		super(instance, 87);
 	}
 
 	@Override

@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "various_additions:snad"
+      "item": "various_additions:deleted_mod_element"
     }
   ],
   "result": {

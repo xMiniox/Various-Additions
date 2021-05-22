@@ -18,7 +18,7 @@ public class CrystalFireresItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:crystal_fireres")
 	public static final Item block = null;
 	public CrystalFireresItem(VariousAdditionsModElements instance) {
-		super(instance, 216);
+		super(instance, 86);
 	}
 
 	@Override

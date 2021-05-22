@@ -18,7 +18,7 @@ public class CrystalNightvisionItem extends VariousAdditionsModElements.ModEleme
 	@ObjectHolder("various_additions:crystal_nightvision")
 	public static final Item block = null;
 	public CrystalNightvisionItem(VariousAdditionsModElements instance) {
-		super(instance, 219);
+		super(instance, 89);
 	}
 
 	@Override
