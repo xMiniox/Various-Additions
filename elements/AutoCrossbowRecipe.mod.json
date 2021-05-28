@@ -5,21 +5,24 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:WoodenGear"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CombinedSticks"
       },
       {
-        "value": "Items.FLINT"
+        "value": "CUSTOM:WoodenGear"
       },
       {
-        "value": ""
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:CombinedSticks"
       },
       {
         "value": "CUSTOM:WoodenBlock"
@@ -28,19 +31,16 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:ReleaseMechanism"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CrossbowBolt"
+      "value": "CUSTOM:AutoCrossbow"
     },
-    "name": "crossbow_bolt_recipe_2",
+    "name": "auto_crossbow_recipe",
     "namespace": "mod"
   }
 }

@@ -20,7 +20,7 @@
       "item": "various_additions:wooden_block"
     },
     "4": {
-      "item": "minecraft:oak_planks"
+      "tag": "minecraft:planks"
     },
     "5": {
       "item": "various_additions:wooden_block"

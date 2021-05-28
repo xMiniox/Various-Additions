@@ -13,10 +13,10 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.FLINT"
       },
       {
-        "value": "Items.FLINT"
+        "value": ""
       },
       {
         "value": ""
@@ -28,10 +28,10 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:CrossbowBolt"
     },
-    "name": "crossbow_bolt_recipe_2",
+    "name": "crossbowboltrecipe_3",
     "namespace": "mod"
   }
 }

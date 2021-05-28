@@ -2,18 +2,18 @@
   "group": "various_additions",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  2",
-    " 4 ",
-    "6  "
+    "0",
+    "1",
+    "2"
   ],
   "key": {
-    "2": {
+    "0": {
       "item": "minecraft:flint"
     },
-    "4": {
+    "1": {
       "item": "various_additions:wooden_block"
     },
-    "6": {
+    "2": {
       "item": "minecraft:stick"
     }
   },

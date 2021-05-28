@@ -2528,6 +2528,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crossbow_bolt_recipe_2"
+    },
+    {
+      "name": "Crossbowboltrecipe3",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crossbowboltrecipe_3"
+    },
+    {
+      "name": "AutoCrossbow",
+      "type": "gun",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_crossbow"
+    },
+    {
+      "name": "AutoCrossbowRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_crossbow_recipe"
     }
   ],
   "variable_elements": [],
@@ -2535,6 +2562,7 @@
   "language_map": {
     "en_us": {
       "block.various_additions.magma_palm_slab": "Magma Palm Slab",
+      "item.various_additions.auto_crossbow": "Auto Crossbow",
       "item.various_additions.eternium_star": "Eternium Star",
       "block.various_textures.magnium_block": "Block of Magnium",
       "block.various_additions.wooden_crate": "Wooden Crate",
@@ -2542,15 +2570,15 @@
       "block.various_additions.magnium_ore": "Magnium Debris",
       "item.various_additions.eternium_sword": "Eternium Sword",
       "block.various_additions.iceron_block": "Block of Iceron",
-      "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.star_fragment": "Star Fragment",
+      "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.iceron_armor_boots": "Iceron Boots",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
-      "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "item.various_additions.iceron_ingot": "Iceron",
-      "block.various_textures.magnium_ore": "Magnium Ore",
+      "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "block.various_additions.eternium_ore": "Eternal Shard Ore",
+      "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_additions.artifact_diamond_fireres": "Diamond Fire Resistance Artifact",
       "block.various_additions.atherium_block": "Block of Atherium",
       "item.various_additions.atherium_armor_armor_boots": "Atherium Boots",

@@ -1,0 +1,7 @@
+{
+  "parent": "various_additions:custom/auto_crossbow",
+  "textures": {
+    "0": "various_additions:blocks/autocrossbowtxt",
+    "particle": "various_additions:items/release_mechanism"
+  }
+}

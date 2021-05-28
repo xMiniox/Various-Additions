@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "release_mechanism",
+    "customModelName": "auto_crossbow:default",
+    "name": "Auto Crossbow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Magnium"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:CrossbowBolt"
+    },
+    "shootConstantly": false,
+    "usageCount": 360,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.5,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "autocrossbowbolttxt.png"
+  }
+}
