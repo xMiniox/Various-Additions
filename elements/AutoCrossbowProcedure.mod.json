@@ -1,0 +1,7 @@
+{
+  "_fv": 18,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"199\" y=\"213\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"item_cooldown_for\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:AutoCrossbow</field></block></value><value name=\"ticks\"><block type=\"math_number\"><field name=\"NUM\">10</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></xml>"
+  }
+}

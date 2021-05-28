@@ -20,9 +20,12 @@
       "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "crossbow",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "AutoCrossbowProcedure"
+    },
     "bulletPower": 1.5,
     "bulletDamage": 2.0,
     "bulletKnockback": 2,

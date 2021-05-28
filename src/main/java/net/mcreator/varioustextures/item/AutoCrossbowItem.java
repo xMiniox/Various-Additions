@@ -30,11 +30,14 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.varioustextures.procedures.AutoCrossbowProcedureProcedure;
 import net.mcreator.varioustextures.itemgroup.MagniumItemGroup;
 import net.mcreator.varioustextures.entity.renderer.AutoCrossbowRenderer;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
 @VariousAdditionsModElements.ModElement.Tag
 public class AutoCrossbowItem extends VariousAdditionsModElements.ModElement {
@@ -67,7 +70,7 @@ public class AutoCrossbowItem extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.CROSSBOW;
+			return UseAction.BOW;
 		}
 
 		@Override
@@ -112,6 +115,11 @@ public class AutoCrossbowItem extends VariousAdditionsModElements.ModElement {
 								if (stack.isEmpty())
 									entity.inventory.deleteStack(stack);
 							}
+						}
+						{
+							Map<String, Object> $_dependencies = new HashMap<>();
+							$_dependencies.put("entity", entity);
+							AutoCrossbowProcedureProcedure.executeProcedure($_dependencies);
 						}
 					}
 				}
