@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "various_additions:blocks/beacon",
+    "up": "various_additions:blocks/beacon",
+    "north": "various_additions:blocks/beacon",
+    "east": "various_additions:blocks/beacon",
+    "south": "various_additions:blocks/beacon",
+    "west": "various_additions:blocks/beacon",
+    "particle": "various_additions:blocks/beacon"
+  }
+}

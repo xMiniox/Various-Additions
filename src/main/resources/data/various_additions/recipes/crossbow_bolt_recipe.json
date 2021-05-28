@@ -1,0 +1,24 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint"
+    },
+    "4": {
+      "item": "various_additions:wooden_block"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "various_additions:crossbow_bolt",
+    "count": 1
+  }
+}

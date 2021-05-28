@@ -1,0 +1,36 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:wooden_block"
+    },
+    "1": {
+      "item": "various_additions:wooden_block"
+    },
+    "2": {
+      "item": "various_additions:wooden_block"
+    },
+    "3": {
+      "item": "various_additions:wooden_gear"
+    },
+    "4": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "various_additions:release_mechanism",
+    "count": 1
+  }
+}

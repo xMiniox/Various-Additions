@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "Blocks.PLANKS#0"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WoodenGear"
+    },
+    "name": "wooden_gear_recipe",
+    "namespace": "mod"
+  }
+}

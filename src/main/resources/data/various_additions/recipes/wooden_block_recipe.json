@@ -1,0 +1,9 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "minecraft:wooden_slabs"
+  },
+  "result": "various_additions:wooden_block"
+}

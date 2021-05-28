@@ -1,0 +1,36 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "various_additions:wooden_block"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "various_additions:wooden_block"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "various_additions:combined_sticks",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenBlock"
+      },
+      {
+        "value": "CUSTOM:WoodenGear"
+      },
+      {
+        "value": "Blocks.TRIPWIRE_HOOK"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ReleaseMechanism"
+    },
+    "name": "release_mechanism_recipe",
+    "namespace": "mod"
+  }
+}

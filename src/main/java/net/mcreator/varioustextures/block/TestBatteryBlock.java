@@ -6,15 +6,12 @@ import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fluids.capability.templates.FluidTank;
-import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.energy.EnergyStorage;
+import net.minecraftforge.energy.CapabilityEnergy;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
@@ -37,11 +34,9 @@ import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.ChestContainer;
 import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.ISidedInventory;
-import net.minecraft.fluid.Fluids;
 import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -57,13 +52,13 @@ import java.util.List;
 import java.util.Collections;
 
 @VariousAdditionsModElements.ModElement.Tag
-public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
-	@ObjectHolder("various_additions:wooden_crate")
+public class TestBatteryBlock extends VariousAdditionsModElements.ModElement {
+	@ObjectHolder("various_additions:test_battery")
 	public static final Block block = null;
-	@ObjectHolder("various_additions:wooden_crate")
+	@ObjectHolder("various_additions:test_battery")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public WoodenCrateBlock(VariousAdditionsModElements instance) {
-		super(instance, 242);
+	public TestBatteryBlock(VariousAdditionsModElements instance) {
+		super(instance, 243);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -75,24 +70,14 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("wooden_crate"));
+			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("test_battery"));
 		}
 	}
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
-	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
-					.setOpaque((bs, br, bp) -> false));
-			setRegistryName("wooden_crate");
-		}
-
-		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0));
+			setRegistryName("test_battery");
 		}
 
 		@Override
@@ -127,6 +112,18 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 		}
 
 		@Override
+		public void onReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean isMoving) {
+			if (state.getBlock() != newState.getBlock()) {
+				TileEntity tileentity = world.getTileEntity(pos);
+				if (tileentity instanceof CustomTileEntity) {
+					InventoryHelper.dropInventoryItems(world, pos, (CustomTileEntity) tileentity);
+					world.updateComparatorOutputLevel(pos, this);
+				}
+				super.onReplaced(state, world, pos, newState, isMoving);
+			}
+		}
+
+		@Override
 		public boolean hasComparatorInputOverride(BlockState state) {
 			return true;
 		}
@@ -142,7 +139,7 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(2, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -154,8 +151,8 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 				this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
 			}
 			ItemStackHelper.loadAllItems(compound, this.stacks);
-			if (compound.get("fluidTank") != null)
-				CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY.readNBT(fluidTank, null, compound.get("fluidTank"));
+			if (compound.get("energyStorage") != null)
+				CapabilityEnergy.ENERGY.readNBT(energyStorage, null, compound.get("energyStorage"));
 		}
 
 		@Override
@@ -164,7 +161,7 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 			if (!this.checkLootAndWrite(compound)) {
 				ItemStackHelper.saveAllItems(compound, this.stacks);
 			}
-			compound.put("fluidTank", CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY.writeNBT(fluidTank, null));
+			compound.put("energyStorage", CapabilityEnergy.ENERGY.writeNBT(energyStorage, null));
 			return compound;
 		}
 
@@ -198,7 +195,7 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("wooden_crate");
+			return new StringTextComponent("test_battery");
 		}
 
 		@Override
@@ -213,7 +210,7 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Wooden Crate");
+			return new StringTextComponent("Test Battery");
 		}
 
 		@Override
@@ -246,24 +243,33 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 			return true;
 		}
 		private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
-		private final FluidTank fluidTank = new FluidTank(9000, fs -> {
-			if (fs.getFluid() == Fluids.WATER)
-				return true;
-			return false;
-		}) {
+		private final EnergyStorage energyStorage = new EnergyStorage(100000, 200, 1000, 0) {
 			@Override
-			protected void onContentsChanged() {
-				super.onContentsChanged();
-				markDirty();
-				world.notifyBlockUpdate(pos, world.getBlockState(pos), world.getBlockState(pos), 2);
+			public int receiveEnergy(int maxReceive, boolean simulate) {
+				int retval = super.receiveEnergy(maxReceive, simulate);
+				if (!simulate) {
+					markDirty();
+					world.notifyBlockUpdate(pos, world.getBlockState(pos), world.getBlockState(pos), 2);
+				}
+				return retval;
+			}
+
+			@Override
+			public int extractEnergy(int maxExtract, boolean simulate) {
+				int retval = super.extractEnergy(maxExtract, simulate);
+				if (!simulate) {
+					markDirty();
+					world.notifyBlockUpdate(pos, world.getBlockState(pos), world.getBlockState(pos), 2);
+				}
+				return retval;
 			}
 		};
 		@Override
 		public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
 			if (!this.removed && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)
 				return handlers[facing.ordinal()].cast();
-			if (!this.removed && capability == CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY)
-				return LazyOptional.of(() -> fluidTank).cast();
+			if (!this.removed && capability == CapabilityEnergy.ENERGY)
+				return LazyOptional.of(() -> energyStorage).cast();
 			return super.getCapability(capability, facing);
 		}
 
