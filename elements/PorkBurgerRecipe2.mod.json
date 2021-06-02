@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": ""
       },
       {
-        "value": "Items.NETHER_STAR"
-      },
-      {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "CUSTOM:BurgerBun"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "Blocks.KELP"
       },
       {
-        "value": "Items.FEATHER"
+        "value": "Items.COOKED_PORKCHOP"
+      },
+      {
+        "value": "Items.CARROT"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": "CUSTOM:BurgerBun"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.ELYTRA"
+      "value": "CUSTOM:PorkBurger"
     },
-    "name": "elytra_recipe",
+    "name": "pork_burger_recipe_2",
     "namespace": "mod"
   }
 }

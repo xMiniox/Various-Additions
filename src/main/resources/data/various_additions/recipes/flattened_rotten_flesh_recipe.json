@@ -1,0 +1,16 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "various_additions:wooden_mortar"
+    }
+  ],
+  "result": {
+    "item": "various_additions:flattened_rotten_flesh",
+    "count": 1
+  }
+}

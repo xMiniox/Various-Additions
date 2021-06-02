@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.NETHER_STAR"
-      },
-      {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": "CUSTOM:WheatFlour"
+      },
+      {
+        "value": "CUSTOM:WheatFlour"
+      },
+      {
+        "value": "CUSTOM:WheatFlour"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.ELYTRA"
+      "value": "CUSTOM:BurgerBun"
     },
-    "name": "elytra_recipe",
+    "name": "burger_bun_recipe",
     "namespace": "mod"
   }
 }

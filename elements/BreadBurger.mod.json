@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "bread_burger",
+    "customModelName": "Normal",
+    "name": "Bread Burger",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Magnium"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 5.0,
+    "eatingSpeed": 40,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

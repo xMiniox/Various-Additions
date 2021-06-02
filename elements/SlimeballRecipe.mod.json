@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": ""
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:WheatFlour"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "Items.WATER_BUCKET"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "CUSTOM:WoodenMortar"
       },
       {
-        "value": "Items.FEATHER"
+        "value": "Items.DYE#10"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.ELYTRA"
+      "value": "Items.SLIME_BALL"
     },
-    "name": "elytra_recipe",
+    "name": "slimeball_recipe",
     "namespace": "mod"
   }
 }

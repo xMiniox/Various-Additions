@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": ""
       },
       {
-        "value": "Items.NETHER_STAR"
-      },
-      {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "CUSTOM:CoalPowder"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.ELYTRA"
+      "value": "Blocks.TORCH"
     },
-    "name": "elytra_recipe",
+    "name": "coal_powder_torch_recipe",
     "namespace": "mod"
   }
 }

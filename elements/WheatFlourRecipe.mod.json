@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.NETHER_STAR"
-      },
-      {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": "CUSTOM:WoodenMortar"
+      },
+      {
+        "value": "Blocks.WHEAT"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.ELYTRA"
+      "value": "CUSTOM:WheatFlour"
     },
-    "name": "elytra_recipe",
+    "name": "wheat_flour_recipe",
     "namespace": "mod"
   }
 }

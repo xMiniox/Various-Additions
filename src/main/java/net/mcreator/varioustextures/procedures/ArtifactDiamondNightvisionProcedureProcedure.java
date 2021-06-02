@@ -37,7 +37,7 @@ public class ArtifactDiamondNightvisionProcedureProcedure extends VariousAdditio
 				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactDiamondNightvisionItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 30, (int) 0, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 200, (int) 0, (false), (false)));
 		}
 	}
 

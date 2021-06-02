@@ -1,0 +1,22 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "various_additions:wheat_flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "various_additions:wooden_mortar"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 1
+  }
+}

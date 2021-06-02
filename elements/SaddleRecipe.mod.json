@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "Items.LEATHER"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Items.LEATHER"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "Items.LEATHER"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
-      },
-      {
-        "value": "Items.FEATHER"
+        "value": "Blocks.TRIPWIRE_HOOK"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.ELYTRA"
+      "value": "Items.SADDLE"
     },
-    "name": "elytra_recipe",
+    "name": "saddle_recipe",
     "namespace": "mod"
   }
 }

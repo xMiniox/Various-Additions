@@ -1,0 +1,19 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "various_additions:coal_powder"
+    },
+    {
+      "item": "various_additions:wooden_mortar"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_dye",
+    "count": 1
+  }
+}

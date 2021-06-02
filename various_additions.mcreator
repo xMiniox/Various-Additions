@@ -2654,6 +2654,267 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "smooth_tabelyst_recipe_2"
+    },
+    {
+      "name": "SkeletonSkullRecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeleton_skull_recipe"
+    },
+    {
+      "name": "SaddleRecipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saddle_recipe"
+    },
+    {
+      "name": "WoodenMortar",
+      "type": "item",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_mortar"
+    },
+    {
+      "name": "WoodenMortarRecipe",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_mortar_recipe"
+    },
+    {
+      "name": "WheatFlour",
+      "type": "item",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wheat_flour"
+    },
+    {
+      "name": "WheatFlourRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wheat_flour_recipe"
+    },
+    {
+      "name": "SlimeballRecipe",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimeball_recipe"
+    },
+    {
+      "name": "BurgerBun",
+      "type": "item",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burger_bun"
+    },
+    {
+      "name": "BurgerBunRecipe",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burger_bun_recipe"
+    },
+    {
+      "name": "BeefBurger",
+      "type": "food",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beef_burger"
+    },
+    {
+      "name": "PorkBurger",
+      "type": "food",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pork_burger"
+    },
+    {
+      "name": "BeefBurgerRecipe",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beef_burger_recipe"
+    },
+    {
+      "name": "BeefBurgerRecipe2",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beef_burger_recipe_2"
+    },
+    {
+      "name": "PorkBurgerRecipe",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pork_burger_recipe"
+    },
+    {
+      "name": "PorkBurgerRecipe2",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pork_burger_recipe_2"
+    },
+    {
+      "name": "BeefSalad",
+      "type": "food",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beef_salad"
+    },
+    {
+      "name": "BreadBurger",
+      "type": "food",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_burger"
+    },
+    {
+      "name": "BreadBurgerRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_burger_recipe"
+    },
+    {
+      "name": "CoalPowder",
+      "type": "item",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_powder"
+    },
+    {
+      "name": "CoalPowderFuel",
+      "type": "fuel",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_powder_fuel"
+    },
+    {
+      "name": "CoalPowderRecipe",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_powder_recipe"
+    },
+    {
+      "name": "BlackDyeRecipe",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_dye_recipe"
+    },
+    {
+      "name": "CoalPowderTorchRecipe",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_powder_torch_recipe"
+    },
+    {
+      "name": "CoalPowderGunpowderRecipe",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_powder_gunpowder_recipe"
+    },
+    {
+      "name": "FlattenedRottenFlesh",
+      "type": "item",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flattened_rotten_flesh"
+    },
+    {
+      "name": "FlattenedRottenFleshRecipe",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flattened_rotten_flesh_recipe"
+    },
+    {
+      "name": "FlattenedRottenFleshSmeltingRecipe",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flattened_rotten_flesh_smelting_recipe"
+    },
+    {
+      "name": "GlowstoneMortarRecipe",
+      "type": "recipe",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowstone_mortar_recipe"
+    },
+    {
+      "name": "CrateGui",
+      "type": "gui",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_gui"
     }
   ],
   "variable_elements": [],
@@ -2669,11 +2930,13 @@
       "block.various_additions.magnium_ore": "Magnium Debris",
       "item.various_additions.eternium_sword": "Eternium Sword",
       "block.various_additions.iceron_block": "Block of Iceron",
+      "item.various_additions.flattened_rotten_flesh": "Flattened Rotten Flesh",
       "item.various_additions.star_fragment": "Star Fragment",
       "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.iceron_armor_boots": "Iceron Boots",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
+      "item.various_additions.wheat_flour": "Wheat Flour",
       "item.various_additions.iceron_ingot": "Iceron",
       "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "block.various_additions.eternium_ore": "Eternal Shard Ore",
@@ -2685,6 +2948,8 @@
       "item.various_additions.cactus_armor_chestplate": "Cactus Chestplate",
       "block.various_additions.smooth_tabelyst": "Smooth Tabelyst",
       "block.various_additions.magnium_block": "Block of Magnium",
+      "item.various_additions.bread_burger": "Bread Burger",
+      "item.various_additions.burger_bun": "Burger Bun",
       "block.various_additions.magma_palm_leaves": "Magma Palm Leaves",
       "item.various_additions.star_apple": "Star Apple",
       "item.various_additions.artifact_diamond_empty": "Empty Diamond Artifact ",
@@ -2717,6 +2982,7 @@
       "itemGroup.tabmagnium": "Various Additions",
       "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.atherium_armor_armor_leggings": "Atherium Leggings",
+      "item.various_additions.beef_burger": "Beef Burger",
       "block.various_additions.tabelyst": "Tabelyst",
       "item.various_additions.magmanana": "Magmanana",
       "item.various_additions.magnium_shovel": "Magnium Shovel",
@@ -2741,8 +3007,10 @@
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_additions.magma_palm_door": "Magma Palm Door",
       "item.various_additions.atherium_armor_armor_chestplate": "Atherium Chestplate",
+      "item.various_additions.coal_powder": "Coal Powder",
       "item.various_additions.magnium_armor_boots": "Magnium Boots",
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
+      "item.various_additions.pork_burger": "Pork Burger",
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.crystal_regeneration": "Regeneration Crystal",
       "block.various_additions.cobbled_tabelyst_bricks": "Cobbled Tabelyst Bricks",
@@ -2762,6 +3030,7 @@
       "item.various_additions.crystal_nightvision": "Night Vision Crystal",
       "item.various_additions.release_mechanism": "Release Mechanism",
       "item.various_additions.eternal_shard": "Eternal Shard",
+      "item.various_additions.wooden_mortar": "Wooden Mortar",
       "item.various_additions.magnium_armor_leggings": "Magnium Leggings",
       "block.various_additions.tabelyst_bricks": "Tabelyst Bricks",
       "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",
@@ -2791,6 +3060,7 @@
       "block.various_additions.crystal_effect_ore": "Effect crystal Ore",
       "item.various_additions.atherium_tools_hoe": "Atherium Hoe",
       "item.various_additions.atherium_tools_pickaxe": "Atherium Pickaxe",
+      "item.various_additions.beef_salad": "Beef Salad",
       "item.various_additions.magnium_ingot": "Magnium Ingot",
       "block.various_additions.soul_soil_atherium_ore": "Soul Soil Atherium Ore",
       "item.various_additions.cactus_armor_boots": "Cactus Boots"
@@ -2803,7 +3073,7 @@
   "workspaceSettings": {
     "modid": "various_additions",
     "modName": "Various Additions",
-    "version": "0.2",
+    "version": "0.3",
     "description": "A mod with some random features we wanted to add",
     "author": "xMinio and NOveXoR",
     "websiteURL": "https://mcreator.net",

@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "Items.DYE#15"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Blocks.BONE_BLOCK"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "Items.DYE#15"
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "Blocks.BONE_BLOCK"
       },
       {
-        "value": ""
+        "value": "Items.QUARTZ"
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "Blocks.BONE_BLOCK"
       },
       {
-        "value": "Items.FEATHER"
+        "value": "Items.DYE#15"
       },
       {
-        "value": ""
+        "value": "Blocks.BONE_BLOCK"
       },
       {
-        "value": "Items.FEATHER"
+        "value": "Items.DYE#15"
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.ELYTRA"
+      "value": "Blocks.SKULL#0"
     },
-    "name": "elytra_recipe",
+    "name": "skeleton_skull_recipe",
     "namespace": "mod"
   }
 }

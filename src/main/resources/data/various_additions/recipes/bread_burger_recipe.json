@@ -1,0 +1,24 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:burger_bun"
+    },
+    "1": {
+      "item": "minecraft:bread"
+    },
+    "2": {
+      "item": "various_additions:burger_bun"
+    }
+  },
+  "result": {
+    "item": "various_additions:bread_burger",
+    "count": 1
+  }
+}

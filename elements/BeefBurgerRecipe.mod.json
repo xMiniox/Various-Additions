@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": ""
       },
       {
-        "value": "Items.NETHER_STAR"
-      },
-      {
-        "value": "Items.NETHERITE_INGOT"
-      },
-      {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "CUSTOM:BurgerBun"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "Items.CARROT"
       },
       {
-        "value": "Items.FEATHER"
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": "Blocks.KELP"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": "CUSTOM:BurgerBun"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.ELYTRA"
+      "value": "CUSTOM:BeefBurger"
     },
-    "name": "elytra_recipe",
+    "name": "beef_burger_recipe",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "various_additions:burger_bun"
+    },
+    "3": {
+      "item": "minecraft:kelp"
+    },
+    "4": {
+      "item": "minecraft:cooked_beef"
+    },
+    "5": {
+      "item": "minecraft:carrot"
+    },
+    "7": {
+      "item": "various_additions:burger_bun"
+    }
+  },
+  "result": {
+    "item": "various_additions:beef_burger",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone_meal"
+    },
+    "1": {
+      "item": "minecraft:bone_block"
+    },
+    "2": {
+      "item": "minecraft:bone_meal"
+    },
+    "3": {
+      "item": "minecraft:bone_block"
+    },
+    "4": {
+      "item": "minecraft:quartz"
+    },
+    "5": {
+      "item": "minecraft:bone_block"
+    },
+    "6": {
+      "item": "minecraft:bone_meal"
+    },
+    "7": {
+      "item": "minecraft:bone_block"
+    },
+    "8": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "minecraft:skeleton_skull",
+    "count": 1
+  }
+}
