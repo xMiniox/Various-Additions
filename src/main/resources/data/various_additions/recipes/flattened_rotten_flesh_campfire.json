@@ -1,0 +1,12 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "various_additions:flattened_rotten_flesh"
+  },
+  "result": {
+    "item": "minecraft:leather"
+  }
+}

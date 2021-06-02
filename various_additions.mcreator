@@ -2915,6 +2915,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crate_gui"
+    },
+    {
+      "name": "FlattenedRottenFleshCampfire",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flattened_rotten_flesh_campfire"
+    },
+    {
+      "name": "BeefSaladRecipe",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beef_salad_recipe"
     }
   ],
   "variable_elements": [],
@@ -2937,8 +2955,8 @@
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
       "item.various_additions.wheat_flour": "Wheat Flour",
-      "item.various_additions.iceron_ingot": "Iceron",
       "block.various_additions.eternium_block": "Block of Eternal Crystal",
+      "item.various_additions.iceron_ingot": "Iceron",
       "block.various_additions.eternium_ore": "Eternal Shard Ore",
       "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_additions.artifact_diamond_fireres": "Diamond Fire Resistance Artifact",
@@ -2986,7 +3004,7 @@
       "block.various_additions.tabelyst": "Tabelyst",
       "item.various_additions.magmanana": "Magmanana",
       "item.various_additions.magnium_shovel": "Magnium Shovel",
-      "item.various_additions.combined_sticks": "Stick\u0027n\u0027string",
+      "item.various_additions.combined_sticks": "Stick n string",
       "block.various_additions.smooth_tabelyst_tile": "Smooth Tabelyst Tile",
       "item.various_additions.iceron_hoe": "Iceron Hoe",
       "item.various_additions.artifact_diamond_resistance": "Diamond Resistance Artifact",

@@ -1,0 +1,19 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "various_additions:beef_salad"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "result": {
+    "item": "various_additions:beef_salad",
+    "count": 1
+  }
+}
