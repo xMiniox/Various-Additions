@@ -1,0 +1,26 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:tabelyst"
+    },
+    "1": {
+      "item": "various_additions:tabelyst"
+    },
+    "2": {
+      "item": "various_additions:tabelyst"
+    },
+    "3": {
+      "item": "various_additions:tabelyst"
+    }
+  },
+  "result": {
+    "item": "various_additions:tabelyst_bricks",
+    "count": 4
+  }
+}

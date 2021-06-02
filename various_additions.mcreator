@@ -1334,15 +1334,6 @@
       "registry_name": "temporary_magma_palm_recipe_4"
     },
     {
-      "name": "Amogus",
-      "type": "item",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amogus"
-    },
-    {
       "name": "EterniumOreLT",
       "type": "loottable",
       "sortid": 170,
@@ -1440,23 +1431,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_flower_dye_recipe"
-    },
-    {
-      "name": "AMOGUSProcedure",
-      "type": "procedure",
-      "sortid": 181,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amogus_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "IceronIngot",
@@ -2572,6 +2546,123 @@
           }
         ]
       }
+    },
+    {
+      "name": "Tabelyst",
+      "type": "block",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tabelyst"
+    },
+    {
+      "name": "CobbledTabelyst",
+      "type": "block",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobbled_tabelyst"
+    },
+    {
+      "name": "TabelystBricks",
+      "type": "block",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tabelyst_bricks"
+    },
+    {
+      "name": "CobbledTabelystBricks",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobbled_tabelyst_bricks"
+    },
+    {
+      "name": "SmoothTabelyst",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_tabelyst"
+    },
+    {
+      "name": "SmoothTabelystTile",
+      "type": "block",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_tabelyst_tile"
+    },
+    {
+      "name": "CobbledTabelystRecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobbled_tabelyst_recipe"
+    },
+    {
+      "name": "TabelystBricksRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tabelyst_bricks_recipe"
+    },
+    {
+      "name": "CobbledTabelystBricksRecipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobbled_tabelyst_bricks_recipe"
+    },
+    {
+      "name": "SmoothTabelystRecipe",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_tabelyst_recipe"
+    },
+    {
+      "name": "SmoothTabelystTileRecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_tabelyst_tile_recipe"
+    },
+    {
+      "name": "TabelystBricksRecipe2",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tabelyst_bricks_recipe_2"
+    },
+    {
+      "name": "SmoothTabelystRecipe2",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_tabelyst_recipe_2"
     }
   ],
   "variable_elements": [],
@@ -2601,6 +2692,7 @@
       "item.various_additions.atherium_armor_armor_boots": "Atherium Boots",
       "item.various_additions.artifact_diamond_luck": "Diamond Luck Artifact",
       "item.various_additions.cactus_armor_chestplate": "Cactus Chestplate",
+      "block.various_additions.smooth_tabelyst": "Smooth Tabelyst",
       "block.various_additions.magnium_block": "Block of Magnium",
       "block.various_additions.magma_palm_leaves": "Magma Palm Leaves",
       "item.various_additions.star_apple": "Star Apple",
@@ -2634,9 +2726,11 @@
       "itemGroup.tabmagnium": "Various Additions",
       "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.atherium_armor_armor_leggings": "Atherium Leggings",
+      "block.various_additions.tabelyst": "Tabelyst",
       "item.various_additions.magmanana": "Magmanana",
       "item.various_additions.magnium_shovel": "Magnium Shovel",
-      "item.various_additions.combined_sticks": "Combined Sticks",
+      "item.various_additions.combined_sticks": "Stick\u0027n\u0027string",
+      "block.various_additions.smooth_tabelyst_tile": "Smooth Tabelyst Tile",
       "item.various_additions.iceron_hoe": "Iceron Hoe",
       "item.various_additions.artifact_diamond_resistance": "Diamond Resistance Artifact",
       "item.various_additions.artifact_diamond_nightvision": "Diamond Night Vision Artifact",
@@ -2660,6 +2754,7 @@
       "item.various_textures.magnium_armor_chestplate": "Magnium_Chestplate",
       "item.various_additions.stone_stick": "Stone Stick",
       "item.various_additions.crystal_regeneration": "Regeneration Crystal",
+      "block.various_additions.cobbled_tabelyst_bricks": "Cobbled Tabelyst Bricks",
       "item.various_additions.crystal_luck": "Luck Crystal",
       "item.various_additions.eternium_armor_chestplate": "Eternium Chestplate",
       "item.various_additions.crystal_resistance": "Resistance Crystal",
@@ -2678,12 +2773,14 @@
       "item.various_additions.release_mechanism": "Release Mechanism",
       "item.various_additions.eternal_shard": "Eternal Shard",
       "item.various_additions.magnium_armor_leggings": "Magnium Leggings",
+      "block.various_additions.tabelyst_bricks": "Tabelyst Bricks",
       "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",
       "block.various_additions.magma_palm_sapling": "Magma Palm Sapling",
       "item.various_additions.eternium_armor_leggings": "Eternium Leggings",
       "block.various_additions.magma_palm_stairs": "Magma Palm Stairs",
       "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "item.various_additions.cactus_armor_leggings": "Cactus Leggings",
+      "block.various_additions.cobbled_tabelyst": "Cobbled Tabelyst",
       "item.various_additions.iceron_sword": "Iceron Sword",
       "item.various_additions.artifact_empty": "Empty Artifact",
       "item.various_additions.eternium_armor_helmet": "Eternium Helmet",
@@ -2703,7 +2800,6 @@
       "item.various_textures.magnium_ingot": "Magnium",
       "block.various_additions.crystal_effect_ore": "Effect crystal Ore",
       "item.various_additions.atherium_tools_hoe": "Atherium Hoe",
-      "item.various_additions.amogus": "A M O G U S",
       "item.various_additions.atherium_tools_pickaxe": "Atherium Pickaxe",
       "item.various_additions.magnium_ingot": "Magnium Ingot",
       "block.various_additions.soul_soil_atherium_ore": "Soul Soil Atherium Ore",

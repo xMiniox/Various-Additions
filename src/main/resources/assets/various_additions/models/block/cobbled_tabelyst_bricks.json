@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "various_additions:blocks/tabelyst_bricks_cobbled",
+    "up": "various_additions:blocks/tabelyst_bricks_cobbled",
+    "north": "various_additions:blocks/tabelyst_bricks_cobbled",
+    "east": "various_additions:blocks/tabelyst_bricks_cobbled",
+    "south": "various_additions:blocks/tabelyst_bricks_cobbled",
+    "west": "various_additions:blocks/tabelyst_bricks_cobbled",
+    "particle": "various_additions:blocks/tabelyst_bricks_cobbled"
+  }
+}

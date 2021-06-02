@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "various_additions:blocks/smooth_tabelyst_tile",
+    "up": "various_additions:blocks/smooth_tabelyst_tile",
+    "north": "various_additions:blocks/smooth_tabelyst_tile",
+    "east": "various_additions:blocks/smooth_tabelyst_tile",
+    "south": "various_additions:blocks/smooth_tabelyst_tile",
+    "west": "various_additions:blocks/smooth_tabelyst_tile",
+    "particle": "various_additions:blocks/smooth_tabelyst_tile"
+  }
+}

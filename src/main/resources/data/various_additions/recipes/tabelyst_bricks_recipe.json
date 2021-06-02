@@ -1,0 +1,9 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "various_additions:tabelyst"
+  },
+  "result": "various_additions:tabelyst_bricks"
+}
