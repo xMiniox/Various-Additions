@@ -2872,15 +2872,6 @@
       "registry_name": "coal_powder_gunpowder_recipe"
     },
     {
-      "name": "FlattenedRottenFlesh",
-      "type": "item",
-      "sortid": 296,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "flattened_rotten_flesh"
-    },
-    {
       "name": "FlattenedRottenFleshRecipe",
       "type": "recipe",
       "sortid": 297,
@@ -2933,6 +2924,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "beef_salad_recipe"
+    },
+    {
+      "name": "RottenJerky",
+      "type": "food",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rotten_jerky"
     }
   ],
   "variable_elements": [],
@@ -2948,7 +2948,6 @@
       "block.various_additions.magnium_ore": "Magnium Debris",
       "item.various_additions.eternium_sword": "Eternium Sword",
       "block.various_additions.iceron_block": "Block of Iceron",
-      "item.various_additions.flattened_rotten_flesh": "Flattened Rotten Flesh",
       "item.various_additions.star_fragment": "Star Fragment",
       "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.iceron_armor_boots": "Iceron Boots",
@@ -3022,6 +3021,7 @@
       "item.various_additions.magnium_launcher": "Magnium Launcher",
       "item.various_additions.iceron_pickaxe": "Iceron Pickaxe",
       "item.various_additions.artifact_diamond_waterbreathing": "Diamond Water Breathing Artifact",
+      "item.various_additions.rotten_jerky": "Rotten Jerky",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
       "block.various_additions.magma_palm_door": "Magma Palm Door",
       "item.various_additions.atherium_armor_armor_chestplate": "Atherium Chestplate",
@@ -3098,7 +3098,7 @@
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "mod_logo",
+    "modPicture": "new_logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

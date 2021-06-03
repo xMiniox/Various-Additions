@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:FlattenedRottenFlesh"
+      "value": "CUSTOM:RottenJerky"
     },
     "smeltingReturnStack": {
       "value": "Items.LEATHER"

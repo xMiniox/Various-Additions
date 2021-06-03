@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FlattenedRottenFlesh"
+      "value": "CUSTOM:RottenJerky"
     },
     "name": "flattened_rotten_flesh_recipe",
     "namespace": "mod"

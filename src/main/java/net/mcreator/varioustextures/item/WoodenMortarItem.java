@@ -25,7 +25,7 @@ public class WoodenMortarItem extends VariousAdditionsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MagniumItemGroup.tab).maxDamage(16).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MagniumItemGroup.tab).maxDamage(64).rarity(Rarity.COMMON));
 			setRegistryName("wooden_mortar");
 		}
 
