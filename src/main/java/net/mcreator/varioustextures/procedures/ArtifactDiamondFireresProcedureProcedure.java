@@ -37,7 +37,7 @@ public class ArtifactDiamondFireresProcedureProcedure extends VariousAdditionsMo
 				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactDiamondFireresItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 30, (int) 0, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 200, (int) 0, (false), (false)));
 		}
 	}
 

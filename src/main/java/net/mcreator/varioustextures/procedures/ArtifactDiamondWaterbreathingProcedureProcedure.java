@@ -37,7 +37,7 @@ public class ArtifactDiamondWaterbreathingProcedureProcedure extends VariousAddi
 				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactDiamondWaterbreathingItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WATER_BREATHING, (int) 30, (int) 0, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WATER_BREATHING, (int) 200, (int) 0, (false), (false)));
 		}
 	}
 

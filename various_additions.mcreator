@@ -1697,15 +1697,6 @@
       "registry_name": "cactus_sword_recipe"
     },
     {
-      "name": "ArtifactEmpty",
-      "type": "item",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_empty"
-    },
-    {
       "name": "ArtifactDiamondEmpty",
       "type": "item",
       "sortid": 69,
@@ -1713,15 +1704,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "artifact_diamond_empty"
-    },
-    {
-      "name": "ArtifactRecipe",
-      "type": "recipe",
-      "sortid": 199,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_recipe"
     },
     {
       "name": "ArtifactDiamondRecipe",
@@ -1757,42 +1739,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "ArtifactRegeneration",
-      "type": "item",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_regeneration"
-    },
-    {
-      "name": "ArtifactStrength",
-      "type": "item",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_strength"
-    },
-    {
-      "name": "ArtifactResistance",
-      "type": "item",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_resistance"
-    },
-    {
-      "name": "ArtifactLuck",
-      "type": "item",
-      "sortid": 74,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_luck"
     },
     {
       "name": "ArtifactDiamondRegeneration",
@@ -2090,74 +2036,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystal_nightvision_recipe"
-    },
-    {
-      "name": "ArtifactRegenerationProcedure",
-      "type": "procedure",
-      "sortid": 220,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_regeneration_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ArtifactStrengthProcedure",
-      "type": "procedure",
-      "sortid": 221,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_strength_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ArtifactResistanceProcedure",
-      "type": "procedure",
-      "sortid": 222,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_resistance_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ArtifactLuckProcedure",
-      "type": "procedure",
-      "sortid": 223,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_luck_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "ArtifactDiamondRegenerationProcedure",
@@ -3075,7 +2953,6 @@
       "item.various_additions.cactus_sword": "Cactus Sword",
       "item.various_textures.magnium_sword": "Magnium Sword",
       "item.various_textures.magnium_armor_leggings": "Magnium_Leggings",
-      "item.various_additions.artifact_regeneration": "Regeneration Artifact",
       "item.minecraft.potion.effect.dragons_fury": "Dragon\u0027s Fury",
       "block.various_additions.star_lamp": "Star Lamp",
       "block.various_additions.magma_flower": "Magma Flower",
@@ -3086,9 +2963,7 @@
       "item.minecraft.tipped_arrow.effect.dragons_fury": "Arrow of Dragon\u0027s Fury",
       "item.various_textures.magnium_hoe": "Magnium Hoe",
       "block.various_additions.magma_palm_trapdoor": "Magma Palm Trapdoor",
-      "item.various_additions.artifact_resistance": "Resistance Artifact",
       "item.minecraft.splash_potion.effect.dragons_fury": "Splash Dragon\u0027s Fury",
-      "item.various_additions.artifact_strength": "Strenght Artifact",
       "block.various_additions.magma_palm_planks": "Magma Palm Planks",
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium Crystal",
@@ -3116,7 +2991,6 @@
       "item.various_additions.eternium_shovel": "Eternium Shovel",
       "item.various_additions.artifact_diamond_regeneration": "Diamond Regeneration Artifact",
       "item.various_additions.crystal_effect": "Effect Crystal",
-      "item.various_additions.artifact_luck": "Luck Artifact",
       "block.various_additions.magma_palm_log": "Magma Palm Log",
       "item.various_textures.magnium_armor_boots": "Magnium_Boots",
       "item.various_additions.artifact_fly": "Artifact Of Flight",
@@ -3165,7 +3039,6 @@
       "item.various_additions.cactus_armor_leggings": "Cactus Leggings",
       "block.various_additions.cobbled_tabelyst": "Cobbled Tabelyst",
       "item.various_additions.iceron_sword": "Iceron Sword",
-      "item.various_additions.artifact_empty": "Empty Artifact",
       "item.various_additions.eternium_armor_helmet": "Eternium Helmet",
       "item.various_additions.magnium_armor_helmet": "Magnium Helmet",
       "block.various_additions.magma_lamp": "Magma Lamp",

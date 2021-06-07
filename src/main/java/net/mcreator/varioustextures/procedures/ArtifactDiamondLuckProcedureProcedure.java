@@ -37,7 +37,7 @@ public class ArtifactDiamondLuckProcedureProcedure extends VariousAdditionsModEl
 				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactDiamondLuckItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LUCK, (int) 30, (int) 1, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LUCK, (int) 200, (int) 1, (false), (false)));
 		}
 	}
 

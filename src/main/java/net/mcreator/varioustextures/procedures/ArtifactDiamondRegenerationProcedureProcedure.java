@@ -37,7 +37,7 @@ public class ArtifactDiamondRegenerationProcedureProcedure extends VariousAdditi
 				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ArtifactDiamondRegenerationItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 1, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 200, (int) 0, (false), (false)));
 		}
 	}
 
