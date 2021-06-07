@@ -1876,42 +1876,6 @@
       "registry_name": "crystal_nightvision"
     },
     {
-      "name": "ArtifactRegenerationRecipe",
-      "type": "recipe",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_regeneration_recipe"
-    },
-    {
-      "name": "ArtifactStrengthRecipe",
-      "type": "recipe",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_strength_recipe"
-    },
-    {
-      "name": "ArtifactResistanceRecipe",
-      "type": "recipe",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_resistance_recipe"
-    },
-    {
-      "name": "ArtifactLuckRecipe",
-      "type": "recipe",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_luck_recipe"
-    },
-    {
       "name": "ArtifactDiamondRegenerationRecipe",
       "type": "recipe",
       "sortid": 206,
@@ -2155,42 +2119,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "ArtifactRegenerationReverse",
-      "type": "recipe",
-      "sortid": 231,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_regeneration_reverse"
-    },
-    {
-      "name": "ArtifactStrengthReverse",
-      "type": "recipe",
-      "sortid": 232,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_strength_reverse"
-    },
-    {
-      "name": "ArtifactResistanceReverse",
-      "type": "recipe",
-      "sortid": 233,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_resistance_reverse"
-    },
-    {
-      "name": "ArtifactLuckReverse",
-      "type": "recipe",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "artifact_luck_reverse"
     },
     {
       "name": "ArtifactDiamondRegenerationReverse",
@@ -2933,8 +2861,8 @@
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
       "item.various_additions.wheat_flour": "Wheat Flour",
-      "item.various_additions.iceron_ingot": "Iceron",
       "block.various_additions.eternium_block": "Block of Eternal Crystal",
+      "item.various_additions.iceron_ingot": "Iceron",
       "block.various_additions.eternium_ore": "Eternal Shard Ore",
       "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_additions.artifact_diamond_fireres": "Diamond Fire Resistance Artifact",
