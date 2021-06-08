@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOW",
+    "components": [],
+    "baseTexture": "dragons_fury_overlay.png",
+    "displayCondition": {
+      "name": "DragonsFuryOverlayDisplay"
+    }
+  }
+}

@@ -2750,39 +2750,6 @@
       "registry_name": "dragon_sword"
     },
     {
-      "name": "DragonSwordProcedure",
-      "type": "procedure",
-      "sortid": 305,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dragon_sword_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "DragonsFury",
       "type": "potion",
       "sortid": 306,
@@ -2804,22 +2771,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -2833,6 +2784,33 @@
       "ids": {},
       "registry_name": "dragons_fury_procedure_2",
       "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DragonsFuryOverlay",
+      "type": "overlay",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragons_fury_overlay"
+    },
+    {
+      "name": "DragonsFuryOverlayDisplay",
+      "type": "procedure",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragons_fury_overlay_display",
+      "metadata": {
+        "return_type": "LOGIC",
         "dependencies": [
           {
             "name": "entity",
@@ -2886,7 +2864,7 @@
       "block.various_additions.magma_flower": "Magma Flower",
       "item.various_additions.iceron_armor_leggings": "Iceron Leggings",
       "item.various_additions.eternium_hoe": "Eternium Hoe",
-      "item.various_additions.dragon_sword": "Dragon Sword",
+      "item.various_additions.dragon_sword": "Dragon\u0027s Sword",
       "item.various_additions.atherium_fragment": "Atherium Shard",
       "item.minecraft.tipped_arrow.effect.dragons_fury": "Arrow of Dragon\u0027s Fury",
       "item.various_textures.magnium_hoe": "Magnium Hoe",

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "dragon_sword_v1",
     "customModelName": "Normal",
-    "name": "Dragon Sword",
+    "name": "Dragon's Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Magnium"
@@ -16,7 +16,7 @@
     "attackSpeed": 1.6,
     "enchantability": 10,
     "damageVsEntity": 5.0,
-    "usageCount": 100,
+    "usageCount": 4096,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -27,9 +27,6 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "DragonsFuryProcedure"
-    },
     "onItemInInventoryTick": {
       "name": "DragonsFuryProcedure2"
     }
