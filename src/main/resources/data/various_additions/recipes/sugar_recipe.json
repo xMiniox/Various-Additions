@@ -1,0 +1,16 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "various_additions:wooden_mortar"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_dye",
+    "count": 1
+  }
+}

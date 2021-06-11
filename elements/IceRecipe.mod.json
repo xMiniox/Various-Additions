@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "Items.SNOWBALL"
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "Items.SNOWBALL"
       },
       {
-        "value": "Blocks.SKULL#0"
+        "value": "Items.WATER_BUCKET"
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "Items.SNOWBALL"
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "Items.SNOWBALL"
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.SKULL#1"
+      "value": "Blocks.ICE"
     },
-    "name": "wither_skeleton_skull_recipe",
+    "name": "ice_recipe",
     "namespace": "mod"
   }
 }

@@ -2,13 +2,19 @@
   "group": "various_additions",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "012",
     "345",
-    " 7 "
+    "678"
   ],
   "key": {
+    "0": {
+      "item": "various_additions:coal_powder"
+    },
     "1": {
       "item": "minecraft:blackstone"
+    },
+    "2": {
+      "item": "various_additions:coal_powder"
     },
     "3": {
       "item": "minecraft:blackstone"
@@ -19,8 +25,14 @@
     "5": {
       "item": "minecraft:blackstone"
     },
+    "6": {
+      "item": "various_additions:coal_powder"
+    },
     "7": {
       "item": "minecraft:blackstone"
+    },
+    "8": {
+      "item": "various_additions:coal_powder"
     }
   },
   "result": {

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "various_additions:blocks/nispelstone_bottom",
+    "up": "various_additions:blocks/nispelstone_top",
+    "north": "various_additions:blocks/nispelstone_side",
+    "east": "various_additions:blocks/nispelstone_side",
+    "south": "various_additions:blocks/nispelstone_side",
+    "west": "various_additions:blocks/nispelstone_side",
+    "particle": "various_additions:blocks/nispelstone_bottom"
+  }
+}

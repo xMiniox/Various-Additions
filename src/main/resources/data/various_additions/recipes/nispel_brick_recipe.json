@@ -1,0 +1,30 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "various_additions:coal_powder"
+    },
+    "3": {
+      "item": "various_additions:coal_powder"
+    },
+    "4": {
+      "item": "minecraft:brick"
+    },
+    "5": {
+      "item": "various_additions:coal_powder"
+    },
+    "7": {
+      "item": "various_additions:coal_powder"
+    }
+  },
+  "result": {
+    "item": "various_additions:nispel_brick",
+    "count": 2
+  }
+}

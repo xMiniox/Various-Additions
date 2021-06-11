@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": ""
       },
       {
-        "value": "Blocks.SKULL#0"
+        "value": "CUSTOM:NispelBrick"
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "CUSTOM:NispelBrick"
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "CUSTOM:NispelBrick"
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": "CUSTOM:NispelBrick"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.SKULL#1"
+      "value": "CUSTOM:Nispelcobble"
     },
-    "name": "wither_skeleton_skull_recipe",
+    "name": "nispelcobble_recipe",
     "namespace": "mod"
   }
 }

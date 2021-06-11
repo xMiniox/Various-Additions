@@ -1,0 +1,26 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:nispel_brick"
+    },
+    "1": {
+      "item": "various_additions:nispel_brick"
+    },
+    "2": {
+      "item": "various_additions:nispel_brick"
+    },
+    "3": {
+      "item": "various_additions:nispel_brick"
+    }
+  },
+  "result": {
+    "item": "various_additions:nispelcobble",
+    "count": 1
+  }
+}

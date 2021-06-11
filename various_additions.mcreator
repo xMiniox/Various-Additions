@@ -2714,15 +2714,6 @@
       "registry_name": "crate_gui"
     },
     {
-      "name": "FlattenedRottenFleshCampfire",
-      "type": "recipe",
-      "sortid": 301,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "flattened_rotten_flesh_campfire"
-    },
-    {
       "name": "BeefSaladRecipe",
       "type": "recipe",
       "sortid": 302,
@@ -2818,6 +2809,243 @@
           }
         ]
       }
+    },
+    {
+      "name": "DragonsFuryProcedure3",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragons_fury_procedure_3",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SaplingCooking",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapling_cooking"
+    },
+    {
+      "name": "DragonScales",
+      "type": "item",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_scales"
+    },
+    {
+      "name": "DragonScalesRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_scales_recipe"
+    },
+    {
+      "name": "DragonScalesRecipe2",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_scales_recipe_2"
+    },
+    {
+      "name": "QuartzRecipe",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quartz_recipe"
+    },
+    {
+      "name": "GlowstoneRecipe",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowstone_recipe"
+    },
+    {
+      "name": "RedstoneRecipe",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_recipe"
+    },
+    {
+      "name": "GunpowderRecipe",
+      "type": "recipe",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gunpowder_recipe"
+    },
+    {
+      "name": "SugarRecipe",
+      "type": "recipe",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugar_recipe"
+    },
+    {
+      "name": "BlazePowderRecipe",
+      "type": "recipe",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blaze_powder_recipe"
+    },
+    {
+      "name": "QuartzRecipe2",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quartz_recipe_2"
+    },
+    {
+      "name": "CodSushi",
+      "type": "food",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cod_sushi"
+    },
+    {
+      "name": "SalmonSushi",
+      "type": "food",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salmon_sushi"
+    },
+    {
+      "name": "CodSushiRecipe",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cod_sushi_recipe"
+    },
+    {
+      "name": "SalmonSushiRecipe",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salmon_sushi_recipe"
+    },
+    {
+      "name": "Nispelstone",
+      "type": "block",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelstone"
+    },
+    {
+      "name": "Nispelcobble",
+      "type": "block",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelcobble"
+    },
+    {
+      "name": "IceRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_recipe"
+    },
+    {
+      "name": "NispelBrick",
+      "type": "item",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispel_brick"
+    },
+    {
+      "name": "NispelcobbleRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelcobble_recipe"
+    },
+    {
+      "name": "NispelstoneRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelstone_recipe"
+    },
+    {
+      "name": "NispelBrickRecipe",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispel_brick_recipe"
+    },
+    {
+      "name": "NispelheimOrange",
+      "type": "biome",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_orange"
+    },
+    {
+      "name": "NispelheimRed",
+      "type": "biome",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_red"
+    },
+    {
+      "name": "NispelheimPurple",
+      "type": "biome",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_purple"
     }
   ],
   "variable_elements": [],
@@ -2826,7 +3054,9 @@
     "en_us": {
       "block.various_additions.magma_palm_slab": "Magma Palm Slab",
       "item.various_additions.auto_crossbow": "Auto Crossbow",
+      "item.various_additions.dragon_scales": "Dragon Scales",
       "item.various_additions.eternium_star": "Eternium Star",
+      "biome.various_additions.nispelheim_orange": "Nispelheim Orange",
       "block.various_textures.magnium_block": "Block of Magnium",
       "block.various_additions.wooden_crate": "Wooden Crate",
       "item.various_additions.cactus_armor_helmet": "Cactus Helmet",
@@ -2839,8 +3069,8 @@
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
       "item.various_additions.wheat_flour": "Wheat Flour",
-      "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "item.various_additions.iceron_ingot": "Iceron",
+      "block.various_additions.eternium_block": "Block of Eternal Crystal",
       "block.various_additions.eternium_ore": "Eternal Shard Ore",
       "block.various_textures.magnium_ore": "Magnium Ore",
       "item.various_additions.artifact_diamond_fireres": "Diamond Fire Resistance Artifact",
@@ -2864,7 +3094,7 @@
       "block.various_additions.magma_flower": "Magma Flower",
       "item.various_additions.iceron_armor_leggings": "Iceron Leggings",
       "item.various_additions.eternium_hoe": "Eternium Hoe",
-      "item.various_additions.dragon_sword": "Dragon\u0027s Sword",
+      "item.various_additions.dragon_sword": "Dragon Sword",
       "item.various_additions.atherium_fragment": "Atherium Shard",
       "item.minecraft.tipped_arrow.effect.dragons_fury": "Arrow of Dragon\u0027s Fury",
       "item.various_textures.magnium_hoe": "Magnium Hoe",
@@ -2885,6 +3115,7 @@
       "itemGroup.tabmagnium": "Various Additions",
       "item.various_textures.magnium_pickaxe": "Magnium Pickaxe",
       "item.various_additions.atherium_armor_armor_leggings": "Atherium Leggings",
+      "block.various_additions.nispelcobble": "Nispelcobble",
       "item.various_additions.beef_burger": "Beef Burger",
       "block.various_additions.tabelyst": "Tabelyst",
       "item.various_additions.magmanana": "Magmanana",
@@ -2907,7 +3138,9 @@
       "item.various_additions.iceron_pickaxe": "Iceron Pickaxe",
       "item.various_additions.artifact_diamond_waterbreathing": "Diamond Water Breathing Artifact",
       "item.various_additions.rotten_jerky": "Rotten Jerky",
+      "item.various_additions.nispel_brick": "Nispel Brick",
       "item.various_textures.magnium_armor_helmet": "Magnium_Helmet",
+      "item.various_additions.salmon_sushi": "Salmon Sushi",
       "block.various_additions.magma_palm_door": "Magma Palm Door",
       "item.various_additions.atherium_armor_armor_chestplate": "Atherium Chestplate",
       "item.various_additions.coal_powder": "Coal Powder",
@@ -2922,6 +3155,7 @@
       "item.various_additions.crystal_resistance": "Resistance Crystal",
       "item.various_textures.magnium_shovel": "Magnium Shovel",
       "item.various_additions.iceron_axe": "Iceron Axe",
+      "biome.various_additions.nispelheim_purple": "Nispelheim Purple",
       "item.various_additions.atherium_tools_axe": "Atherium Axe",
       "item.various_additions.artifact_diamond_strength": "Diamond Strength Artifact",
       "item.various_additions.crystal_waterbreathing": "Water Breathing Crystal",
@@ -2934,12 +3168,14 @@
       "item.various_additions.crystal_nightvision": "Night Vision Crystal",
       "item.various_additions.release_mechanism": "Release Mechanism",
       "item.various_additions.eternal_shard": "Eternal Shard",
+      "item.various_additions.cod_sushi": "Cod Sushi",
       "item.various_additions.wooden_mortar": "Wooden Mortar",
       "item.various_additions.magnium_armor_leggings": "Magnium Leggings",
       "block.various_additions.tabelyst_bricks": "Tabelyst Bricks",
       "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",
       "block.various_additions.magma_palm_sapling": "Magma Palm Sapling",
       "item.various_additions.eternium_armor_leggings": "Eternium Leggings",
+      "block.various_additions.nispelstone": "Nispelstone",
       "block.various_additions.magma_palm_stairs": "Magma Palm Stairs",
       "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "item.various_additions.cactus_armor_leggings": "Cactus Leggings",
@@ -2953,6 +3189,7 @@
       "item.various_additions.iceron_armor_helmet": "Iceron Helmet",
       "item.various_additions.eternium_armor_boots": "Eternium Boots",
       "block.various_additions.magma_palm_fence": "Magma Palm Fence",
+      "biome.various_additions.nispelheim_red": "Nispelheim Red",
       "item.various_additions.magnium_catalyst": "Magnium Catalyst",
       "item.various_textures.magnium_scrap": "Magnium Scrap",
       "item.various_additions.crystal_fireres": "Fire Resistance Crystal",

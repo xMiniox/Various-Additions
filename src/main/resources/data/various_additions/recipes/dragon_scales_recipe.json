@@ -1,0 +1,13 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_egg"
+    }
+  ],
+  "result": {
+    "item": "various_additions:dragon_scales",
+    "count": 4
+  }
+}

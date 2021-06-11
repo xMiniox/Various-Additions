@@ -49,7 +49,7 @@ public class CrateGuiGuiWindow extends ContainerScreen<CrateGuiGui.GuiContainerM
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("various_additions:textures/crate_gui.png"));
-		this.blit(ms, this.guiLeft + 0, this.guiTop + 0, 0, 0, 180, 180, 180, 180);
+		this.blit(ms, this.guiLeft + 0, this.guiTop + 0, 0, 0, -1, -1, -1, -1);
 		RenderSystem.disableBlend();
 	}
 

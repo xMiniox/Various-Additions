@@ -1,0 +1,16 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "various_additions:wooden_mortar"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_dye",
+    "count": 1
+  }
+}

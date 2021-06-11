@@ -1,0 +1,30 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:snowball"
+    },
+    "3": {
+      "item": "minecraft:snowball"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "minecraft:snowball"
+    },
+    "7": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result": {
+    "item": "minecraft:ice",
+    "count": 1
+  }
+}

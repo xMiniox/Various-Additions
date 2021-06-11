@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "CUSTOM:DragonScales"
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "CUSTOM:DragonScales"
       },
       {
-        "value": "Blocks.SKULL#0"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "CUSTOM:DragonScales"
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       },
       {
-        "value": "Blocks.BLACKSTONE"
+        "value": "CUSTOM:DragonScales"
       },
       {
-        "value": "CUSTOM:CoalPowder"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.SKULL#1"
+      "value": "Blocks.DRAGON_EGG"
     },
-    "name": "wither_skeleton_skull_recipe",
+    "name": "dragon_scales_recipe_2",
     "namespace": "mod"
   }
 }
