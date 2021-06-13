@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [],
+    "baseTexture": "nispelheimoverlay0.png",
+    "displayCondition": {
+      "name": "NispelheimOverlay0DisplayOverlayIngame"
+    }
+  }
+}

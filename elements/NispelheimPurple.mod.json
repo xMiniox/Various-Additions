@@ -22,11 +22,11 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -12303292,
+      "value": -12844983,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -12303292,
+      "value": -12844983,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -49,7 +49,7 @@
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
     "parent": {
-      "value": "No parent"
+      "value": "CUSTOM:NispelheimOrange"
     },
     "rainingPossibility": 0.0,
     "temperature": 2.0,
@@ -57,7 +57,7 @@
     "heightVariation": 0.0,
     "biomeType": "DESERT",
     "spawnBiome": true,
-    "biomeWeight": 10,
+    "biomeWeight": 7,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,

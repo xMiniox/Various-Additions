@@ -10,7 +10,7 @@
       "value": "CUSTOM:Nispelcobble"
     },
     "airColor": {
-      "value": -11785216,
+      "value": -13434880,
       "falpha": 0.0
     },
     "grassColor": {
@@ -44,12 +44,12 @@
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "FLAME"
+      "value": "CUSTOM:CurseOfTheMistParticle"
     },
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
     "parent": {
-      "value": "No parent"
+      "value": "CUSTOM:NispelheimPurple"
     },
     "rainingPossibility": 0.0,
     "temperature": 2.0,
@@ -57,7 +57,7 @@
     "heightVariation": 0.0,
     "biomeType": "DESERT",
     "spawnBiome": true,
-    "biomeWeight": 10,
+    "biomeWeight": 7,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,

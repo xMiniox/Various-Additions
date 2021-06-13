@@ -38,7 +38,7 @@ public class NispelheimPurpleBiome extends VariousAdditionsModElements.ModElemen
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-13303732).setWaterColor(-12303292).setWaterFogColor(-12303292)
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-13303732).setWaterColor(-12844983).setWaterFogColor(-12844983)
 						.withSkyColor(-13303732).withFoliageColor(-12303292).withGrassColor(-12303292)
 						.setMoodSound(
 								new MoodSoundAmbience((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
@@ -62,6 +62,6 @@ public class NispelheimPurpleBiome extends VariousAdditionsModElements.ModElemen
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT,
-				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 10));
+				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 7));
 	}
 }

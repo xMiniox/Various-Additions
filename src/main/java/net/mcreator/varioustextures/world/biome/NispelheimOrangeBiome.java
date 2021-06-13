@@ -21,9 +21,9 @@ import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.client.audio.BackgroundMusicSelector;
 
+import net.mcreator.varioustextures.particle.CurseOfTheMistParticleParticle;
 import net.mcreator.varioustextures.block.NispelcobbleBlock;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 
@@ -38,8 +38,8 @@ public class NispelheimOrangeBiome extends VariousAdditionsModElements.ModElemen
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-11785216).setWaterColor(-12303292).setWaterFogColor(-12303292)
-						.withSkyColor(-11785216).withFoliageColor(-12303292).withGrassColor(-12303292)
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-13434880).setWaterColor(-12303292).setWaterFogColor(-12303292)
+						.withSkyColor(-13434880).withFoliageColor(-12303292).withGrassColor(-12303292)
 						.setMoodSound(
 								new MoodSoundAmbience((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 										.getValue(new ResourceLocation("ambient.basalt_deltas.mood")), 6000, 8, 2))
@@ -47,7 +47,7 @@ public class NispelheimOrangeBiome extends VariousAdditionsModElements.ModElemen
 								.getValue(new ResourceLocation("ambient.basalt_deltas.additions")), 0.0111D))
 						.setMusic(new BackgroundMusicSelector((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 								.getValue(new ResourceLocation("ambient.basalt_deltas.loop")), 12000, 24000, true))
-						.setParticle(new ParticleEffectAmbience(ParticleTypes.FLAME, 0.005f)).build();
+						.setParticle(new ParticleEffectAmbience(CurseOfTheMistParticleParticle.particle, 0.005f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(NispelcobbleBlock.block.getDefaultState(),
 								NispelcobbleBlock.block.getDefaultState(), NispelcobbleBlock.block.getDefaultState())));
@@ -62,6 +62,6 @@ public class NispelheimOrangeBiome extends VariousAdditionsModElements.ModElemen
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT,
-				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 10));
+				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 7));
 	}
 }

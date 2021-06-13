@@ -2958,15 +2958,6 @@
       "registry_name": "salmon_sushi_recipe"
     },
     {
-      "name": "Nispelstone",
-      "type": "block",
-      "sortid": 327,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nispelstone"
-    },
-    {
       "name": "Nispelcobble",
       "type": "block",
       "sortid": 328,
@@ -3003,15 +2994,6 @@
       "registry_name": "nispelcobble_recipe"
     },
     {
-      "name": "NispelstoneRecipe",
-      "type": "recipe",
-      "sortid": 332,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nispelstone_recipe"
-    },
-    {
       "name": "NispelBrickRecipe",
       "type": "recipe",
       "sortid": 333,
@@ -3030,15 +3012,6 @@
       "registry_name": "nispelheim_orange"
     },
     {
-      "name": "NispelheimRed",
-      "type": "biome",
-      "sortid": 336,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nispelheim_red"
-    },
-    {
       "name": "NispelheimPurple",
       "type": "biome",
       "sortid": 337,
@@ -3046,6 +3019,334 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nispelheim_purple"
+    },
+    {
+      "name": "NispelheimCurseProcedure",
+      "type": "procedure",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_curse_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CurseOfTheMist",
+      "type": "potion",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_the_mist"
+    },
+    {
+      "name": "NispelheimOverlay0",
+      "type": "overlay",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_0"
+    },
+    {
+      "name": "NispelheimOverlay1",
+      "type": "overlay",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_1"
+    },
+    {
+      "name": "NispelheimOverlay2",
+      "type": "overlay",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_2"
+    },
+    {
+      "name": "NispelheimOverlay3",
+      "type": "overlay",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_3"
+    },
+    {
+      "name": "NispelheimOverlay4",
+      "type": "overlay",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_4"
+    },
+    {
+      "name": "NispelheimOverlay5",
+      "type": "overlay",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_5"
+    },
+    {
+      "name": "NispelheimOverlay6",
+      "type": "overlay",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_6"
+    },
+    {
+      "name": "NispelheimOverlay7",
+      "type": "overlay",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_7"
+    },
+    {
+      "name": "NispelheimOverlay8",
+      "type": "overlay",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_8"
+    },
+    {
+      "name": "NispelheimOverlay0DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_0_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NispelheimOverlay1DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_1_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NispelheimOverlay2DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_2_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NispelheimOverlay3DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_3_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NispelheimOverlay4DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_4_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NispelheimOverlay5DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_5_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NispelheimOverlay6DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_6_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NispelheimOverlay7DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_7_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NispelheimOverlay8DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nispelheim_overlay_8_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CurseOfTheMistParticle",
+      "type": "particle",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_the_mist_particle"
+    },
+    {
+      "name": "CurseOfTheMistDamage",
+      "type": "procedure",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_the_mist_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CurseOfTheMistKill",
+      "type": "procedure",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_the_mist_kill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3053,8 +3354,8 @@
   "language_map": {
     "en_us": {
       "block.various_additions.magma_palm_slab": "Magma Palm Slab",
-      "item.various_additions.auto_crossbow": "Auto Crossbow",
       "item.various_additions.dragon_scales": "Dragon Scales",
+      "item.various_additions.auto_crossbow": "Auto Crossbow",
       "item.various_additions.eternium_star": "Eternium Star",
       "biome.various_additions.nispelheim_orange": "Nispelheim Orange",
       "block.various_textures.magnium_block": "Block of Magnium",
@@ -3066,6 +3367,7 @@
       "item.various_additions.star_fragment": "Star Fragment",
       "subtitles.megalovania": "Camellia - Megalovania Remix",
       "item.various_additions.iceron_armor_boots": "Iceron Boots",
+      "item.minecraft.splash_potion.effect.curse_of_the_mist": "Splash Curse Of The Mist",
       "item.various_additions.atherium_tools_sword": "Atherium Sword",
       "block.various_additions.blackstone_atherium_ore": "Blackstone Atherium Ore",
       "item.various_additions.wheat_flour": "Wheat Flour",
@@ -3103,6 +3405,7 @@
       "block.various_additions.magma_palm_planks": "Magma Palm Planks",
       "item.various_additions.magnium_axe": "Magnium Axe",
       "item.various_additions.atherium": "Atherium Crystal",
+      "effect.curse_of_the_mist": "Curse Of The Mist",
       "item.various_additions.eternium_stick": "Eternium Stick",
       "item.various_additions.crossbow_bolt": "Crossbow Bolt",
       "item.various_additions.eternium": "Eternal Crystal",
@@ -3119,6 +3422,7 @@
       "item.various_additions.beef_burger": "Beef Burger",
       "block.various_additions.tabelyst": "Tabelyst",
       "item.various_additions.magmanana": "Magmanana",
+      "item.minecraft.lingering_potion.effect.curse_of_the_mist": "Lingering Curse Of The Mist",
       "item.various_additions.magnium_shovel": "Magnium Shovel",
       "item.various_additions.combined_sticks": "Stick n string",
       "block.various_additions.smooth_tabelyst_tile": "Smooth Tabelyst Tile",
@@ -3136,6 +3440,7 @@
       "block.various_additions.iceron_ore": "Iceron Ore",
       "item.various_additions.magnium_launcher": "Magnium Launcher",
       "item.various_additions.iceron_pickaxe": "Iceron Pickaxe",
+      "item.minecraft.potion.effect.curse_of_the_mist": "Curse Of The Mist",
       "item.various_additions.artifact_diamond_waterbreathing": "Diamond Water Breathing Artifact",
       "item.various_additions.rotten_jerky": "Rotten Jerky",
       "item.various_additions.nispel_brick": "Nispel Brick",
@@ -3175,7 +3480,6 @@
       "item.various_additions.atherium_armor_armor_helmet": "Atherium Helmet",
       "block.various_additions.magma_palm_sapling": "Magma Palm Sapling",
       "item.various_additions.eternium_armor_leggings": "Eternium Leggings",
-      "block.various_additions.nispelstone": "Nispelstone",
       "block.various_additions.magma_palm_stairs": "Magma Palm Stairs",
       "block.various_additions.atherium_ore": "Netherrack Atherium Ore",
       "item.various_additions.cactus_armor_leggings": "Cactus Leggings",
@@ -3189,10 +3493,10 @@
       "item.various_additions.iceron_armor_helmet": "Iceron Helmet",
       "item.various_additions.eternium_armor_boots": "Eternium Boots",
       "block.various_additions.magma_palm_fence": "Magma Palm Fence",
-      "biome.various_additions.nispelheim_red": "Nispelheim Red",
       "item.various_additions.magnium_catalyst": "Magnium Catalyst",
       "item.various_textures.magnium_scrap": "Magnium Scrap",
       "item.various_additions.crystal_fireres": "Fire Resistance Crystal",
+      "item.minecraft.tipped_arrow.effect.curse_of_the_mist": "Arrow of Curse Of The Mist",
       "block.various_textures.molten_blackstone": "Molten Blackstone",
       "item.various_additions.magnium_scrap": "Magnium Scrap",
       "item.various_additions.magnium_totem_of_undying": "Magnium Totem Of Undying",

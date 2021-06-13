@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Curse Of The Mist",
+    "effectName": "Curse Of The Mist",
+    "icon": "curseofthemist.png",
+    "color": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}
