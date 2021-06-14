@@ -63,7 +63,7 @@ public class WoodenCrateBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:wooden_crate")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public WoodenCrateBlock(VariousAdditionsModElements instance) {
-		super(instance, 242);
+		super(instance, 85);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

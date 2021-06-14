@@ -14,7 +14,7 @@ import java.util.Collection;
 @VariousAdditionsModElements.ModElement.Tag
 public class DragonsFuryProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public DragonsFuryProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 307);
+		super(instance, 298);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

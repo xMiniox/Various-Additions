@@ -24,7 +24,7 @@ import com.google.common.collect.ImmutableMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class DragonsFuryOverlayOverlay extends VariousAdditionsModElements.ModElement {
 	public DragonsFuryOverlayOverlay(VariousAdditionsModElements instance) {
-		super(instance, 309);
+		super(instance, 300);
 	}
 
 	@Override

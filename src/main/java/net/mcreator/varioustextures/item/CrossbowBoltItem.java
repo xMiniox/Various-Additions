@@ -16,7 +16,7 @@ public class CrossbowBoltItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:crossbow_bolt")
 	public static final Item block = null;
 	public CrossbowBoltItem(VariousAdditionsModElements instance) {
-		super(instance, 252);
+		super(instance, 90);
 	}
 
 	@Override

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "various_additions:nispelaxe_3"
+  },
+  "addition": {
+    "item": "various_additions:diamond_nispelingot"
+  },
+  "result": {
+    "item": "various_additions:nispelaxe_4"
+  }
+}

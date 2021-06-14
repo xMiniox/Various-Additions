@@ -18,7 +18,7 @@ public class CrystalStrengthItem extends VariousAdditionsModElements.ModElement 
 	@ObjectHolder("various_additions:crystal_strength")
 	public static final Item block = null;
 	public CrystalStrengthItem(VariousAdditionsModElements instance) {
-		super(instance, 84);
+		super(instance, 78);
 	}
 
 	@Override

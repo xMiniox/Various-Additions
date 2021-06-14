@@ -17,7 +17,7 @@ public class RottenJerkyItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:rotten_jerky")
 	public static final Item block = null;
 	public RottenJerkyItem(VariousAdditionsModElements instance) {
-		super(instance, 303);
+		super(instance, 107);
 	}
 
 	@Override

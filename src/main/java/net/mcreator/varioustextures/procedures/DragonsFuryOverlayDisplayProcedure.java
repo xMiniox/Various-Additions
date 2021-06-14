@@ -14,7 +14,7 @@ import java.util.Collection;
 @VariousAdditionsModElements.ModElement.Tag
 public class DragonsFuryOverlayDisplayProcedure extends VariousAdditionsModElements.ModElement {
 	public DragonsFuryOverlayDisplayProcedure(VariousAdditionsModElements instance) {
-		super(instance, 310);
+		super(instance, 301);
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {

@@ -16,7 +16,7 @@ public class CoalPowderItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:coal_powder")
 	public static final Item block = null;
 	public CoalPowderItem(VariousAdditionsModElements instance) {
-		super(instance, 290);
+		super(instance, 110);
 	}
 
 	@Override

@@ -1,0 +1,42 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "various_additions:gilded_nispel_ingot"
+    },
+    "4": {
+      "item": "various_additions:reinforced_diamond"
+    },
+    "5": {
+      "item": "various_additions:gilded_nispel_ingot"
+    },
+    "6": {
+      "item": "minecraft:diamond"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "various_additions:diamond_nispelingot",
+    "count": 1
+  }
+}

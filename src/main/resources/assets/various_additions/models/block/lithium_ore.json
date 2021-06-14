@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "various_additions:blocks/lithium_ore",
+    "up": "various_additions:blocks/lithium_ore",
+    "north": "various_additions:blocks/lithium_ore",
+    "east": "various_additions:blocks/lithium_ore",
+    "south": "various_additions:blocks/lithium_ore",
+    "west": "various_additions:blocks/lithium_ore",
+    "particle": "various_additions:blocks/lithium_ore"
+  }
+}

@@ -18,7 +18,7 @@ public class CrystalLuckItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:crystal_luck")
 	public static final Item block = null;
 	public CrystalLuckItem(VariousAdditionsModElements instance) {
-		super(instance, 88);
+		super(instance, 82);
 	}
 
 	@Override

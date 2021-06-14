@@ -18,7 +18,7 @@ public class ArtifactDiamondRegenerationItem extends VariousAdditionsModElements
 	@ObjectHolder("various_additions:artifact_diamond_regeneration")
 	public static final Item block = null;
 	public ArtifactDiamondRegenerationItem(VariousAdditionsModElements instance) {
-		super(instance, 75);
+		super(instance, 69);
 	}
 
 	@Override

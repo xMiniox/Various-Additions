@@ -24,7 +24,7 @@ public class DragonScalesItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:dragon_scales")
 	public static final Item block = null;
 	public DragonScalesItem(VariousAdditionsModElements instance) {
-		super(instance, 313);
+		super(instance, 109);
 	}
 
 	@Override

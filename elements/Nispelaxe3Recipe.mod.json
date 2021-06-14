@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Nispelaxe2"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:GildedNispelIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Nispelaxe3"
+    },
+    "name": "nispelaxe_3_recipe",
+    "namespace": "mod"
+  }
+}

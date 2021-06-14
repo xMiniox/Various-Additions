@@ -24,7 +24,7 @@ import com.google.common.collect.ImmutableMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class NispelheimOverlay0Overlay extends VariousAdditionsModElements.ModElement {
 	public NispelheimOverlay0Overlay(VariousAdditionsModElements instance) {
-		super(instance, 340);
+		super(instance, 322);
 	}
 
 	@Override

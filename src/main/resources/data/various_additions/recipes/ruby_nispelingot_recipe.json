@@ -1,0 +1,42 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:dark_ruby"
+    },
+    "1": {
+      "item": "various_additions:dark_ruby"
+    },
+    "2": {
+      "item": "various_additions:dark_ruby"
+    },
+    "3": {
+      "item": "various_additions:lithium_reinforced_nispelbrick"
+    },
+    "4": {
+      "item": "various_additions:reinforced_diamond"
+    },
+    "5": {
+      "item": "various_additions:lithium_reinforced_nispelbrick"
+    },
+    "6": {
+      "item": "various_additions:dark_ruby"
+    },
+    "7": {
+      "item": "various_additions:dark_ruby"
+    },
+    "8": {
+      "item": "various_additions:dark_ruby"
+    }
+  },
+  "result": {
+    "item": "various_additions:ruby_nispelingot",
+    "count": 1
+  }
+}

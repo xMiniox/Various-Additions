@@ -22,7 +22,7 @@ import java.util.Collection;
 @VariousAdditionsModElements.ModElement.Tag
 public class CurseOfTheMistDamageProcedure extends VariousAdditionsModElements.ModElement {
 	public CurseOfTheMistDamageProcedure(VariousAdditionsModElements instance) {
-		super(instance, 359);
+		super(instance, 341);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

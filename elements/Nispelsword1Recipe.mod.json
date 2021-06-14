@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Lithiumplate"
+      },
+      {
+        "value": "CUSTOM:LithiumReinforcedNispelbrick"
+      },
+      {
+        "value": "CUSTOM:DarkRuby"
+      },
+      {
+        "value": "CUSTOM:LithiumReinforcedNispelbrick"
+      },
+      {
+        "value": "CUSTOM:Lithiumplate"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "CUSTOM:DarkRuby"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Nispelsword1"
+    },
+    "name": "nispelsword_1_recipe",
+    "namespace": "mod"
+  }
+}

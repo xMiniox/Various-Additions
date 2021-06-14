@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "various_additions:nispelsword_1"
+  },
+  "addition": {
+    "item": "various_additions:ruby_nispelingot"
+  },
+  "result": {
+    "item": "various_additions:nispelsword_2"
+  }
+}

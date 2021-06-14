@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DarkRuby"
+      },
+      {
+        "value": "CUSTOM:DarkRuby"
+      },
+      {
+        "value": "CUSTOM:DarkRuby"
+      },
+      {
+        "value": "CUSTOM:LithiumReinforcedNispelbrick"
+      },
+      {
+        "value": "CUSTOM:ReinforcedDiamond"
+      },
+      {
+        "value": "CUSTOM:LithiumReinforcedNispelbrick"
+      },
+      {
+        "value": "CUSTOM:DarkRuby"
+      },
+      {
+        "value": "CUSTOM:DarkRuby"
+      },
+      {
+        "value": "CUSTOM:DarkRuby"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RubyNispelingot"
+    },
+    "name": "ruby_nispelingot_recipe",
+    "namespace": "mod"
+  }
+}

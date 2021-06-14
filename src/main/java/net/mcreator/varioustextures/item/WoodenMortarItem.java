@@ -16,7 +16,7 @@ public class WoodenMortarItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:wooden_mortar")
 	public static final Item block = null;
 	public WoodenMortarItem(VariousAdditionsModElements instance) {
-		super(instance, 274);
+		super(instance, 98);
 	}
 
 	@Override

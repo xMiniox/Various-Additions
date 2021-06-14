@@ -47,7 +47,7 @@ public class AutoCrossbowItem extends VariousAdditionsModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletauto_crossbow").setRegistryName("entitybulletauto_crossbow");
 	public AutoCrossbowItem(VariousAdditionsModElements instance) {
-		super(instance, 256);
+		super(instance, 91);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AutoCrossbowRenderer.ModelRegisterHandler());
 	}
 

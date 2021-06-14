@@ -45,7 +45,7 @@ public class TabelystBlock extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:tabelyst")
 	public static final Block block = null;
 	public TabelystBlock(VariousAdditionsModElements instance) {
-		super(instance, 259);
+		super(instance, 92);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

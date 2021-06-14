@@ -17,7 +17,7 @@ public class BeefBurgerItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:beef_burger")
 	public static final Item block = null;
 	public BeefBurgerItem(VariousAdditionsModElements instance) {
-		super(instance, 281);
+		super(instance, 101);
 	}
 
 	@Override

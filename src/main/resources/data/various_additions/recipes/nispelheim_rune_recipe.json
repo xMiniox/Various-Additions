@@ -1,0 +1,42 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:nispel_brick"
+    },
+    "1": {
+      "item": "various_additions:obsidian_chunk"
+    },
+    "2": {
+      "item": "various_additions:nispel_brick"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "various_additions:reinforced_diamond"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "various_additions:nispel_brick"
+    },
+    "7": {
+      "item": "various_additions:obsidian_chunk"
+    },
+    "8": {
+      "item": "various_additions:nispel_brick"
+    }
+  },
+  "result": {
+    "item": "various_additions:nispelheim_rune",
+    "count": 1
+  }
+}

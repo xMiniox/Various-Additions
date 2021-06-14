@@ -24,7 +24,7 @@ import net.mcreator.varioustextures.VariousAdditionsModElements;
 public class CurseOfTheMistParticleParticle extends VariousAdditionsModElements.ModElement {
 	public static final BasicParticleType particle = new BasicParticleType(false);
 	public CurseOfTheMistParticleParticle(VariousAdditionsModElements instance) {
-		super(instance, 358);
+		super(instance, 340);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

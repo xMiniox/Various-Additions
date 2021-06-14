@@ -18,7 +18,7 @@ public class CurseOfTheMistPotion extends VariousAdditionsModElements.ModElement
 	@ObjectHolder("various_additions:curse_of_the_mist")
 	public static final Effect potion = null;
 	public CurseOfTheMistPotion(VariousAdditionsModElements instance) {
-		super(instance, 339);
+		super(instance, 321);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

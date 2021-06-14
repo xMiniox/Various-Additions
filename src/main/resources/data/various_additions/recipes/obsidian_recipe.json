@@ -1,0 +1,26 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "various_additions:obsidian_chunk"
+    },
+    "1": {
+      "item": "various_additions:obsidian_chunk"
+    },
+    "2": {
+      "item": "various_additions:obsidian_chunk"
+    },
+    "3": {
+      "item": "various_additions:obsidian_chunk"
+    }
+  },
+  "result": {
+    "item": "minecraft:obsidian",
+    "count": 1
+  }
+}

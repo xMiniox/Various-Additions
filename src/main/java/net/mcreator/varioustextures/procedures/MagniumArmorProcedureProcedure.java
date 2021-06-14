@@ -22,7 +22,7 @@ import java.util.HashMap;
 @VariousAdditionsModElements.ModElement.Tag
 public class MagniumArmorProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public MagniumArmorProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 125);
+		super(instance, 157);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

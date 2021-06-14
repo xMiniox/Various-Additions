@@ -16,7 +16,7 @@ public class WheatFlourItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:wheat_flour")
 	public static final Item block = null;
 	public WheatFlourItem(VariousAdditionsModElements instance) {
-		super(instance, 276);
+		super(instance, 99);
 	}
 
 	@Override

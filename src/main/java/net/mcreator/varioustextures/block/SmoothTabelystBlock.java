@@ -23,7 +23,7 @@ public class SmoothTabelystBlock extends VariousAdditionsModElements.ModElement 
 	@ObjectHolder("various_additions:smooth_tabelyst")
 	public static final Block block = null;
 	public SmoothTabelystBlock(VariousAdditionsModElements instance) {
-		super(instance, 263);
+		super(instance, 96);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class DragonsFuryPotion extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:dragons_fury")
 	public static final Effect potion = null;
 	public DragonsFuryPotion(VariousAdditionsModElements instance) {
-		super(instance, 306);
+		super(instance, 297);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

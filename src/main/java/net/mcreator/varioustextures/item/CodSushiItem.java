@@ -17,7 +17,7 @@ public class CodSushiItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:cod_sushi")
 	public static final Item block = null;
 	public CodSushiItem(VariousAdditionsModElements instance) {
-		super(instance, 323);
+		super(instance, 105);
 	}
 
 	@Override

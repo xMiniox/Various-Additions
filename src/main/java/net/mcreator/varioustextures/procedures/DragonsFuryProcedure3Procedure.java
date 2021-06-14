@@ -7,7 +7,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class DragonsFuryProcedure3Procedure extends VariousAdditionsModElements.ModElement {
 	public DragonsFuryProcedure3Procedure(VariousAdditionsModElements instance) {
-		super(instance, 311);
+		super(instance, 302);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

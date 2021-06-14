@@ -23,7 +23,7 @@ public class TabelystBricksBlock extends VariousAdditionsModElements.ModElement 
 	@ObjectHolder("various_additions:tabelyst_bricks")
 	public static final Block block = null;
 	public TabelystBricksBlock(VariousAdditionsModElements instance) {
-		super(instance, 261);
+		super(instance, 94);
 	}
 
 	@Override

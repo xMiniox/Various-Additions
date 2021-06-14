@@ -23,7 +23,7 @@ public class CobbledTabelystBlock extends VariousAdditionsModElements.ModElement
 	@ObjectHolder("various_additions:cobbled_tabelyst")
 	public static final Block block = null;
 	public CobbledTabelystBlock(VariousAdditionsModElements instance) {
-		super(instance, 260);
+		super(instance, 93);
 	}
 
 	@Override

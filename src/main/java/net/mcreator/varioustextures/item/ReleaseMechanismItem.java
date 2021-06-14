@@ -16,7 +16,7 @@ public class ReleaseMechanismItem extends VariousAdditionsModElements.ModElement
 	@ObjectHolder("various_additions:release_mechanism")
 	public static final Item block = null;
 	public ReleaseMechanismItem(VariousAdditionsModElements instance) {
-		super(instance, 250);
+		super(instance, 89);
 	}
 
 	@Override

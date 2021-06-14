@@ -1,0 +1,36 @@
+{
+  "group": "various_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "various_additions:lithiumplate"
+    },
+    "2": {
+      "item": "various_additions:lithium_reinforced_nispelbrick"
+    },
+    "3": {
+      "item": "various_additions:dark_ruby"
+    },
+    "4": {
+      "item": "various_additions:lithium_reinforced_nispelbrick"
+    },
+    "5": {
+      "item": "various_additions:lithiumplate"
+    },
+    "6": {
+      "item": "minecraft:blaze_rod"
+    },
+    "7": {
+      "item": "various_additions:dark_ruby"
+    }
+  },
+  "result": {
+    "item": "various_additions:nispelsword_1",
+    "count": 1
+  }
+}

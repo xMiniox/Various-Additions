@@ -4,10 +4,10 @@
   "definition": {
     "name": "Nispelheim Orange",
     "groundBlock": {
-      "value": "CUSTOM:Nispelcobble"
+      "value": "CUSTOM:Nispelstone"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Nispelcobble"
+      "value": "CUSTOM:Nispelstone"
     },
     "airColor": {
       "value": -13434880,

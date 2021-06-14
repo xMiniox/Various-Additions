@@ -16,7 +16,7 @@ public class CrystalEffectItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:crystal_effect")
 	public static final Item block = null;
 	public CrystalEffectItem(VariousAdditionsModElements instance) {
-		super(instance, 82);
+		super(instance, 76);
 	}
 
 	@Override

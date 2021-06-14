@@ -16,7 +16,7 @@ public class ArtifactDiamondEmptyItem extends VariousAdditionsModElements.ModEle
 	@ObjectHolder("various_additions:artifact_diamond_empty")
 	public static final Item block = null;
 	public ArtifactDiamondEmptyItem(VariousAdditionsModElements instance) {
-		super(instance, 69);
+		super(instance, 67);
 	}
 
 	@Override

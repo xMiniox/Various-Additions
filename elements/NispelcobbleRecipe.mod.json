@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Nispelcobble"
+      "value": "CUSTOM:Nispelstone"
     },
     "name": "nispelcobble_recipe",
     "namespace": "mod"

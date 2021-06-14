@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "various_additions:nispelsword_2"
+  },
+  "addition": {
+    "item": "various_additions:gilded_nispel_ingot"
+  },
+  "result": {
+    "item": "various_additions:nispelsword_3"
+  }
+}

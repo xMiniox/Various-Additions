@@ -11,10 +11,13 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.varioustextures.potion.CurseOfTheMistPotion;
+import net.mcreator.varioustextures.item.NispelheimRuneItem;
 import net.mcreator.varioustextures.VariousAdditionsModElements;
 import net.mcreator.varioustextures.VariousAdditionsMod;
 
@@ -25,7 +28,7 @@ import java.util.Collection;
 @VariousAdditionsModElements.ModElement.Tag
 public class NispelheimCurseProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public NispelheimCurseProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 338);
+		super(instance, 320);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -60,7 +63,7 @@ public class NispelheimCurseProcedureProcedure extends VariousAdditionsModElemen
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((((world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z))) != null
+		if (((((world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z))) != null
 				&& world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))
 						.equals(new ResourceLocation("various_additions:nispelheim_orange"))) == (true))
 				&& ((new Object() {
@@ -74,11 +77,34 @@ public class NispelheimCurseProcedureProcedure extends VariousAdditionsModElemen
 						}
 						return false;
 					}
-				}.check(entity)) == (false)))) {
+				}.check(entity)) == (false))) && (((entity instanceof PlayerEntity)
+						? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(NispelheimRuneItem.block, (int) (1)))
+						: false) == (true)))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.BLINDNESS, (int) 30, (int) 0, (false), (false)));
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(CurseOfTheMistPotion.potion, (int) 1800, (int) 0, (false), (false)));
+		} else if (((((world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z))) != null
+				&& world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))
+						.equals(new ResourceLocation("various_additions:nispelheim_orange"))) == (true))
+				&& ((new Object() {
+					boolean check(Entity _entity) {
+						if (_entity instanceof LivingEntity) {
+							Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
+							for (EffectInstance effect : effects) {
+								if (effect.getPotion() == CurseOfTheMistPotion.potion)
+									return true;
+							}
+						}
+						return false;
+					}
+				}.check(entity)) == (false))) && (((entity instanceof PlayerEntity)
+						? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(NispelheimRuneItem.block, (int) (1)))
+						: false) == (false)))) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.BLINDNESS, (int) 30, (int) 0, (false), (false)));
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(CurseOfTheMistPotion.potion, (int) 220, (int) 0, (false), (false)));
 		} else if (((world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z))) != null
 				&& world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))
 						.equals(new ResourceLocation("various_additions:nispelheim_orange"))) == (false))) {

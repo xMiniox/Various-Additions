@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "various_additions:blocks/darkrubyore",
+    "up": "various_additions:blocks/darkrubyore",
+    "north": "various_additions:blocks/darkrubyore",
+    "east": "various_additions:blocks/darkrubyore",
+    "south": "various_additions:blocks/darkrubyore",
+    "west": "various_additions:blocks/darkrubyore",
+    "particle": "various_additions:blocks/darkrubyore"
+  }
+}

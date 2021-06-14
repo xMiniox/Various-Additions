@@ -13,7 +13,7 @@ import java.util.Map;
 @VariousAdditionsModElements.ModElement.Tag
 public class AutoCrossbowProcedureProcedure extends VariousAdditionsModElements.ModElement {
 	public AutoCrossbowProcedureProcedure(VariousAdditionsModElements instance) {
-		super(instance, 258);
+		super(instance, 268);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

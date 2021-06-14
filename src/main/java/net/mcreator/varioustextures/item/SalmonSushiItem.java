@@ -17,7 +17,7 @@ public class SalmonSushiItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:salmon_sushi")
 	public static final Item block = null;
 	public SalmonSushiItem(VariousAdditionsModElements instance) {
-		super(instance, 324);
+		super(instance, 106);
 	}
 
 	@Override

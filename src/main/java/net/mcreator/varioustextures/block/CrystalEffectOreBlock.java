@@ -47,7 +47,7 @@ public class CrystalEffectOreBlock extends VariousAdditionsModElements.ModElemen
 	@ObjectHolder("various_additions:crystal_effect_ore")
 	public static final Block block = null;
 	public CrystalEffectOreBlock(VariousAdditionsModElements instance) {
-		super(instance, 90);
+		super(instance, 84);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

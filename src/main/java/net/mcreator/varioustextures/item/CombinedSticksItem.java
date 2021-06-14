@@ -16,7 +16,7 @@ public class CombinedSticksItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:combined_sticks")
 	public static final Item block = null;
 	public CombinedSticksItem(VariousAdditionsModElements instance) {
-		super(instance, 248);
+		super(instance, 88);
 	}
 
 	@Override

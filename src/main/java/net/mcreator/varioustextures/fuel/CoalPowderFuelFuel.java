@@ -13,7 +13,7 @@ import net.mcreator.varioustextures.VariousAdditionsModElements;
 @VariousAdditionsModElements.ModElement.Tag
 public class CoalPowderFuelFuel extends VariousAdditionsModElements.ModElement {
 	public CoalPowderFuelFuel(VariousAdditionsModElements instance) {
-		super(instance, 291);
+		super(instance, 287);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

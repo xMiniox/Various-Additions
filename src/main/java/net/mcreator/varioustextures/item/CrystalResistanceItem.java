@@ -18,7 +18,7 @@ public class CrystalResistanceItem extends VariousAdditionsModElements.ModElemen
 	@ObjectHolder("various_additions:crystal_resistance")
 	public static final Item block = null;
 	public CrystalResistanceItem(VariousAdditionsModElements instance) {
-		super(instance, 85);
+		super(instance, 79);
 	}
 
 	@Override

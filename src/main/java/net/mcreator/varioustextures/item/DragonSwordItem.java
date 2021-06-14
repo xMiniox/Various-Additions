@@ -17,7 +17,7 @@ public class DragonSwordItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:dragon_sword")
 	public static final Item block = null;
 	public DragonSwordItem(VariousAdditionsModElements instance) {
-		super(instance, 304);
+		super(instance, 108);
 	}
 
 	@Override

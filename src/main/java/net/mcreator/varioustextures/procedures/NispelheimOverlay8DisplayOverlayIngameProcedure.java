@@ -20,7 +20,7 @@ import java.util.Collection;
 @VariousAdditionsModElements.ModElement.Tag
 public class NispelheimOverlay8DisplayOverlayIngameProcedure extends VariousAdditionsModElements.ModElement {
 	public NispelheimOverlay8DisplayOverlayIngameProcedure(VariousAdditionsModElements instance) {
-		super(instance, 357);
+		super(instance, 339);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

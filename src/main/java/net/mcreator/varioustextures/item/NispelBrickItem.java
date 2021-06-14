@@ -16,7 +16,7 @@ public class NispelBrickItem extends VariousAdditionsModElements.ModElement {
 	@ObjectHolder("various_additions:nispel_brick")
 	public static final Item block = null;
 	public NispelBrickItem(VariousAdditionsModElements instance) {
-		super(instance, 330);
+		super(instance, 115);
 	}
 
 	@Override

@@ -21,7 +21,7 @@ import java.util.Collection;
 @VariousAdditionsModElements.ModElement.Tag
 public class CurseOfTheMistKillProcedure extends VariousAdditionsModElements.ModElement {
 	public CurseOfTheMistKillProcedure(VariousAdditionsModElements instance) {
-		super(instance, 360);
+		super(instance, 342);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
